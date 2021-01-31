@@ -1,0 +1,768 @@
+Index: .idea/libraries/Gradle__com_google_android_gms_play_services_base_16_1_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__com_google_android_gms_play_services_base_16_1_0_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__com_google_android_gms_play_services_base_16_1_0_aar.xml	(date 1580087799000)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.google.android.gms:play-services-base:16.1.0@aar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/631155cc491da36a9457ac74265b986f/play-services-base-16.1.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/631155cc491da36a9457ac74265b986f/play-services-base-16.1.0/res" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-base/16.1.0/3e3589bff6719404b47afecaa49d192cfa3f5791/play-services-base-16.1.0-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES />
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_support_compat_26_1_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__com_android_support_support_compat_26_1_0_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__com_android_support_support_compat_26_1_0_aar.xml	(date 1580087799000)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.android.support:support-compat:26.1.0@aar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/acedb5a439482afea3702661a6a2cc74/support-compat-26.1.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/acedb5a439482afea3702661a6a2cc74/support-compat-26.1.0/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-compat/26.1.0/73bfdb5cca1949a51219d3676700996990ea3b52/support-compat-26.1.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_annotation_annotation_1_0_0_jar.xml
+===================================================================
+--- .idea/libraries/Gradle__androidx_annotation_annotation_1_0_0_jar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__androidx_annotation_annotation_1_0_0_jar.xml	(date 1580087799000)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.annotation:annotation:1.0.0@jar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.0.0/45599f2cd5965ac05a1488fa2a5c0cdd7c499ead/annotation-1.0.0.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.0.0/3ad9d83e5da3918fd93775080f401222f2d4d26a/annotation-1.0.0-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.0.0/c5897dbbda33e66ca6f3224a2534891bbfcbda5a/annotation-1.0.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_support_annotations_26_1_0_jar.xml
+===================================================================
+--- .idea/libraries/Gradle__com_android_support_support_annotations_26_1_0_jar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__com_android_support_support_annotations_26_1_0_jar.xml	(date 1580087799000)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.android.support:support-annotations:26.1.0@jar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/2ec8f4c3e76181e132a8ef0e906723d5796b733e/support-annotations-26.1.0-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/29ca6aaf2d4976c13dd7c836e91bd2a61b697bf3/support-annotations-26.1.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml	(date 1580087799000)
+@@ -1,15 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.fragment:fragment:1.0.0@aar">
+-    <ANNOTATIONS>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/61015dda0f41d63be36764ccaeacf3e4/fragment-1.0.0/annotations.zip!/" />
+-    </ANNOTATIONS>
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/61015dda0f41d63be36764ccaeacf3e4/fragment-1.0.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/61015dda0f41d63be36764ccaeacf3e4/fragment-1.0.0/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.0.0/bcd167792ec03e930d5c8345c99ae07b2627de84/fragment-1.0.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_transition_26_1_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__com_android_support_transition_26_1_0_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__com_android_support_transition_26_1_0_aar.xml	(date 1580087799000)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.android.support:transition:26.1.0@aar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8322cf9af32f65600c7efa78f6346140/transition-26.1.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8322cf9af32f65600c7efa78f6346140/transition-26.1.0/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/transition/26.1.0/bf675688e3ad5a0b68c627efa77de94822af2610/transition-26.1.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_google_android_gms_play_services_base_17_1_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__com_google_android_gms_play_services_base_17_1_0_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__com_google_android_gms_play_services_base_17_1_0_aar.xml	(date 1580087799000)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.google.android.gms:play-services-base:17.1.0@aar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/34b8aa0c1c4f46dad43994e7c315d20e/play-services-base-17.1.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/34b8aa0c1c4f46dad43994e7c315d20e/play-services-base-17.1.0/res" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-base/17.1.0/d906658f01adc56396bea0573cf0ee171933e54/play-services-base-17.1.0-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES />
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml	(date 1580087799000)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.lifecycle:lifecycle-viewmodel:2.0.0@aar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2bd63e96b82e4254cd6653dc8da764d4/lifecycle-viewmodel-2.0.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2bd63e96b82e4254cd6653dc8da764d4/lifecycle-viewmodel-2.0.0/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel/2.0.0/41b56105d14b1151a963444875cab191271f43db/lifecycle-viewmodel-2.0.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_support_fragment_26_1_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__com_android_support_support_fragment_26_1_0_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__com_android_support_support_fragment_26_1_0_aar.xml	(date 1580087799000)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.android.support:support-fragment:26.1.0@aar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8a8c7d53542ab2c848ae5b8b6026706d/support-fragment-26.1.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8a8c7d53542ab2c848ae5b8b6026706d/support-fragment-26.1.0/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-fragment/26.1.0/8279b00f5194701ff18363fa2958c5a26670b0ef/support-fragment-26.1.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml	(date 1580087799000)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.lifecycle:lifecycle-runtime:2.0.0@aar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a0e6ae58238c1d1ff8cccab3415a6d19/lifecycle-runtime-2.0.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a0e6ae58238c1d1ff8cccab3415a6d19/lifecycle-runtime-2.0.0/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime/2.0.0/94562933879240f04fc2dea3f1841171b164c748/lifecycle-runtime-2.0.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_google_android_gms_play_services_tasks_16_0_1_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__com_google_android_gms_play_services_tasks_16_0_1_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__com_google_android_gms_play_services_tasks_16_0_1_aar.xml	(date 1580087799000)
+@@ -1,10 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.google.android.gms:play-services-tasks:16.0.1@aar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cc96cf76523c8c718865861a59e9270b/play-services-tasks-16.0.1/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cc96cf76523c8c718865861a59e9270b/play-services-tasks-16.0.1/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES />
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_recyclerview_v7_25_4_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__com_android_support_recyclerview_v7_25_4_0_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__com_android_support_recyclerview_v7_25_4_0_aar.xml	(date 1580087799000)
+@@ -1,15 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.android.support:recyclerview-v7:25.4.0@aar">
+-    <ANNOTATIONS>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/798df440ef9ca40aff9751971f7e8854/recyclerview-v7-25.4.0/annotations.zip!/" />
+-    </ANNOTATIONS>
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/798df440ef9ca40aff9751971f7e8854/recyclerview-v7-25.4.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/798df440ef9ca40aff9751971f7e8854/recyclerview-v7-25.4.0/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/recyclerview-v7/25.4.0/d927ce819c041d123f0a68dd1f409972cfba51f8/recyclerview-v7-25.4.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__android_arch_lifecycle_runtime_1_0_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__android_arch_lifecycle_runtime_1_0_0_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__android_arch_lifecycle_runtime_1_0_0_aar.xml	(date 1580087799000)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: android.arch.lifecycle:runtime:1.0.0@aar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2651008cd98233e6b4b850667bef3705/runtime-1.0.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2651008cd98233e6b4b850667bef3705/runtime-1.0.0/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/runtime/1.0.0/1dd0298d8c45d8dfa4d038270247327f23df7a3a/runtime-1.0.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_0_0_jar.xml
+===================================================================
+--- .idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_0_0_jar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_0_0_jar.xml	(date 1580087799000)
+@@ -1,11 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.lifecycle:lifecycle-common:2.0.0@jar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/e070ffae07452331bc5684734fce6831d531785c/lifecycle-common-2.0.0.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/cb4562c8927ab69f2a8ef49267b90753207df0c3/lifecycle-common-2.0.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__android_arch_core_common_1_0_0_jar.xml
+===================================================================
+--- .idea/libraries/Gradle__android_arch_core_common_1_0_0_jar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__android_arch_core_common_1_0_0_jar.xml	(date 1580087799000)
+@@ -1,11 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: android.arch.core:common:1.0.0@jar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a41fa3b9a66f3bdd41f98013a1688e969072aaf2/common-1.0.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_design_25_4_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__com_android_support_design_25_4_0_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__androidx_core_core_1_1_0_aar.xml	(date 1583028297000)
+@@ -1,15 +1,15 @@
+ <component name="libraryTable">
+-  <library name="Gradle: com.android.support:design:25.4.0@aar">
++  <library name="Gradle: androidx.core:core:1.1.0@aar">
+     <ANNOTATIONS>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/27b6b65bf0aab42fb5be0f0970bfff64/design-25.4.0/annotations.zip!/" />
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/331630a23dfa1f0594bcf54d5352aa36/core-1.1.0/annotations.zip!/" />
+     </ANNOTATIONS>
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/27b6b65bf0aab42fb5be0f0970bfff64/design-25.4.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/27b6b65bf0aab42fb5be0f0970bfff64/design-25.4.0/res" />
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/331630a23dfa1f0594bcf54d5352aa36/core-1.1.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/331630a23dfa1f0594bcf54d5352aa36/core-1.1.0/res" />
+     </CLASSES>
+     <JAVADOC />
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/design/25.4.0/a2e7ef895fd2463263a7294fff24b86b5461ede8/design-25.4.0-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.core/core/1.1.0/4ae37fad1fe95b42aa47a720908df37ba5d3c85e/core-1.1.0-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_appcompat_v7_26_1_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__com_android_support_appcompat_v7_26_1_0_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__com_android_support_appcompat_v7_26_1_0_aar.xml	(date 1580087799000)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.android.support:appcompat-v7:26.1.0@aar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b28c3dfacec283a46c3ce58afd169202/appcompat-v7-26.1.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b28c3dfacec283a46c3ce58afd169202/appcompat-v7-26.1.0/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/appcompat-v7/26.1.0/2b34456c30d6b6e5db5fa3e8fa02f6cebd5531fd/appcompat-v7-26.1.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml	(date 1580087799000)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.versionedparcelable:versionedparcelable:1.0.0@aar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/45ed680b1ca2374827549d4e2c9e1a90/versionedparcelable-1.0.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/45ed680b1ca2374827549d4e2c9e1a90/versionedparcelable-1.0.0/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.versionedparcelable/versionedparcelable/1.0.0/df4c3c5d517f6a49017612e6b4dfdd007e7cc9b8/versionedparcelable-1.0.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml	(date 1580087799000)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a1f5477cd6fd5fad9baa3e263bec7d60/lifecycle-livedata-core-2.0.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a1f5477cd6fd5fad9baa3e263bec7d60/lifecycle-livedata-core-2.0.0/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata-core/2.0.0/c158207594782b42f3a2e08a5a029eb3319e4404/lifecycle-livedata-core-2.0.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_support_core_ui_26_1_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__com_android_support_support_core_ui_26_1_0_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__com_android_support_support_core_ui_26_1_0_aar.xml	(date 1580087799000)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.android.support:support-core-ui:26.1.0@aar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5db4ccce50706864284de1c007bf07c2/support-core-ui-26.1.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5db4ccce50706864284de1c007bf07c2/support-core-ui-26.1.0/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-core-ui/26.1.0/4d52cef4a24bf9939de1d256ca9f0974c6e636a4/support-core-ui-26.1.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__android_arch_lifecycle_common_1_0_0_jar.xml
+===================================================================
+--- .idea/libraries/Gradle__android_arch_lifecycle_common_1_0_0_jar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__android_arch_lifecycle_common_1_0_0_jar.xml	(date 1580087799000)
+@@ -1,11 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: android.arch.lifecycle:common:1.0.0@jar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/39ce4055689b4b766478265a8c661f4165f26dc3/common-1.0.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_support_vector_drawable_25_4_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__com_android_support_support_vector_drawable_25_4_0_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__com_android_support_support_vector_drawable_25_4_0_aar.xml	(date 1580087799000)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.android.support:support-vector-drawable:25.4.0@aar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b78b0d8a112d66e74b9d8fb6341eda44/support-vector-drawable-25.4.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b78b0d8a112d66e74b9d8fb6341eda44/support-vector-drawable-25.4.0/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-vector-drawable/25.4.0/565662f3f256a8b3a90b29338e7b664f91c89e7c/support-vector-drawable-25.4.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_support_core_utils_26_1_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__com_android_support_support_core_utils_26_1_0_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__com_android_support_support_core_utils_26_1_0_aar.xml	(date 1580087799000)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.android.support:support-core-utils:26.1.0@aar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c09b57d019897d7ffda25f0a8ed175eb/support-core-utils-26.1.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c09b57d019897d7ffda25f0a8ed175eb/support-core-utils-26.1.0/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-core-utils/26.1.0/2b0c3da7f80880bbf365452b354490a77f085c96/support-core-utils-26.1.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_recyclerview_v7_26_1_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__com_android_support_recyclerview_v7_26_1_0_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__com_android_support_recyclerview_v7_26_1_0_aar.xml	(date 1580087799000)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.android.support:recyclerview-v7:26.1.0@aar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0c0dd377aec827ca3874d547d79d8d13/recyclerview-v7-26.1.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0c0dd377aec827ca3874d547d79d8d13/recyclerview-v7-26.1.0/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/recyclerview-v7/26.1.0/63d6891b399433c913fe91ce95a8456de02d367f/recyclerview-v7-26.1.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_design_26_1_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__com_android_support_design_26_1_0_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__com_android_support_design_26_1_0_aar.xml	(date 1580087799000)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.android.support:design:26.1.0@aar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fa761254aaa8e1689e6752d7e2f87c59/design-26.1.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fa761254aaa8e1689e6752d7e2f87c59/design-26.1.0/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/design/26.1.0/c7ac62df01dd0a97d93500ad3da7faebf03ba49/design-26.1.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_transition_25_4_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__com_android_support_transition_25_4_0_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__com_android_support_transition_25_4_0_aar.xml	(date 1580087799000)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.android.support:transition:25.4.0@aar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9ddcabd2ddd745a1e360732869b017e6/transition-25.4.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9ddcabd2ddd745a1e360732869b017e6/transition-25.4.0/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/transition/25.4.0/f3ae92c9755f8371520bf16cb3a0fd137a8425d4/transition-25.4.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_google_android_gms_play_services_basement_16_0_1_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__com_google_android_gms_play_services_basement_16_0_1_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__com_google_android_gms_play_services_basement_16_0_1_aar.xml	(date 1580087799000)
+@@ -1,10 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.google.android.gms:play-services-basement:16.0.1@aar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1da86a45a12dd77e49bb6d007f1c05e7/play-services-basement-16.0.1/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1da86a45a12dd77e49bb6d007f1c05e7/play-services-basement-16.0.1/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES />
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_collection_collection_1_0_0_jar.xml
+===================================================================
+--- .idea/libraries/Gradle__androidx_collection_collection_1_0_0_jar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__androidx_collection_collection_1_0_0_jar.xml	(date 1580087799000)
+@@ -1,11 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.collection:collection:1.0.0@jar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0/42858b26cafdaa69b6149f45dfc2894007bc2c7a/collection-1.0.0.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0/b08973c283f1a0b29fce8b45a1e31e16a36611e9/collection-1.0.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_google_android_gms_play_services_base_16_0_1_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__com_google_android_gms_play_services_base_16_0_1_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__com_google_android_gms_play_services_base_16_0_1_aar.xml	(date 1580087799000)
+@@ -1,10 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.google.android.gms:play-services-base:16.0.1@aar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/919abf3f5c043fe43ce39056b98cdb51/play-services-base-16.0.1/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/919abf3f5c043fe43ce39056b98cdb51/play-services-base-16.0.1/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES />
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_animated_vector_drawable_26_1_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__com_android_support_animated_vector_drawable_26_1_0_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__com_android_support_animated_vector_drawable_26_1_0_aar.xml	(date 1580087799000)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.android.support:animated-vector-drawable:26.1.0@aar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3dd85d1e994bf65d956ec3b7b4e31d3a/animated-vector-drawable-26.1.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3dd85d1e994bf65d956ec3b7b4e31d3a/animated-vector-drawable-26.1.0/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/animated-vector-drawable/26.1.0/91743e9b07667784f471a3c4748e6883cd810084/animated-vector-drawable-26.1.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_support_vector_drawable_26_1_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__com_android_support_support_vector_drawable_26_1_0_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__com_android_support_support_vector_drawable_26_1_0_aar.xml	(date 1580087799000)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.android.support:support-vector-drawable:26.1.0@aar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ff85a5f3550238ae0cf6c2ade7768dab/support-vector-drawable-26.1.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ff85a5f3550238ae0cf6c2ade7768dab/support-vector-drawable-26.1.0/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-vector-drawable/26.1.0/7a59c417eb560e5ddc2de20792ad45b38e422a5b/support-vector-drawable-26.1.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_support_v4_26_1_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__com_android_support_support_v4_26_1_0_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__com_android_support_support_v4_26_1_0_aar.xml	(date 1580087799000)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.android.support:support-v4:26.1.0@aar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/551bc97023610b3a2a13198864385efa/support-v4-26.1.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/551bc97023610b3a2a13198864385efa/support-v4-26.1.0/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-v4/26.1.0/9c53eab3272b3b26583b17facac2e90d264b2788/support-v4-26.1.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml	(date 1580087799000)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.arch.core:core-runtime:2.0.0@aar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/60b50828def4ba3859898ffb4c971c21/core-runtime-2.0.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/60b50828def4ba3859898ffb4c971c21/core-runtime-2.0.0/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-runtime/2.0.0/bc41b287c95bc50a3cd27cb1b7cfb301805ba7f1/core-runtime-2.0.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_support_media_compat_26_1_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__com_android_support_support_media_compat_26_1_0_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__com_android_support_support_media_compat_26_1_0_aar.xml	(date 1580087799000)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.android.support:support-media-compat:26.1.0@aar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/971a5b69b89846008f16f9726686958d/support-media-compat-26.1.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/971a5b69b89846008f16f9726686958d/support-media-compat-26.1.0/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-media-compat/26.1.0/774fd1164ec32514eec562953f723a1920a7fef7/support-media-compat-26.1.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_appcompat_v7_25_4_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__com_android_support_appcompat_v7_25_4_0_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__com_android_support_appcompat_v7_25_4_0_aar.xml	(date 1580087799000)
+@@ -1,15 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.android.support:appcompat-v7:25.4.0@aar">
+-    <ANNOTATIONS>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e191ea8d4755f03a4f4a2f9714242f06/appcompat-v7-25.4.0/annotations.zip!/" />
+-    </ANNOTATIONS>
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e191ea8d4755f03a4f4a2f9714242f06/appcompat-v7-25.4.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e191ea8d4755f03a4f4a2f9714242f06/appcompat-v7-25.4.0/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/appcompat-v7/25.4.0/7c40d24e1dd47e744ac276ea9d9bd7736ebc6098/appcompat-v7-25.4.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml	(date 1580087799000)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.lifecycle:lifecycle-livedata:2.0.0@aar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/df65787e67fe4b4bc0635deed9695797/lifecycle-livedata-2.0.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/df65787e67fe4b4bc0635deed9695797/lifecycle-livedata-2.0.0/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata/2.0.0/740ce61935bd789380c01178bd8ce402402ebd2f/lifecycle-livedata-2.0.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_core_core_1_0_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__androidx_core_core_1_0_0_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__androidx_core_core_1_0_0_aar.xml	(date 1580087799000)
+@@ -1,15 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.core:core:1.0.0@aar">
+-    <ANNOTATIONS>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ec609e8cee787e2dff3592c66b08a66a/core-1.0.0/annotations.zip!/" />
+-    </ANNOTATIONS>
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ec609e8cee787e2dff3592c66b08a66a/core-1.0.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ec609e8cee787e2dff3592c66b08a66a/core-1.0.0/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.core/core/1.0.0/a23a5f203e97d91666c374e408053b1878de3bff/core-1.0.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_animated_vector_drawable_25_4_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__com_android_support_animated_vector_drawable_25_4_0_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__com_android_support_animated_vector_drawable_25_4_0_aar.xml	(date 1580087799000)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.android.support:animated-vector-drawable:25.4.0@aar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7f6382332751f1d296d4a582191a194c/animated-vector-drawable-25.4.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7f6382332751f1d296d4a582191a194c/animated-vector-drawable-25.4.0/res" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/animated-vector-drawable/25.4.0/665015ba77f3046a020281744b0b318d3785e23/animated-vector-drawable-25.4.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_google_android_gms_play_services_maps_16_1_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__com_google_android_gms_play_services_maps_16_1_0_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__com_google_android_gms_play_services_maps_16_1_0_aar.xml	(date 1580087799000)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.google.android.gms:play-services-maps:16.1.0@aar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d72d6433695e1f60d2945afaa772712a/play-services-maps-16.1.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d72d6433695e1f60d2945afaa772712a/play-services-maps-16.1.0/res" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-maps/16.1.0/68568da8e0d63d5d6fc4b6dfe9e01edc038e6a43/play-services-maps-16.1.0-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES />
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_android_support_support_annotations_27_1_1_jar.xml
+===================================================================
+--- .idea/libraries/Gradle__com_android_support_support_annotations_27_1_1_jar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__com_android_support_support_annotations_27_1_1_jar.xml	(date 1580087799000)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.android.support:support-annotations:27.1.1@jar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.1/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.1.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.1/8b8bece71a5ee1e4b33a642cfd5035475a3587c0/support-annotations-27.1.1-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.1/46bebf5bd40146178cb33c7678f3782a09dea6e4/support-annotations-27.1.1-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_google_android_gms_play_services_basement_16_2_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__com_google_android_gms_play_services_basement_16_2_0_aar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__com_google_android_gms_play_services_basement_16_2_0_aar.xml	(date 1580087799000)
+@@ -1,12 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: com.google.android.gms:play-services-basement:16.2.0@aar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eb5ad033973a47810762274995bd7327/play-services-basement-16.2.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eb5ad033973a47810762274995bd7327/play-services-basement-16.2.0/res" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-basement/16.2.0/3e3589bff6719404b47afecaa49d192cfa3f5791/play-services-basement-16.2.0-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES />
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_arch_core_core_common_2_0_0_jar.xml
+===================================================================
+--- .idea/libraries/Gradle__androidx_arch_core_core_common_2_0_0_jar.xml	(date 1580087799000)
++++ .idea/libraries/Gradle__androidx_arch_core_core_common_2_0_0_jar.xml	(date 1580087799000)
+@@ -1,11 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Gradle: androidx.arch.core:core-common:2.0.0@jar">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0/bb21b9a11761451b51624ac428d1f1bb5deeac38/core-common-2.0.0.jar!/" />
+-    </CLASSES>
+-    <JAVADOC />
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0/645b95386a07be66eef0bfe7007535e3f95ec642/core-common-2.0.0-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file

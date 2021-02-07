@@ -38,6 +38,16 @@ import java.util.Map;
 import static android.widget.Toast.LENGTH_SHORT;
 import static android.widget.Toast.makeText;
 
+/***
+ * 1. Carpool Lobby - Make buttons change colours when selected. (example in vid?  https://www.youtube.com/watch?v=8qwaLC1_Trw  )
+ * 2. Make the options buttons do things
+ * 3. Reduce the information on the buttons, and make them clickable to see more information or to accept
+ * 4. Add sorting capability to the options shown
+ * 5. Implement a similar layout for Driving Lobby - I shall work on this part first
+ * 6. The colors could be better
+ * 7! Make a button nav Menu in the drive and ride lobbies
+ * **/
+
 public class tabbedActivity extends AppCompatActivity {
 
     private static final String EXTRA_PAGE_NUM = "ex_page_num";

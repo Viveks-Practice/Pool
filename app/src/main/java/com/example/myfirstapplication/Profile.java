@@ -3,12 +3,15 @@ package com.example.myfirstapplication;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
-import android.widget.Button;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentSnapshot;
@@ -49,13 +52,23 @@ public class Profile extends AppCompatActivity {
     TextView carModelView;
     TextView carYearView;
 
+    private Toolbar toolbarProfile;
+
+    String firstName;
+    String lastName;
+    String make;
+    String model;
+    double year;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
 
-
-
+        toolbarProfile = findViewById(R.id.toolbarProfile);
+        setSupportActionBar(toolbarProfile);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("");
 
         firstNameView = findViewById(R.id.firstNameViewProfile); //Accessing the textviews on this page
         lastNameView = findViewById(R.id.lastNameViewProfile); //Accessing the textviews on this page
@@ -63,10 +76,6 @@ public class Profile extends AppCompatActivity {
         carModelView = findViewById(R.id.modelView); //Accessing the textviews on this page
         carYearView = findViewById(R.id.yearView); //Accessing the textviews on this page
 
-
-
-        // Opening the edit page
-        final Button buttonEdit = (Button) findViewById(R.id.buttonEdit);
 
         db.collection("Users").document(userEmail).addSnapshotListener(new EventListener<DocumentSnapshot>() {
             @Override
@@ -80,11 +89,11 @@ public class Profile extends AppCompatActivity {
 
                     User user = documentSnapshot.toObject(User.class);
 
-                    final String firstName = user.getFirstName();
-                    final String lastName = user.getLastName();
-                    final String make = user.getCarMake();
-                    final String model = user.getCarModel();
-                    final double year = user.getCarYear();
+                    firstName = user.getFirstName();
+                    lastName = user.getLastName();
+                    make = user.getCarMake();
+                    model = user.getCarModel();
+                    year = user.getCarYear();
 
                     firstNameView.setText(firstName);
                     lastNameView.setText(lastName);
@@ -92,21 +101,29 @@ public class Profile extends AppCompatActivity {
                     carModelView.setText(model);
                     DecimalFormat REAL_FORMATTER = new DecimalFormat("0"); // this makes it such that the year view does not show a decimal point on the app
                     carYearView.setText(REAL_FORMATTER.format(year));
-
-
-                    buttonEdit.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-                            openEditProfile(firstName, lastName, make, model, year);
-                        }
-                    });
                 }
             }
         });
 
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.profile_menu, menu);
+        return true;
+    }
 
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.edit_profile_details:
+                openEditProfile();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
 
 
     @Override
@@ -124,14 +141,14 @@ public class Profile extends AppCompatActivity {
     }
 
     //Function for opening the Edit Profile page
-    public void openEditProfile(String firstNameI, String lastNameI, String makeI, String modelI,
-                                double yearI) {
+    public void openEditProfile() {
+
         Intent intent = new Intent(this, EditProfile.class);
-        intent.putExtra(EXTRA_FIRST_NAME, firstNameI);
-        intent.putExtra(EXTRA_LAST_NAME, lastNameI);
-        intent.putExtra(EXTRA_CAR_MAKE, makeI);
-        intent.putExtra(EXTRA_CAR_MODEL, modelI);
-        intent.putExtra(EXTRA_CAR_YEAR, yearI);
+        intent.putExtra(EXTRA_FIRST_NAME, firstName);
+        intent.putExtra(EXTRA_LAST_NAME, lastName);
+        intent.putExtra(EXTRA_CAR_MAKE, make);
+        intent.putExtra(EXTRA_CAR_MODEL, model);
+        intent.putExtra(EXTRA_CAR_YEAR, year);
         startActivity(intent);
     }
 

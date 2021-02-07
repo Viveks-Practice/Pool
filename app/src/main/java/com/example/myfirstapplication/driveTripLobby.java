@@ -1,10 +1,11 @@
 package com.example.myfirstapplication;
 
 import android.content.Intent;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Gravity;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
@@ -13,6 +14,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -28,6 +30,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreException;
 import com.google.firebase.firestore.QuerySnapshot;
 
+import java.text.DateFormatSymbols;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
@@ -156,15 +159,27 @@ public class driveTripLobby extends AppCompatActivity {
     int hourDepart;
 
     TextView tripInfo;
-    TextView titleView;
     TextView reqsTextView;
     TextView acceptedRidersView;
+
+    Toolbar toolbarDriveLobby;
+    TextView fromViewDriver;
+    TextView toViewDriver;
+
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drive_trip_lobby);
+
+        toolbarDriveLobby = findViewById(R.id.toolbarDriveLobby);
+        setSupportActionBar(toolbarDriveLobby);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("");
+
+        fromViewDriver = findViewById(R.id.fromViewDriver);
+        toViewDriver = findViewById(R.id.toViewDriver);
 
         //Retrieve data from last page
         Intent intent = getIntent();
@@ -196,11 +211,9 @@ public class driveTripLobby extends AppCompatActivity {
         rating = intent.getDoubleExtra(EXTRA_RATING, 0);
         seatsAvail = intent.getDoubleExtra(EXTRA_SEATS_AVAIL, 0);
 
-
-
-
-
-
+        fromViewDriver.setText(destination);
+        String sMonthArrive = new DateFormatSymbols().getMonths()[monthArrive-1];
+        toViewDriver.setText(sMonthArrive + " " + dateArrive + " " + yearArrive + " " + hourArrive + ":" + minuteArrive);
 
         driveDoc = "" + dateArrive + "_" + monthArrive + "_" + yearArrive + "_" + hourArrive +
                 ":" + minuteArrive + " " + destination + " " + userEmail;
@@ -235,7 +248,6 @@ public class driveTripLobby extends AppCompatActivity {
 
 
         //Connect variables to activity features
-        titleView = findViewById(R.id.titleReqToJoin);
         reqsTextView = findViewById(R.id.reqsTextView);
         acceptedRidersView = findViewById(R.id.accepedRidersView);
         dataLayout = findViewById(R.id.layoutReqToJoin);
@@ -253,20 +265,6 @@ public class driveTripLobby extends AppCompatActivity {
         acceptedRidersView.setTextColor(getResources().getColor(android.R.color.black));
         acceptedRidersView.setPadding(5, 0, 0, 0);
         acceptedRidersView.setText("");
-
-        titleView.setTypeface(null, Typeface.BOLD);
-        titleView.setPadding(5, 0, 0, 0);
-        titleView.setText("Driving\n" +
-                        "From:\t" + startPoint + "\n" +  "To:\t\t\t" + destination
-                        //+ "\nDepart at: " + dateDepart + ", " + monthDepart
-               // +" " + dateDepart + ", " + yearDepart+ " @ " + hourDepart + ":" + minuteDepart + " "  +"\n"
-               // + "Arrive at: " + dateArrive + ", " + monthArrive
-               // +" " + dateArrive + ", " + yearArrive+ " @ " + hourArrive + ":" + minuteArrive
-
-        );
-
-
-
 
         rejectButton.setOnClickListener(new View.OnClickListener() {//Delete from db the reqs for the driver and the rider
             @Override
@@ -618,5 +616,12 @@ public class driveTripLobby extends AppCompatActivity {
     public void confirmRide(View view){
         db.collection("Drive").document(userEmail).collection("Drives")
                 .document(driveDoc).update(KEY_DRIVER_DRIVE_CONFIRMED, true);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.drive_lobby_menu, menu);
+        return true;
     }
 }

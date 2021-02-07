@@ -76,7 +76,9 @@
         <activity android:name="com.example.myfirstapplication.addDrive" />
         <activity android:name="com.example.myfirstapplication.driveConfirmedWaiting" />
         <activity android:name="com.example.myfirstapplication.rideAcceptedWaiting" />
-        <activity android:name="com.example.myfirstapplication.driveTripLobby" />
+        <activity
+            android:name="com.example.myfirstapplication.driveTripLobby"
+            android:parentActivityName="com.example.myfirstapplication.tabbedActivity" />
         <activity android:name="com.example.myfirstapplication.profileSetup" />
         <activity
             android:name="com.example.myfirstapplication.SignUp"
@@ -86,6 +88,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name="com.example.myfirstapplication.rideTripLobby"
+            android:parentActivityName="com.example.myfirstapplication.tabbedActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.example.myfirstapplication.addRide"
@@ -94,11 +97,7 @@
             android:name="com.example.myfirstapplication.EditProfile"
             android:label="@string/title_activity_edit_profile"
             android:parentActivityName="com.example.myfirstapplication.Profile"
-            android:screenOrientation="portrait" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.myfirstapplication.Profile" />
-        </activity>
+            android:screenOrientation="portrait" />
 
         <meta-data
             android:name="preloaded_fonts"

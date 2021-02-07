@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:2:1-106:12
-INJECTED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:2:1-106:12
-INJECTED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:2:1-106:12
-INJECTED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:2:1-106:12
+ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:2:1-105:12
+INJECTED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:2:1-105:12
+INJECTED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:2:1-105:12
+INJECTED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:2:1-105:12
 MERGED from [com.google.android.material:material:1.1.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/e8170964da10c0aa08ef4ff1142fca13/material-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.libraries.places:places:2.3.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/5c911ddb3644dd9711f84333580e2aaf/jetified-places-2.3.0/AndroidManifest.xml:2:1-23:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/396e7ddea1addefd32f4f3d87ec48909/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
@@ -75,26 +75,26 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/vive
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/6ca55331635d9ca1071738b385928a75/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/d5fd7fbc692311a845217063332ce16c/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/6435850e23f2d01013861f1c8dbdb3a0/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.volley:volley:1.1.1] /Users/viveks/.gradle/caches/transforms-2/files-2.1/07d5f4f74243b5eff5c73921c2557223/jetified-volley-1.1.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.volley:volley:1.1.1] /Users/viveks/.gradle/caches/transforms-2/files-2.1/abdde81218efe2549250d585c1077e5c/jetified-volley-1.1.1/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.datatransport:transport-api:2.1.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/0fb4bddf7893b55c4a0b887ba4e80cd2/jetified-transport-api-2.1.0/AndroidManifest.xml:15:1-22:12
 MERGED from [io.grpc:grpc-android:1.21.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/6b65bcd5b224ba6a196b164e2f3c8f84/jetified-grpc-android-1.21.0/AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/dfa6e47a12f8d89f5b74073d97870744/jetified-protolite-well-known-types-17.0.0/AndroidManifest.xml:2:1-11:12
-INJECTED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:2:1-106:12
-INJECTED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:2:1-106:12
-INJECTED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:2:1-106:12
+INJECTED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:2:1-105:12
+INJECTED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:2:1-105:12
+INJECTED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:2:1-105:12
 	package
 		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:4:5-45
 		INJECTED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:2:1-106:12
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:2:1-105:12
 		INJECTED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:2:1-106:12
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:2:1-105:12
 		INJECTED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:2:11-69
@@ -133,7 +133,7 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:2.1.0] /User
 	android:name
 		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:19:22-64
 application
-ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:21:5-104:19
+ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:21:5-103:19
 MERGED from [com.google.android.material:material:1.1.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/e8170964da10c0aa08ef4ff1142fca13/material-1.1.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/e8170964da10c0aa08ef4ff1142fca13/material-1.1.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.libraries.places:places:2.3.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/5c911ddb3644dd9711f84333580e2aaf/jetified-places-2.3.0/AndroidManifest.xml:13:5-21:19
@@ -198,8 +198,8 @@ MERGED from [com.google.android.datatransport:transport-runtime:2.1.0] /Users/vi
 MERGED from [com.google.android.datatransport:transport-runtime:2.1.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/535fbfb92cc17a295de946bf1f90bc3d/jetified-transport-runtime-2.1.0/AndroidManifest.xml:25:5-39:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/324b5866ad2c13339651997b434b41f3/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/324b5866ad2c13339651997b434b41f3/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [com.android.volley:volley:1.1.1] /Users/viveks/.gradle/caches/transforms-2/files-2.1/07d5f4f74243b5eff5c73921c2557223/jetified-volley-1.1.1/AndroidManifest.xml:9:5-20
-MERGED from [com.android.volley:volley:1.1.1] /Users/viveks/.gradle/caches/transforms-2/files-2.1/07d5f4f74243b5eff5c73921c2557223/jetified-volley-1.1.1/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] /Users/viveks/.gradle/caches/transforms-2/files-2.1/abdde81218efe2549250d585c1077e5c/jetified-volley-1.1.1/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] /Users/viveks/.gradle/caches/transforms-2/files-2.1/abdde81218efe2549250d585c1077e5c/jetified-volley-1.1.1/AndroidManifest.xml:9:5-20
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/6cdf211888e0a7ccbf81d39b63072413/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
@@ -265,91 +265,89 @@ ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest
 	android:name
 		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:59:19-54
 activity#com.example.myfirstapplication.driveTripLobby
-ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:60:9-52
+ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:60:9-62:60
+	android:parentActivityName
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:62:13-57
 	android:name
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:60:19-49
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:61:13-43
 activity#com.example.myfirstapplication.profileSetup
-ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:61:9-50
+ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:63:9-50
 	android:name
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:61:19-47
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:63:19-47
 activity#com.example.myfirstapplication.SignUp
-ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:62:9-65:56
+ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:64:9-67:56
 	android:screenOrientation
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:64:13-49
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:66:13-49
 	tools:ignore
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:65:13-53
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:67:13-53
 	android:name
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:63:13-35
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:65:13-35
 activity#com.example.myfirstapplication.LoginPage
-ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:66:9-69:65
+ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:68:9-71:65
 	android:screenOrientation
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:68:13-49
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:70:13-49
 	tools:ignore
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:69:13-53
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:71:13-53
 	android:name
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:67:13-38
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:69:13-38
 activity#com.example.myfirstapplication.rideTripLobby
-ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:70:9-73:56
+ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:72:9-76:56
 	android:screenOrientation
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:72:13-49
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:75:13-49
+	android:parentActivityName
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:74:13-57
 	tools:ignore
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:73:13-53
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:76:13-53
 	android:name
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:71:13-42
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:73:13-42
 activity#com.example.myfirstapplication.addRide
-ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:74:9-77:56
+ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:77:9-80:56
 	android:screenOrientation
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:76:13-49
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:79:13-49
 	tools:ignore
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:77:13-53
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:80:13-53
 	android:name
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:75:13-36
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:78:13-36
 activity#com.example.myfirstapplication.EditProfile
-ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:78:9-87:20
+ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:81:9-86:65
 	android:screenOrientation
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:82:13-49
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:85:13-49
 	android:parentActivityName
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:81:13-50
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:84:13-50
 	android:label
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:80:13-64
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:83:13-64
 	tools:ignore
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:83:13-53
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:86:13-53
 	android:name
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:79:13-40
-meta-data#android.support.PARENT_ACTIVITY
-ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:84:13-86:74
-	android:value
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:86:17-71
-	android:name
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:85:17-63
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:82:13-40
 meta-data#preloaded_fonts
-ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:89:9-91:57
+ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:88:9-90:57
 	android:resource
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:91:13-54
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:90:13-54
 	android:name
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:90:13-43
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:89:13-43
 activity#com.example.myfirstapplication.DriverMap
-ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:93:9-97:56
+ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:92:9-96:56
 	android:screenOrientation
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:96:13-49
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:95:13-49
 	android:label
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:95:13-62
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:94:13-62
 	tools:ignore
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:97:13-53
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:96:13-53
 	android:name
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:94:13-38
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:93:13-38
 activity#com.example.myfirstapplication.Profile
-ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:98:9-103:56
+ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:97:9-102:65
 	android:screenOrientation
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:102:13-49
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:101:13-49
 	android:parentActivityName
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:101:13-57
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:100:13-57
 	android:label
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:100:13-59
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:99:13-59
 	tools:ignore
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:103:13-53
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:102:13-53
 	android:name
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:99:13-36
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:98:13-36
 uses-sdk
 INJECTED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml
@@ -496,8 +494,8 @@ MERGED from [androidx.print:print:1.0.0] /Users/viveks/.gradle/caches/transforms
 MERGED from [androidx.print:print:1.0.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/d5fd7fbc692311a845217063332ce16c/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/6435850e23f2d01013861f1c8dbdb3a0/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/6435850e23f2d01013861f1c8dbdb3a0/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.volley:volley:1.1.1] /Users/viveks/.gradle/caches/transforms-2/files-2.1/07d5f4f74243b5eff5c73921c2557223/jetified-volley-1.1.1/AndroidManifest.xml:7:5-43
-MERGED from [com.android.volley:volley:1.1.1] /Users/viveks/.gradle/caches/transforms-2/files-2.1/07d5f4f74243b5eff5c73921c2557223/jetified-volley-1.1.1/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] /Users/viveks/.gradle/caches/transforms-2/files-2.1/abdde81218efe2549250d585c1077e5c/jetified-volley-1.1.1/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] /Users/viveks/.gradle/caches/transforms-2/files-2.1/abdde81218efe2549250d585c1077e5c/jetified-volley-1.1.1/AndroidManifest.xml:7:5-43
 MERGED from [com.google.android.datatransport:transport-api:2.1.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/0fb4bddf7893b55c4a0b887ba4e80cd2/jetified-transport-api-2.1.0/AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.android.datatransport:transport-api:2.1.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/0fb4bddf7893b55c4a0b887ba4e80cd2/jetified-transport-api-2.1.0/AndroidManifest.xml:18:5-20:41
 MERGED from [io.grpc:grpc-android:1.21.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/6b65bcd5b224ba6a196b164e2f3c8f84/jetified-grpc-android-1.21.0/AndroidManifest.xml:7:5-9:41

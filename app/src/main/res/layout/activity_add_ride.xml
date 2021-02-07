@@ -9,7 +9,7 @@
 
     <Button
         android:id="@+id/riderArriveDate"
-        android:layout_width="240dp"
+        android:layout_width="wrap_content"
         android:layout_height="44dp"
         android:layout_below="@+id/strayRiderEnd"
         android:layout_alignParentEnd="true"

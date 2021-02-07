@@ -1,10 +1,11 @@
 package com.example.myfirstapplication;
 
 import android.content.Intent;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Gravity;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
@@ -14,6 +15,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -45,6 +47,8 @@ import java.util.Map;
 import java.util.Vector;
 
 public class rideTripLobby extends AppCompatActivity {
+
+    Toolbar toolbarRideLobby;
 
 
     private static final String TAG = "DriverLobby";
@@ -157,7 +161,6 @@ public class rideTripLobby extends AppCompatActivity {
     String cancelDriverDestination;
     Timestamp cancelDriverArrivalTS;
 
-    TextView rideTripTitle;
     TextView requestTextView;
     TextView optionsTextView;
     LinearLayout dataLayout;
@@ -173,6 +176,11 @@ public class rideTripLobby extends AppCompatActivity {
     double riderExperience;
     double riderRating;
 
+    TextView fromViewRider;
+    TextView toViewRider;
+    TextView startTimeRider;
+    TextView destTimeRider;
+
 
     private FirebaseFirestore db = FirebaseFirestore.getInstance();
     private FirebaseAuth fAuth = FirebaseAuth.getInstance();
@@ -184,7 +192,16 @@ public class rideTripLobby extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ride_trip_lobby);
 
-        rideTripTitle = findViewById(R.id.selectedTripsText);
+        toolbarRideLobby = findViewById(R.id.toolbarRideLobby);
+        setSupportActionBar(toolbarRideLobby);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("");
+
+        fromViewRider = findViewById(R.id.fromViewRider);
+        toViewRider = findViewById(R.id.toViewRider);
+        startTimeRider = findViewById(R.id.startTimeRider);
+        destTimeRider = findViewById(R.id.destTimeRider);
+
         requestTextView = findViewById(R.id.requestTextView);
         optionsTextView = findViewById(R.id.optionsTextView);
         dataLayout = findViewById(R.id.listlayout);
@@ -222,12 +239,31 @@ public class rideTripLobby extends AppCompatActivity {
         riderExperience = intent.getDoubleExtra(EXTRA_RIDER_EXPERIENCE, 0);
         riderRating = intent.getDoubleExtra(EXTRA_RIDER_RATING, 0);
 
+        fromViewRider.setText("From: " + riderStartPoint);
+        toViewRider.setText("To: " + riderDestination);
 
-        rideTripTitle.setTypeface(null, Typeface.BOLD);
-        rideTripTitle.setPadding(5, 0, 50, 0);
-        rideTripTitle.setText("Carpooling" + "\n" +
-                "From:\t" + riderStartPoint + "\n" + "To:\t\t\t" + riderDestination);
 
+        /*******************Rider arrive Mods - Start********************/
+        //Determining whether or not to show AM or PM for the driver arrive time details
+        String riderArriveAMPM = "AM";
+        if(riderArriveHour > 11) riderArriveAMPM = "PM";
+
+        //Change the driver arrive value from 24 hours to 12 hours
+        int riderArrive12Hour;
+        if(riderArriveHour > 12) riderArrive12Hour = riderArriveHour - 12;
+        else riderArrive12Hour = riderArriveHour;
+
+        //Ensure the driver arrive hour doesn't show a zero
+        if(riderArrive12Hour == 0) riderArrive12Hour = 12;
+
+        //Ensure the driver arrive minutes are displayed in double digits
+        String riderArriveMin;
+        if(riderArriveMinute < 10) riderArriveMin = "0" + riderArriveMinute;
+        else riderArriveMin = "" + riderArriveMinute;
+        /*******************Rider arrive Mods - End********************/
+
+        startTimeRider.setText("");
+        destTimeRider.setText(riderArriveStringMonth + " " + riderArriveDate+  ", " +  + riderArrive12Hour + ":" + riderArriveMin + " " + riderArriveAMPM);
 
         optionsTextView.setTextColor(getResources().getColor(android.R.color.black));
         optionsTextView.setPadding(5, 0, 0, 0);
@@ -978,6 +1014,13 @@ public class rideTripLobby extends AppCompatActivity {
 //(DONE) I must make sure the deletion vector is sorted
 // and contains no duplicates -> don't need to, there will be no duplicates
 //Implement this as a set? then I can just find the intersection OR do an easy duplicate algorithm on deleteVec....-> watev it wokred the way it is
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.ride_lobby_menu, menu);
+        return true;
     }
 
     @Override

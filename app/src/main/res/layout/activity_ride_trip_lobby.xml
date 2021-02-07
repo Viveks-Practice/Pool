@@ -7,6 +7,131 @@
     android:background="@color/background"
     tools:context="com.example.myfirstapplication.rideTripLobby">
 
+    <androidx.appcompat.widget.Toolbar
+
+        android:id="@+id/toolbarRideLobby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:gravity="center"
+        android:minHeight="?attr/actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationContentDescription="@string/abc_action_bar_up_description"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="">
+
+        <TextView
+            android:id="@+id/toolbar_title_ride_lobby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Carpool Lobby"
+            android:textColor="@color/mainText"
+            android:textSize="24dp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:paddingBottom="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarRideLobby">
+
+        <LinearLayout
+
+            android:id="@+id/toolbarRideLobby2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbarRideLobby"
+            app:title="">
+
+            <TextView
+                android:id="@+id/fromViewRider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:paddingLeft="10dp"
+                android:singleLine="true"
+                android:text="From"
+                android:textColor="@color/mainText"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/toViewRider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:paddingLeft="10dp"
+                android:singleLine="true"
+                android:text="To"
+                android:textColor="@color/mainText"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/timesLayout"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/startTimeRider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:paddingLeft="10dp"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/mainText"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/destTimeRider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:paddingLeft="10dp"
+                android:singleLine="true"
+                android:text="\@"
+                android:textColor="@color/mainText"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollViewTop"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/optionsTextView">
+
+        <LinearLayout
+            android:id="@+id/listlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </ScrollView>
+
     <Button
         android:id="@+id/variableButton"
         android:layout_width="wrap_content"
@@ -22,40 +147,18 @@
         app:layout_constraintStart_toStartOf="parent" />
 
 
-    <ScrollView
-        android:id="@+id/scrollViewTop"
-        android:layout_width="match_parent"
-        android:layout_height="400dp"
-        android:layout_below="@+id/selectedTripsText"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/optionsTextView">
 
-        <LinearLayout
-            android:id="@+id/listlayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-        </LinearLayout>
-
-
-    </ScrollView>
 
     <TextView
         android:id="@+id/optionsTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/scrollViewTop"
-        android:layout_below="@+id/selectedTripsText"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/selectedTripsText" />
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
     <ScrollView
         android:id="@+id/scrollViewBottom"
@@ -82,22 +185,6 @@
 
 
     </ScrollView>
-
-    <TextView
-        android:id="@+id/selectedTripsText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="8dp"
-        android:text=""
-        android:textAllCaps="false"
-        android:textColor="@color/colorAccent"
-        android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/requestTextView"

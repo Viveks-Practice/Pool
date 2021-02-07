@@ -8,18 +8,42 @@
     tools:context="com.example.myfirstapplication.EditProfile"
     android:background="@color/background">
 
+    <androidx.appcompat.widget.Toolbar
+
+        android:id="@+id/toolbarEditProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:navigationContentDescription="@string/abc_action_bar_up_description"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="Profile"
+        android:gravity="center"
+        tools:ignore="MissingConstraints" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile Details"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp"
+            android:layout_gravity="center"
+            android:id="@+id/toolbar_title" />
+
+
+    </androidx.appcompat.widget.Toolbar>
+
 
     <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="248dp"
         android:layout_height="307dp"
-        android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="8dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView">
+        app:layout_constraintTop_toBottomOf="@+id/toolbarEditProfile">
 
 
         <EditText
@@ -29,6 +53,7 @@
             android:ems="10"
             android:hint="First Name"
             android:inputType="textPersonName" />
+
         <EditText
             android:id="@+id/lastNameText"
             android:layout_width="match_parent"
@@ -61,20 +86,6 @@
             android:hint="Car Year"
             android:inputType="number" />
     </LinearLayout>
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="10dp"
-        android:text="Edit Profile"
-        android:textColor="#74c4f2"
-        android:textSize="50dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_centerHorizontal="true"/>
 
     <Button
         android:id="@+id/buttonSave"

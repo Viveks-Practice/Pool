@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -40,6 +41,8 @@ public class EditProfile extends AppCompatActivity {
     private FirebaseAuth fAuth = FirebaseAuth.getInstance();
     String userEmail = fAuth.getCurrentUser().getEmail();
 
+    private Toolbar toolbarEditProfile;
+
 
 
 
@@ -48,6 +51,11 @@ public class EditProfile extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.content_edit_profile);
+
+        toolbarEditProfile = findViewById(R.id.toolbarEditProfile);
+        setSupportActionBar(toolbarEditProfile);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("");
 
         Intent intent = getIntent();
         String userFirstName = intent.getStringExtra(EXTRA_FIRST_NAME);

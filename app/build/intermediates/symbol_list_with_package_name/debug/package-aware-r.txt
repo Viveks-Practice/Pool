@@ -796,6 +796,7 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color bottom_nav_color
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1813,6 +1814,7 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable custom_button
 drawable dark_blue_car
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
@@ -1824,6 +1826,7 @@ drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_action_name
 drawable ic_calendar_black_24dp
+drawable ic_car
 drawable ic_check_mark
 drawable ic_clear_black_24dp
 drawable ic_delete
@@ -1832,6 +1835,7 @@ drawable ic_edit_black_24dp
 drawable ic_keyboard_arrow_left_black_24dp
 drawable ic_keyboard_arrow_right_black_24dp
 drawable ic_launcher_background
+drawable ic_map
 drawable ic_menu_arrow_down_black_24dp
 drawable ic_menu_arrow_up_black_24dp
 drawable ic_mtrl_checked_circle
@@ -1839,6 +1843,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search
+drawable ic_sent
 drawable ic_straight_check
 drawable icon_locate_user_foreground
 drawable larger_blue_car
@@ -2142,7 +2147,6 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
-id optionsTextView
 id outline
 id packed
 id pageTitle
@@ -2512,6 +2516,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+menu bottom_nav_menu
 menu drive_lobby_menu
 menu profile_menu
 menu ride_lobby_menu

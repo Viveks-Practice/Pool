@@ -347,7 +347,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/Applications/Android%20Studio.app/Contents/plugins/android/lib/android.jar!/images/material/icons/materialicons/check/baseline_check_24.xml" />
+                                      <entry key="url" value="jar:file:/Applications/Android%20Studio.app/Contents/plugins/android/lib/android.jar!/images/material/icons/materialicons/map/baseline_map_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -357,7 +357,7 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_straight_check" />
+                            <entry key="outputName" value="ic_map" />
                           </map>
                         </option>
                       </PersistentState>

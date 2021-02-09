@@ -162,7 +162,6 @@ public class rideTripLobby extends AppCompatActivity {
     Timestamp cancelDriverArrivalTS;
 
     TextView requestTextView;
-    TextView optionsTextView;
     LinearLayout dataLayout;
     LinearLayout lowerlayout;
     Button variableButton;
@@ -203,7 +202,6 @@ public class rideTripLobby extends AppCompatActivity {
         destTimeRider = findViewById(R.id.destTimeRider);
 
         requestTextView = findViewById(R.id.requestTextView);
-        optionsTextView = findViewById(R.id.optionsTextView);
         dataLayout = findViewById(R.id.listlayout);
         lowerlayout = findViewById(R.id.layoutBelow);
         variableButton = findViewById(R.id.variableButton);
@@ -264,10 +262,6 @@ public class rideTripLobby extends AppCompatActivity {
 
         startTimeRider.setText("");
         destTimeRider.setText(riderArriveStringMonth + " " + riderArriveDate+  ", " +  + riderArrive12Hour + ":" + riderArriveMin + " " + riderArriveAMPM);
-
-        optionsTextView.setTextColor(getResources().getColor(android.R.color.black));
-        optionsTextView.setPadding(5, 0, 0, 0);
-        optionsTextView.setText("No drivers match this trip");
 
         requestTextView.setTextColor(getResources().getColor(android.R.color.black));
         requestTextView.setPadding(5, 0,0 ,0);
@@ -594,11 +588,6 @@ public class rideTripLobby extends AppCompatActivity {
                             SimpleDateFormat dayFormatArrive = new SimpleDateFormat("EEEE", Locale.US);
                             String weekDayArrive = dayFormatArrive.format(arriveCal.getTime());// Monday Tues...
 
-
-
-
-
-                            optionsTextView.setText("Select a Trip");
                             createButton(startPoint, destination, hourDepart, minuteDepart,
                                         ampmDepartString, weekDayDepart, dayDepart, sMonthDepart, monthDepart,
                                         yearDepart, hourArrive, minuteArrive, ampmArriveString,

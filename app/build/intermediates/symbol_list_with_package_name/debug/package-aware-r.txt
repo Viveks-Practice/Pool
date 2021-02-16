@@ -1970,6 +1970,7 @@ id barrier
 id beginning
 id blocking
 id bottom
+id bottomNavigationView
 id buttonDriverLobby
 id buttonLogin
 id buttonPanel
@@ -1978,6 +1979,7 @@ id buttonSave
 id buttonSignUp
 id cancel_action
 id cancel_button
+id carpoolMap
 id center
 id center_horizontal
 id center_vertical
@@ -2055,6 +2057,7 @@ id fitToContents
 id fixed
 id forever
 id fragment_container_view_tag
+id frameCarpoolLobby
 id fromViewDriver
 id fromViewRider
 id ghost_view
@@ -2230,8 +2233,10 @@ id search_src_text
 id search_voice_btn
 id seatsText
 id section_label
+id selectDriver
 id select_dialog_listview
 id selected
+id sentRequests
 id setupButtonSave
 id setupFirstNameText
 id setupLastNameText
@@ -2440,6 +2445,9 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout drive_trips_fragment
+layout fragment_carpool_map
+layout fragment_driver_options
+layout fragment_sent_requests
 layout fragment_tabbed
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions

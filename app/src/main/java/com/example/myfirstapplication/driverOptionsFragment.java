@@ -1,11 +1,17 @@
 package com.example.myfirstapplication;
 
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import androidx.fragment.app.Fragment;
+
+import com.google.firebase.Timestamp;
+
+import java.text.DecimalFormat;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -60,4 +66,93 @@ public class driverOptionsFragment extends Fragment {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_driver_options, container, false);
     }
+
+    public void createButton(String startPoint, String endPoint, int hourDepart,
+                             int minuteDepart, String ampmDepartString, String weekDayDepart,
+                             int dayDepart, String sMonthDepart, int monthDepart, int yearDepart, int hourArrive,
+                             int minuteArrive, String ampmArriveString, String weekDayArrive,
+                             int dayArrive, String sMonthArrive, int monthArrive, int yearArrive, String firstName,
+                             String lastName, String carMake, String carModel, double carYear,
+                             double experience, double rating, String riderFirstName,
+                             String riderLastName, String driverEmail, int riderArriveDate,
+                             int riderArriveMonth, int riderArriveYear, int riderArriveHour,
+                             int riderArriveMinute, String riderDestination, Timestamp driverDepartTS,
+                             Timestamp driverArrivalTS, double minTip, double maxTip) {
+
+        Button myButton = new Button(this.getContext());
+
+        DecimalFormat precision = new DecimalFormat("0.00");
+        String moneytipMin = precision.format(minTip);
+        String moneytipMax = precision.format(maxTip);
+
+        myButton.setText("Start:\t\t\t\t\t\t" + startPoint + "\n" +
+                "Destination:\t\t" +
+                endPoint + "\n" +
+                "Departing at:\t\t" +
+                hourDepart + ":" +
+                minuteDepart +
+                ampmDepartString + " " +
+                weekDayDepart + " " +
+                dayDepart + " " +
+                sMonthDepart + " " +
+                yearDepart
+                + "\n" +
+                "Arriving at:\t\t\t" +
+                hourArrive + ":" +
+                minuteArrive + "" +
+                ampmArriveString + " " +
+                weekDayArrive + " " +
+                dayArrive + " " +
+                sMonthArrive + " " +
+                yearArrive + "\n" +
+                "User:\t\t\t\t\t\t" + firstName + " " + lastName + " " + carMake + " " + carModel + " " + (int) carYear +
+                //" EXP: " + experience + " Rating: " + rating +  "\n" +
+                "\n" +
+                "Tip Range:\t\t\t$" + moneytipMin + " - $" + moneytipMax
+
+        );
+        myButton.setBackground(this.getResources().getDrawable(R.drawable.button_background_stroke));
+        //myButton.setTextColor(getResources().getColor(android.R.color.white));
+        myButton.setHeight(200);
+        myButton.setGravity(Gravity.LEFT);
+        myButton.setPadding(20, 10,20,10);
+        myButton.setTextSize(12);        myButton.setAllCaps(false);
+        myButton.setOnClickListener(createReq( myButton, driverEmail, firstName, lastName, driverArrivalTS,
+                carMake, carModel, carYear, driverDepartTS, endPoint,
+                experience, maxTip, minTip, rating, startPoint));
+
+        dataLayout.addView(myButton);
+    }
+
+    View.OnClickListener createReq(final Button button, final String createClickDriverEmail, final String createClickFirstName,
+                                   final String createClickLastName, final Timestamp createClickDriverArrivalTS, final String createClickCarMake,
+                                   final String createClickCarModel, final double createClickCarYear, final Timestamp createClickDriverDepartTS,
+                                   final String createClickEndPoint, final double createClickExperience, final double createClickMaxTip,
+                                   final double createClickMinTip, final double createClickRating, final String createClickStartPoint) {
+        return new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+
+                globalDriverEmail = createClickDriverEmail;
+                globalDriverFirstName = createClickFirstName;
+                globalDriverLastName = createClickLastName;
+                globalDriverArrivalTS = createClickDriverArrivalTS;
+                globalDriverCarMake = createClickCarMake;
+                globalDriverCarModel = createClickCarModel;
+                globalDriverCarYear = createClickCarYear;
+                globalDriverDepartTS = createClickDriverDepartTS;
+                globalDriverDestination = createClickEndPoint;
+                globalDriverExperience = createClickExperience;
+                globalDriverMaxTip = createClickMaxTip;
+                globalDriverMinTip = createClickMinTip;
+                globalDriverRating = createClickRating;
+                globalDriverStartPoint = createClickStartPoint;
+
+
+                variableButton.setText("Send a Request");
+                variableButton.setVisibility(View.VISIBLE);
+            }
+        };
+    }
+
 }

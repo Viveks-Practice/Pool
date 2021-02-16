@@ -12,6 +12,10 @@
         "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
+        "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/layout_fragment_carpool_map.xml.flat",
+        "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/layout/fragment_carpool_map.xml"
+    },
+    {
         "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_icon_locate_user.xml.flat",
         "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/mipmap-anydpi-v26/icon_locate_user.xml"
     },
@@ -284,6 +288,10 @@
         "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/layout/fragment_tabbed.xml"
     },
     {
+        "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/layout_fragment_sent_requests.xml.flat",
+        "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/layout/fragment_sent_requests.xml"
+    },
+    {
         "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
         "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/drawable/ic_launcher_background.xml"
     },
@@ -318,6 +326,10 @@
     {
         "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/drawable_map_info_shape.xml.flat",
         "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/drawable/map_info_shape.xml"
+    },
+    {
+        "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/layout_fragment_driver_options.xml.flat",
+        "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/layout/fragment_driver_options.xml"
     },
     {
         "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/mipmap-mdpi_icon_locate_user.png.flat",

@@ -19,18 +19,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce5ae312-c3e2-4bea-a063-a15575cc5798" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/myfirstapplication/carpoolMapFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/myfirstapplication/driverOptionsFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/myfirstapplication/sentRequestsFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/color/bottom_nav_color.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/custom_button.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_car.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_map.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_sent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_carpool_map.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_driver_options.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_sent_requests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/bottom_nav_menu.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -41,8 +29,6 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" afterDir="false" />
@@ -61,23 +47,21 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/SignUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/SignUp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/addDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/addDrive.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/addRide.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/addRide.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/driveConfirmedWaiting.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/driveConfirmedWaiting.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/driveTripLobby.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/driveTripLobby.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/driveTripsFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/driveTripsFragment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/profileSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/profileSetup.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideAcceptedWaiting.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideAcceptedWaiting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideTripLobby$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideTripLobby$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideTripLobby$1$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideTripLobby$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideTripLobby$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideTripLobby$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideTripLobby$2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideTripLobby$2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideTripLobby$2$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideTripLobby$2$2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideTripLobby$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideTripLobby$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideTripLobby$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideTripLobby$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideTripLobby$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideTripLobby$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideTripLobby.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideTripLobby.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/riderMap$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/riderMap$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/riderMap$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/riderMap$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/riderMap$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/riderMap$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideTripsFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideTripsFragment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/riderMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/riderMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/tabbedActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/tabbedActivity$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/tabbedActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/tabbedActivity$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/tabbedActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/tabbedActivity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/ui/main/PlaceholderFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/ui/main/PlaceholderFragment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
@@ -140,10 +124,10 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/profileSetup.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/profileSetup.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideAcceptedWaiting$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideAcceptedWaiting$1.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideAcceptedWaiting.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideAcceptedWaiting.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideTripLobby$1$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideTripLobby$1$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideTripLobby$1$1.dex" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideTripLobby$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideTripLobby$1.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideTripLobby$2$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideTripLobby$2$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideTripLobby$2$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideTripLobby$2$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideTripLobby$2$2.dex" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideTripLobby$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideTripLobby$2.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideTripLobby$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideTripLobby$3.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideTripLobby$4.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideTripLobby$4.dex" afterDir="false" />
@@ -171,8 +155,13 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myfirstapplication/driverOptionsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/myfirstapplication/driverOptionsFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myfirstapplication/rideTripLobby.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/myfirstapplication/rideTripLobby.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myfirstapplication/sentRequestsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/myfirstapplication/sentRequestsToDriverFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ride_trip_lobby.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_ride_trip_lobby.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_driver_options.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_driver_options.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_sent_requests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_sent_requests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/bottom_nav_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/bottom_nav_menu.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +171,7 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_API_26" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="R38M60F1KCD" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -266,7 +255,7 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-04-02T22:20:46.206Z" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -434,13 +423,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557965060408</updated>
-    </task>
-    <task id="LOCAL-00031" summary="July 8 2020 commit - hardcoded code for testing use. Very prone to issues. I must make sure to change this next time I work on this project &#10;~~~~Some done, but yet remains to be done in the driver lobby? where the user clicks on a drive object">
-      <created>1594237223261</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1594237223261</updated>
     </task>
     <task id="LOCAL-00032" summary="July 9 2020 commit - hardcoded code for testing use. Very prone to issues. I must make sure to change this next time I work on this project &#10;~~~~Some done, but yet remains to be done in the driver lobby? where the user clicks on a drive object">
       <created>1594363099651</created>
@@ -778,7 +760,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612658055449</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Edited driver lobby to include trip data">
+      <created>1612852914840</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1612852914840</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -826,7 +815,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="August 25 2020 commit" />
     <MESSAGE value="August 26 2020 commit - 1st" />
     <MESSAGE value="August 26 2020 commit - 2nd" />
     <MESSAGE value="August 29 2020 commit" />
@@ -851,7 +839,8 @@
     <MESSAGE value="Implemented the menu! But the buttons don't do anything yet" />
     <MESSAGE value="Added google map" />
     <MESSAGE value="Edited driver lobby to include trip data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edited driver lobby to include trip data" />
+    <MESSAGE value="Integrating a tabbed view into the carpool rides activity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integrating a tabbed view into the carpool rides activity" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2000" y="217" key="#Notifications" timestamp="1612048461884">
@@ -874,15 +863,14 @@
       <screen x="0" y="23" width="1440" height="819" />
     </state>
     <state x="411" y="248" key="AndroidCreateResourceDirectoryDialog/0.23.1440.819@0.23.1440.819" timestamp="1612757438332" />
-    <state x="1988" y="313" key="AndroidCreateResourceDirectoryDialog/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1604613702777" />
     <state x="2208" y="413" key="AndroidCreateXmlResourceDialog" timestamp="1612126985675">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="2208" y="413" key="AndroidCreateXmlResourceDialog/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1612126985675" />
-    <state x="1928" y="81" width="1432" height="795" key="CommitChangelistDialog2" timestamp="1612852908484">
+    <state x="1928" y="81" width="1432" height="795" key="CommitChangelistDialog2" timestamp="1613436628739">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state x="1928" y="81" width="1432" height="795" key="CommitChangelistDialog2/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1612852908484" />
+    <state x="1928" y="81" width="1432" height="795" key="CommitChangelistDialog2/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1613436628739" />
     <state width="413" height="438" key="DebuggerActiveHint" timestamp="1610048283724">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
@@ -932,22 +920,22 @@
     </state>
     <state x="352" y="120" width="900" height="722" key="SettingsEditor/0.23.1440.819@0.23.1440.819" timestamp="1612752829443" />
     <state x="1909" y="190" width="1097" height="803" key="SettingsEditor/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1612038511336" />
-    <state x="2000" y="291" key="Vcs.Push.Dialog.v2" timestamp="1612658060825">
+    <state x="2000" y="291" key="Vcs.Push.Dialog.v2" timestamp="1612852925057">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state x="2000" y="291" key="Vcs.Push.Dialog.v2/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1612658060825" />
+    <state x="2000" y="291" key="Vcs.Push.Dialog.v2/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1612852925057" />
     <state x="1583" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1612588616407">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="107" y="303" key="com.intellij.ide.util.TipDialog/0.23.1440.819@0.23.1440.819" timestamp="1609290871578" />
     <state x="107" y="303" key="com.intellij.ide.util.TipDialog/1440.23.1920.1057/0.23.1440.819@0.23.1440.819" timestamp="1611629178677" />
     <state x="1583" y="384" key="com.intellij.ide.util.TipDialog/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1612588616407" />
-    <state x="120" y="23" width="1320" height="819" maximized="true" key="dock-window-1" timestamp="1612752145966">
+    <state x="0" y="80" width="1249" height="763" maximized="true" key="dock-window-1" timestamp="1613435783700">
       <screen x="0" y="23" width="1440" height="819" />
     </state>
     <state x="120" y="23" width="1320" height="819" maximized="true" key="dock-window-1/0.23.1440.819@0.23.1440.819" timestamp="1612752145966" />
     <state x="0" y="203" width="1440" height="819" maximized="true" key="dock-window-1/1440.23.1920.1057/0.23.1440.819@0.23.1440.819" timestamp="1611629195461" />
-    <state x="37" y="23" width="1529" height="819" maximized="true" key="dock-window-1/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1612592223036" />
+    <state x="0" y="80" width="1249" height="763" maximized="true" key="dock-window-1/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1613435783700" />
     <state x="2107" y="350" key="git4idea.merge.GitPullDialog" timestamp="1612048558220">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>

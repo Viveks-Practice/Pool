@@ -9,10 +9,10 @@ import androidx.fragment.app.Fragment;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link sentRequestsFragment#newInstance} factory method to
+ * Use the {@link sentRequestsToDriverFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class sentRequestsFragment extends Fragment {
+public class sentRequestsToDriverFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -23,7 +23,7 @@ public class sentRequestsFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public sentRequestsFragment() {
+    public sentRequestsToDriverFragment() {
         // Required empty public constructor
     }
 
@@ -36,8 +36,8 @@ public class sentRequestsFragment extends Fragment {
      * @return A new instance of fragment sentRequestsFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static sentRequestsFragment newInstance(String param1, String param2) {
-        sentRequestsFragment fragment = new sentRequestsFragment();
+    public static sentRequestsToDriverFragment newInstance(String param1, String param2) {
+        sentRequestsToDriverFragment fragment = new sentRequestsToDriverFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);

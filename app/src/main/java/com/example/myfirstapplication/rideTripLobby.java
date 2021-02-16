@@ -6,6 +6,7 @@ import android.util.Log;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
@@ -16,11 +17,14 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.gms.tasks.Tasks;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.Timestamp;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.CollectionReference;
@@ -195,6 +199,34 @@ public class rideTripLobby extends AppCompatActivity {
         setSupportActionBar(toolbarRideLobby);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle("");
+
+        BottomNavigationView navigationViewRideTripLobby = findViewById(R.id.bottomNavigationView);
+
+        final driverOptionsFragment driverOptionsFrag = new driverOptionsFragment();
+        final sentRequestsToDriverFragment sentRequestsToDriverFrag = new sentRequestsToDriverFragment();
+        final carpoolMapFragment carpoolMapFrag = new carpoolMapFragment();
+
+        navigationViewRideTripLobby.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                int id = item.getItemId();
+                if(id == R.id.selectDriver){
+                    setFragment(driverOptionsFrag);
+                    return true;
+                }
+                else if (id == R.id.sentRequests){
+                    setFragment(sentRequestsToDriverFrag);
+                    return true;
+                }
+                else if(id == R.id.carpoolMap){
+                    setFragment(carpoolMapFrag);
+                    return true;
+                }
+                return false;
+            }
+        });
+
+        navigationViewRideTripLobby.setSelectedItemId(R.id.selectDriver);
 
         fromViewRider = findViewById(R.id.fromViewRider);
         toViewRider = findViewById(R.id.toViewRider);
@@ -417,6 +449,7 @@ public class rideTripLobby extends AppCompatActivity {
         /*****Above: Check for any drivers that have accepted the request, and if there is one, delete all rider requests for this trip******/
 
 
+        /**Start: Possibly move these calcs to the driver options fragment**/
         //Make the 5 queries and merge them using the method used in codingInFlow
         //The 5 queries require data from the database, therefore I should make a retrieval
         //asynchronously
@@ -598,6 +631,7 @@ public class rideTripLobby extends AppCompatActivity {
                                         riderArriveHour, riderArriveMinute, riderDestination, departTS, arrivalTS,
                                         minTip, maxTip);
                         }
+                        /***End of code for driver options***/
 
                         String reqDocs = "" + riderArriveDate + "_" + (riderArriveMonth+1) + "_" + riderArriveYear +
                                 "_" + riderArriveHour + ":" + riderArriveMinute + " " + riderDestination +
@@ -1019,6 +1053,11 @@ public class rideTripLobby extends AppCompatActivity {
         finish();
     }
 
+    private void setFragment(Fragment fragment){
+        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+        fragmentTransaction.replace(R.id.frameCarpoolLobby, fragment);
+        fragmentTransaction.commit();
+    }
 
 
 }

@@ -52,12 +52,12 @@
         "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/layout/activity_ride_trip_lobby.xml"
     },
     {
-        "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_icon_locate_user_round.xml.flat",
-        "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/mipmap-anydpi-v26/icon_locate_user_round.xml"
-    },
-    {
         "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_icon_locate_user_round.png.flat",
         "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/mipmap-xxxhdpi/icon_locate_user_round.png"
+    },
+    {
+        "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_icon_locate_user_round.xml.flat",
+        "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/mipmap-anydpi-v26/icon_locate_user_round.xml"
     },
     {
         "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
@@ -124,12 +124,12 @@
         "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/drawable/plusicon.xml"
     },
     {
-        "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_background.png.flat",
-        "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/mipmap-xhdpi/ic_launcher_background.png"
-    },
-    {
         "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_background.png.flat",
         "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/mipmap-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/mipmap-xhdpi/ic_launcher_background.png"
     },
     {
         "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",

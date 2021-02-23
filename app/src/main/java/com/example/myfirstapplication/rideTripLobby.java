@@ -141,7 +141,28 @@ public class rideTripLobby extends AppCompatActivity {
     private static final String EXTRA_DRIVER_DEPART_HOUR = "ex_driverDepartHour";
     private static final String EXTRA_DRIVER_DEPART_MINUTE = "ex_driverDepartMinute";
 
-
+    private static final String BUNDLE_RIDER_FIRST_NAME = "keyRiderFirstName";
+    private static final String BUNDLE_RIDER_LAST_NAME = "keyRiderLastName";
+    private static final String BUNDLE_RIDER_CAR_MAKE = "keyRiderCarMake";
+    private static final String BUNDLE_RIDER_CAR_MODEL = "keyRiderCarModel";
+    private static final String BUNDLE_RIDER_CAR_YEAR = "keyRiderCarYear";
+    private static final String BUNDLE_RIDER_EXPERIENCE = "keyRiderExperience";
+    private static final String BUNDLE_RIDER_RATING = "keyRiderRating";
+    private static final String BUNDLE_RIDER_DESTINATION = "keyRiderDestination";
+    private static final String BUNDLE_RIDER_START_POINT = "keyRiderStartPoint";
+    private static final String BUNDLE_RIDER_STRAY_DEST = "keyRiderStrayDest";
+    private static final String BUNDLE_RIDER_STRAY_START = "keyRiderStrayStart";
+    private static final String BUNDLE_RIDER_START_LAT = "keyRiderStartLat";
+    private static final String BUNDLE_RIDER_START_LNG = "keyRiderStartLng";
+    private static final String BUNDLE_RIDER_DEST_LAT = "keyRiderDestLat";
+    private static final String BUNDLE_RIDER_DEST_LNG = "keyRiderDestLng";
+    private static final String BUNDLE_RIDER_ARRIVE_DATE = "keyRiderArriveDate";
+    private static final String BUNDLE_RIDER_ARRIVE_WEEKDAY = "keyRiderArriveWeekday";
+    private static final String BUNDLE_RIDER_ARRIVE_MONTH = "keyRiderArriveMonth";
+    private static final String BUNDLE_RIDER_ARRIVE_STRING_MONTH = "keyRiderArriveStringMonth";
+    private static final String BUNDLE_RIDER_ARRIVE_YEAR = "keyRiderArriveYear";
+    private static final String BUNDLE_RIDER_ARRIVE_HOUR = "keyRiderArriveHour";
+    private static final String BUNDLE_RIDER_ARRIVE_MINUTE = "keyRiderArriveMinute";
 
 
     /***********These global driver variables are updated when a button is clicked************/
@@ -179,6 +200,22 @@ public class rideTripLobby extends AppCompatActivity {
     double riderExperience;
     double riderRating;
 
+    String riderDestination;
+    String riderStartPoint;
+    double riderStrayDest;
+    double riderStrayStart;
+    double riderStartLat;
+    double riderStartLng;
+    double riderDestLat;
+    double riderDestLng;
+    int riderArriveDate;
+    String riderArriveWeekday;
+    int riderArriveMonth;
+    String riderArriveStringMonth;
+    int riderArriveYear;
+    int riderArriveHour;
+    int riderArriveMinute;
+
     TextView fromViewRider;
     TextView toViewRider;
     TextView startTimeRider;
@@ -206,6 +243,48 @@ public class rideTripLobby extends AppCompatActivity {
         final sentRequestsToDriverFragment sentRequestsToDriverFrag = new sentRequestsToDriverFragment();
         final carpoolMapFragment carpoolMapFrag = new carpoolMapFragment();
 
+        fromViewRider = findViewById(R.id.fromViewRider);
+        toViewRider = findViewById(R.id.toViewRider);
+        startTimeRider = findViewById(R.id.startTimeRider);
+        destTimeRider = findViewById(R.id.destTimeRider);
+
+        requestTextView = findViewById(R.id.requestTextView);
+        dataLayout = findViewById(R.id.listlayout);
+        lowerlayout = findViewById(R.id.layoutBelow);
+        variableButton = findViewById(R.id.variableButton);
+        variableButton.setVisibility(View.INVISIBLE);
+
+        CollectionReference collectionRef = FirebaseFirestore.getInstance().collection("GeoFirestore");
+        geoFirestore = new GeoFirestore(collectionRef);
+
+        final Intent intent = getIntent();
+        riderDestination = intent.getStringExtra(EXTRA_DEST);
+        riderStartPoint = intent.getStringExtra(EXTRA_START);
+        riderStrayDest = intent.getDoubleExtra(EXTRA_STRAYDEST, 0);
+        riderStrayStart = intent.getDoubleExtra(EXTRA_STRAYSTART, 0);
+        riderStartLat = intent.getDoubleExtra(EXTRA_STARTLAT, 0);
+        riderStartLng = intent.getDoubleExtra(EXTRA_STARTLNG, 0);
+        riderDestLat = intent.getDoubleExtra(EXTRA_DESTLAT, 0);
+        riderDestLng = intent.getDoubleExtra(EXTRA_DESTLNG, 0);
+        riderArriveDate = intent.getIntExtra(EXTRA_DATE, 0);
+        riderArriveWeekday = intent.getStringExtra(EXTRA_WEEKDAY);
+        riderArriveMonth = intent.getIntExtra(EXTRA_MONTH, 0);
+        riderArriveStringMonth = intent.getStringExtra(EXTRA_STRING_MONTH);
+        riderArriveYear = intent.getIntExtra(EXTRA_YEAR, 0);
+        riderArriveHour = intent.getIntExtra(EXTRA_HOUR, 0);
+        riderArriveMinute = intent.getIntExtra(EXTRA_MINUTE, 0);
+        riderFirstName = intent.getStringExtra(EXTRA_RIDER_FIRSTNAME);
+        riderLastName = intent.getStringExtra(EXTRA_RIDER_LASTNAME);
+        riderCarMake = intent.getStringExtra(EXTRA_RIDER_CARMAKE);
+        riderCarModel = intent.getStringExtra(EXTRA_RIDER_CARMODEL);
+        riderCarYear = intent.getDoubleExtra(EXTRA_RIDER_CARYEAR, 0);
+        riderExperience = intent.getDoubleExtra(EXTRA_RIDER_EXPERIENCE, 0);
+        riderRating = intent.getDoubleExtra(EXTRA_RIDER_RATING, 0);
+
+        fromViewRider.setText("From: " + riderStartPoint);
+        toViewRider.setText("To: " + riderDestination);
+
+
         navigationViewRideTripLobby.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -226,51 +305,7 @@ public class rideTripLobby extends AppCompatActivity {
             }
         });
 
-        navigationViewRideTripLobby.setSelectedItemId(R.id.selectDriver);
-
-        fromViewRider = findViewById(R.id.fromViewRider);
-        toViewRider = findViewById(R.id.toViewRider);
-        startTimeRider = findViewById(R.id.startTimeRider);
-        destTimeRider = findViewById(R.id.destTimeRider);
-
-        requestTextView = findViewById(R.id.requestTextView);
-        dataLayout = findViewById(R.id.listlayout);
-        lowerlayout = findViewById(R.id.layoutBelow);
-        variableButton = findViewById(R.id.variableButton);
-        variableButton.setVisibility(View.INVISIBLE);
-
-
-
-
-        CollectionReference collectionRef = FirebaseFirestore.getInstance().collection("GeoFirestore");
-        geoFirestore = new GeoFirestore(collectionRef);
-
-        final Intent intent = getIntent();
-        final String riderDestination = intent.getStringExtra(EXTRA_DEST);
-        final String riderStartPoint = intent.getStringExtra(EXTRA_START);
-        double riderStrayDest = intent.getDoubleExtra(EXTRA_STRAYDEST, 0);
-        double riderStrayStart = intent.getDoubleExtra(EXTRA_STRAYSTART, 0);
-        double riderStartLat = intent.getDoubleExtra(EXTRA_STARTLAT, 0);
-        double riderStartLng = intent.getDoubleExtra(EXTRA_STARTLNG, 0);
-        double riderDestLat = intent.getDoubleExtra(EXTRA_DESTLAT, 0);
-        double riderDestLng = intent.getDoubleExtra(EXTRA_DESTLNG, 0);
-        final int riderArriveDate = intent.getIntExtra(EXTRA_DATE, 0);
-        final String riderArriveWeekday = intent.getStringExtra(EXTRA_WEEKDAY);
-        final int riderArriveMonth = intent.getIntExtra(EXTRA_MONTH, 0);
-        final String riderArriveStringMonth = intent.getStringExtra(EXTRA_STRING_MONTH);
-        final int riderArriveYear = intent.getIntExtra(EXTRA_YEAR, 0);
-        final int riderArriveHour = intent.getIntExtra(EXTRA_HOUR, 0);
-        final int riderArriveMinute = intent.getIntExtra(EXTRA_MINUTE, 0);
-        riderFirstName = intent.getStringExtra(EXTRA_RIDER_FIRSTNAME);
-        riderLastName = intent.getStringExtra(EXTRA_RIDER_LASTNAME);
-        riderCarMake = intent.getStringExtra(EXTRA_RIDER_CARMAKE);
-        riderCarModel = intent.getStringExtra(EXTRA_RIDER_CARMODEL);
-        riderCarYear = intent.getDoubleExtra(EXTRA_RIDER_CARYEAR, 0);
-        riderExperience = intent.getDoubleExtra(EXTRA_RIDER_EXPERIENCE, 0);
-        riderRating = intent.getDoubleExtra(EXTRA_RIDER_RATING, 0);
-
-        fromViewRider.setText("From: " + riderStartPoint);
-        toViewRider.setText("To: " + riderDestination);
+        navigationViewRideTripLobby.setSelectedItemId(R.id.sentRequests);
 
 
         /*******************Rider arrive Mods - Start********************/
@@ -621,7 +656,7 @@ public class rideTripLobby extends AppCompatActivity {
                             SimpleDateFormat dayFormatArrive = new SimpleDateFormat("EEEE", Locale.US);
                             String weekDayArrive = dayFormatArrive.format(arriveCal.getTime());// Monday Tues...
 
-                            createButton(startPoint, destination, hourDepart, minuteDepart,
+                            /*createButton(startPoint, destination, hourDepart, minuteDepart,
                                         ampmDepartString, weekDayDepart, dayDepart, sMonthDepart, monthDepart,
                                         yearDepart, hourArrive, minuteArrive, ampmArriveString,
                                         weekDayArrive, dayArrive, sMonthArrive, monthArrive, yearArrive,
@@ -629,7 +664,7 @@ public class rideTripLobby extends AppCompatActivity {
                                         rating, riderFirstName, riderLastName, driverEmail,
                                         riderArriveDate, riderArriveMonth+1, riderArriveYear,
                                         riderArriveHour, riderArriveMinute, riderDestination, departTS, arrivalTS,
-                                        minTip, maxTip);
+                                        minTip, maxTip);*/
                         }
                         /***End of code for driver options***/
 
@@ -1054,7 +1089,33 @@ public class rideTripLobby extends AppCompatActivity {
     }
 
     private void setFragment(Fragment fragment){
+
         FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+        Bundle bundle = new Bundle();
+        bundle.putString(BUNDLE_RIDER_FIRST_NAME, riderFirstName);
+        bundle.putString(BUNDLE_RIDER_LAST_NAME, riderLastName);
+        bundle.putString(BUNDLE_RIDER_CAR_MAKE, riderCarMake);
+        bundle.putString(BUNDLE_RIDER_CAR_MODEL, riderCarModel);
+        bundle.putDouble(BUNDLE_RIDER_CAR_YEAR, riderCarYear);
+        bundle.putDouble(BUNDLE_RIDER_EXPERIENCE, riderExperience);
+        bundle.putDouble(BUNDLE_RIDER_RATING, riderRating);
+        bundle.putString(BUNDLE_RIDER_DESTINATION,riderDestination);
+        bundle.putString(BUNDLE_RIDER_START_POINT, riderStartPoint);
+        bundle.putDouble(BUNDLE_RIDER_STRAY_DEST, riderStrayDest);
+        bundle.putDouble(BUNDLE_RIDER_STRAY_START, riderStrayStart);
+        bundle.putDouble(BUNDLE_RIDER_START_LAT, riderStartLat);
+        bundle.putDouble(BUNDLE_RIDER_START_LNG, riderStartLng);
+        bundle.putDouble(BUNDLE_RIDER_DEST_LAT, riderDestLat);
+        bundle.putDouble(BUNDLE_RIDER_DEST_LNG, riderDestLng);
+        bundle.putInt(BUNDLE_RIDER_ARRIVE_DATE, riderArriveDate);
+        bundle.putString(BUNDLE_RIDER_ARRIVE_WEEKDAY, riderArriveWeekday);
+        bundle.putInt(BUNDLE_RIDER_ARRIVE_MONTH, riderArriveMonth);
+        bundle.putString(BUNDLE_RIDER_ARRIVE_STRING_MONTH, riderArriveStringMonth);
+        bundle.putInt(BUNDLE_RIDER_ARRIVE_YEAR, riderArriveYear);
+        bundle.putInt(BUNDLE_RIDER_ARRIVE_HOUR, riderArriveHour);
+        bundle.putInt(BUNDLE_RIDER_ARRIVE_MINUTE, riderArriveMinute);
+
+        fragment.setArguments(bundle);
         fragmentTransaction.replace(R.id.frameCarpoolLobby, fragment);
         fragmentTransaction.commit();
     }

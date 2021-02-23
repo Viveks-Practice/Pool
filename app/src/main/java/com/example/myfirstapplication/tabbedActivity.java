@@ -46,6 +46,8 @@ import static android.widget.Toast.makeText;
  * 5. Implement a similar layout for Driving Lobby - I shall work on this part first
  * 6. The colors could be better
  * 7! Make a button nav Menu in the drive and ride lobbies
+ * Current: Trying to migrate the select Driver stuff to the tab (I got the retrievals to show up on the tabbed view...! Now, remove that from the previous page, its not needed there, and
+ * maybe move the code to onStart so it uses a cached version? and its not slow when its reloaded every time)
  * **/
 
 public class tabbedActivity extends AppCompatActivity {

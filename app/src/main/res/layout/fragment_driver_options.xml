@@ -6,12 +6,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".driverOptionsFragment">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Driver Options Fragment"
-        android:gravity="center"/>
-
     <ScrollView
         android:id="@+id/scrollViewDriverOptions"
         android:layout_width="match_parent"
@@ -25,6 +19,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Biggus Dickus">
+
+            </TextView>
 
         </LinearLayout>
     </ScrollView>

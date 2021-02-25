@@ -370,7 +370,6 @@ public class driverOptionsFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_driver_options, container, false);
         driverOptionsLL = view.findViewById(R.id.listlayoutDriverOptions);
-        String strtext = getArguments().getString("keyRiderFirstName", riderFirstName);
         return view;
     }
 

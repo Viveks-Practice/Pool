@@ -9,7 +9,6 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -44,10 +43,8 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Collections;
 import java.util.Date;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
-import java.util.Map;
 import java.util.Vector;
 
 public class rideTripLobby extends AppCompatActivity {
@@ -141,6 +138,7 @@ public class rideTripLobby extends AppCompatActivity {
     private static final String EXTRA_DRIVER_DEPART_HOUR = "ex_driverDepartHour";
     private static final String EXTRA_DRIVER_DEPART_MINUTE = "ex_driverDepartMinute";
 
+    private static final String BUNDLE_RIDER_EMAIL = "keyRiderEmail";
     private static final String BUNDLE_RIDER_FIRST_NAME = "keyRiderFirstName";
     private static final String BUNDLE_RIDER_LAST_NAME = "keyRiderLastName";
     private static final String BUNDLE_RIDER_CAR_MAKE = "keyRiderCarMake";
@@ -163,6 +161,71 @@ public class rideTripLobby extends AppCompatActivity {
     private static final String BUNDLE_RIDER_ARRIVE_YEAR = "keyRiderArriveYear";
     private static final String BUNDLE_RIDER_ARRIVE_HOUR = "keyRiderArriveHour";
     private static final String BUNDLE_RIDER_ARRIVE_MINUTE = "keyRiderArriveMinute";
+
+    private static final String BUNDLE_DRIVER_START_POINT = "keyDriverStartPoint";
+    private static final String BUNDLE_DRIVER_DESTINATION = "keyDriverDestination";
+    private static final String BUNDLE_DRIVER_HOUR_DEPART = "keyDriverHourDepart";
+    private static final String BUNDLE_DRIVER_MINUTE_DEPART = "keyDriverMinuteDepart";
+    private static final String BUNDLE_DRIVER_AMPM_DEPART_STRING = "keyDriverAMPMDepartString";
+    private static final String BUNDLE_DRIVER_WEEKDAY_DEPART = "keyDriverWeekdayDepart";
+    private static final String BUNDLE_DRIVER_DAY_DEPART = "keyDriverDayDepart";
+    private static final String BUNDLE_DRIVER_SMONTH_DEPART = "keyDriverSMonthDepart";
+    private static final String BUNDLE_DRIVER_YEAR_DEPART = "keyDriverYearDepart";
+    private static final String BUNDLE_DRIVER_HOUR_ARRIVE = "keyDriverHourArrive";
+    private static final String BUNDLE_DRIVER_MINUTE_ARRIVE = "keyDriverMinute_Arrive";
+    private static final String BUNDLE_DRIVER_AMPM_ARRIVE_STRING = "keyDriverAMPMArriveString";
+    private static final String BUNDLE_DRIVER_WEEKDAY_ARRIVE = "keyDriverWeekdayArrive";
+    private static final String BUNDLE_DRIVER_DAY_ARRIVE = "keyDriverDayArrive";
+    private static final String BUNDLE_DRIVER_SMONTH_ARRIVE = "keyDriverSMonthArrive";
+    private static final String BUNDLE_DRIVER_YEAR_ARRIVE = "keyDriverYearArrive";
+    private static final String BUNDLE_DRIVER_FIRST_NAME = "keyDriverFirstName";
+    private static final String BUNDLE_DRIVER_LAST_NAME = "keyDriverLastName";
+    private static final String BUNDLE_DRIVER_CAR_MAKE = "keyDriverCarMake";
+    private static final String BUNDLE_DRIVER_CAR_MODEL = "keyDriverCarModel";
+    private static final String BUNDLE_DRIVER_CAR_YEAR = "keyDriverCarYear";
+    private static final String BUNDLE_DRIVER_EXPERIENCE = "keyDriverExperience";
+    private static final String BUNDLE_DRIVER_RATING = "keyDriverRating";
+    private static final String BUNDLE_DRIVER_MINTIP = "keyDriverMinTip";
+    private static final String BUNDLE_DRIVER_MAXTIP = "keyDriverMaxTip";
+
+
+    /* rider email
+     *
+     * riderArriveDate
+     * riderArriveMonth
+     * riderArriveYear
+     * riderARriveHour
+     * riderARriveMinute
+     * riderDestination
+     * driver start point
+     * driver dest
+     * hour depart
+     * min depart
+     * ampmdepartstring
+     * weekdaydepart
+     * daydepart
+     * sMonthdepart
+     * yearDepart
+     * Hourarrive
+     * minuteArrive
+     * ampmArriveString
+     * weekDayArrive
+     * dayArrive
+     * sMonthArrive---
+     * yearArrive
+     * firstName
+     * lastName
+     * carMake
+     * carModel
+     * carYear
+     * Experience
+     * rating
+     * mintip
+     * maxtip
+     * driver email
+     * driverArriveTimestamp
+     * driverDepartTimestamp
+     * */
 
 
     /***********These global driver variables are updated when a button is clicked************/
@@ -668,8 +731,8 @@ public class rideTripLobby extends AppCompatActivity {
                                             Log.d(TAG, e.toString());
                                         }
 
-                                        lowerlayout.removeAllViews();//This is here because current implementation is only one request at a time
-                                        requestTextView.setText("");
+                                        //lowerlayout.removeAllViews();//This is here because current implementation is only one request at a time
+                                        //requestTextView.setText("");
 
 
                                         for(DocumentSnapshot doc : queryDocumentSnapshots){
@@ -712,8 +775,6 @@ public class rideTripLobby extends AppCompatActivity {
                                             String sMonthArrive = new DateFormatSymbols().getMonths()[monthArrive-1];
                                             String weekDayArrive = dayFormat.format(calArrive.getTime());
 
-                                            requestTextView.setText("Requests sent to: ");
-
                                             createLowerButton(
                                                     doc.getString(KEY_DRIVER_START_POINT),
                                                     doc.getString(KEY_DRIVER_DEST),
@@ -751,14 +812,14 @@ public class rideTripLobby extends AppCompatActivity {
 
 
 
-                        Button variabButton = findViewById(R.id.variableButton);
+                      /*  Button variabButton = findViewById(R.id.variableButton);
                         variabButton.setOnClickListener(new View.OnClickListener() {
                             @Override
                             public void onClick(View view) {
 
                                 String buttonText = "";
 
-                                buttonText = (String) variableButton.getText();
+                               // buttonText = (String) variableButton.getText();
 
 
 
@@ -853,6 +914,7 @@ public class rideTripLobby extends AppCompatActivity {
 
                             }//End of onClick
                         });//End of variabButton on clicklistener
+                        */
                     }//End of snapshot query listener for retrieving all tasks to make the appropriate driver list
 
                 });//End of snapshot query listener for retrieving all tasks to make the appropriate driver list
@@ -909,7 +971,7 @@ public class rideTripLobby extends AppCompatActivity {
         myButton.setTextSize(12);
         myButton.setAllCaps(false);
         myButton.setOnClickListener(lowButton(myButton, endPoint, driverLowerEmail, driverLowerArrivalTimestamp));
-        lowerlayout.addView(myButton);
+        //lowerlayout.addView(myButton);
 
     }
 
@@ -923,8 +985,8 @@ public class rideTripLobby extends AppCompatActivity {
                 cancelDriverEmail = cancelEmail;
                 cancelDriverArrivalTS = cancelArriveTS;
 
-                variableButton.setText("Cancel");
-                variableButton.setVisibility(View.VISIBLE);
+               // variableButton.setText("Cancel");
+               // variableButton.setVisibility(View.VISIBLE);
             }
         };
     }
@@ -983,7 +1045,7 @@ public class rideTripLobby extends AppCompatActivity {
                                               carMake, carModel, carYear, driverDepartTS, endPoint,
                                               experience, maxTip, minTip, rating, startPoint));
 
-        dataLayout.addView(myButton);
+       // dataLayout.addView(myButton);
     }
 
     View.OnClickListener createReq(final Button button, final String createClickDriverEmail, final String createClickFirstName,
@@ -1011,8 +1073,8 @@ public class rideTripLobby extends AppCompatActivity {
                 globalDriverStartPoint = createClickStartPoint;
 
 
-                variableButton.setText("Send a Request");
-                variableButton.setVisibility(View.VISIBLE);
+               // variableButton.setText("Send a Request");
+                //variableButton.setVisibility(View.VISIBLE);
             }
         };
     }
@@ -1102,8 +1164,40 @@ public class rideTripLobby extends AppCompatActivity {
             bundle.putInt(BUNDLE_RIDER_ARRIVE_HOUR, riderArriveHour);
             bundle.putInt(BUNDLE_RIDER_ARRIVE_MINUTE, riderArriveMinute);
         }
+        /* rider email
+         *    private static final String BUNDLE_DRIVER_START_POINT = "keyDriverStartPoint";
+    private static final String BUNDLE_DRIVER_DESTINATION = "keyDriverDestination";
+    private static final String BUNDLE_DRIVER_HOUR_DEPART = "keyDriverHourDepart";
+    private static final String BUNDLE_DRIVER_MINUTE_DEPART = "keyDriverMinuteDepart";
+    private static final String BUNDLE_DRIVER_AMPM_DEPART_STRING = "keyDriverAMPMDepartString";
+    private static final String BUNDLE_DRIVER_WEEKDAY_DEPART = "keyDriverWeekdayDepart";
+    private static final String BUNDLE_DRIVER_DAY_DEPART = "keyDriverDayDepart";
+    private static final String BUNDLE_DRIVER_SMONTH_DEPART = "keyDriverSMonthDepart";
+    private static final String BUNDLE_DRIVER_YEAR_DEPART = "keyDriverYearDepart";
+    private static final String BUNDLE_DRIVER_HOUR_ARRIVE = "keyDriverHourArrive";
+    private static final String BUNDLE_DRIVER_MINUTE_ARRIVE = "keyDriverMinute_Arrive";
+    private static final String BUNDLE_DRIVER_AMPM_ARRIVE_STRING = "keyDriverAMPMArriveString";
+    private static final String BUNDLE_DRIVER_WEEKDAY_ARRIVE = "keyDriverWeekdayArrive";
+    private static final String BUNDLE_DRIVER_DAY_ARRIVE = "keyDriverDayArrive";
+    private static final String BUNDLE_DRIVER_SMONTH_ARRIVE = "keyDriverSMonthArrive";
+    private static final String BUNDLE_DRIVER_YEAR_ARRIVE = "keyDriverYearArrive";
+    private static final String BUNDLE_DRIVER_FIRST_NAME = "keyDriverFirstName";
+    private static final String BUNDLE_DRIVER_LAST_NAME = "keyDriverLastName";
+    private static final String BUNDLE_DRIVER_CAR_MAKE = "keyDriverCarMake";
+    private static final String BUNDLE_DRIVER_CAR_MODEL = "keyDriverCarModel";
+    private static final String BUNDLE_DRIVER_CAR_YEAR = "keyDriverCarYear";
+    private static final String BUNDLE_DRIVER_EXPERIENCE = "keyDriverExperience";
+    private static final String BUNDLE_DRIVER_RATING = "keyDriverRating";
+    private static final String BUNDLE_DRIVER_MINTIP = "keyDriverMinTip";
+    private static final String BUNDLE_DRIVER_MAXTIP = "keyDriverMaxTip"; */
         else if (pageNum == 2){
-
+            bundle.putString(BUNDLE_RIDER_EMAIL, userEmail);
+            bundle.putInt(BUNDLE_RIDER_ARRIVE_DATE, riderArriveDate);
+            bundle.putInt(BUNDLE_RIDER_ARRIVE_MONTH, riderArriveMonth);
+            bundle.putInt(BUNDLE_RIDER_ARRIVE_YEAR, riderArriveYear);
+            bundle.putInt(BUNDLE_RIDER_ARRIVE_HOUR, riderArriveHour);
+            bundle.putInt(BUNDLE_RIDER_ARRIVE_MINUTE, riderArriveMinute);
+            bundle.putString(BUNDLE_RIDER_DESTINATION, riderDestination);
         }
         else if (pageNum == 3){
 

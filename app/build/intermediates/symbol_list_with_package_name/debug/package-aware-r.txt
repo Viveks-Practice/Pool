@@ -2085,7 +2085,6 @@ id largeLabel
 id lastNameText
 id lastNameView
 id lastNameViewProfile
-id layoutBelow
 id layoutReqToJoin
 id left
 id light
@@ -2096,7 +2095,6 @@ id linearLayout2
 id linearLayout3
 id listMode
 id list_item
-id listlayout
 id listlayoutCarPool
 id listlayoutDriverOptions
 id listlayoutPool
@@ -2198,7 +2196,6 @@ id radio
 id rejectRequest
 id relativeLayout
 id reqsTextView
-id requestTextView
 id rideDepartTime
 id rideScrollView2
 id riderArriveDate
@@ -2218,9 +2215,7 @@ id scrollIndicatorUp
 id scrollReqToJoin
 id scrollView
 id scrollView2
-id scrollViewBottom
 id scrollViewDriverOptions
-id scrollViewTop
 id scrollable
 id search
 id search_badge
@@ -2238,6 +2233,7 @@ id section_label
 id selectDriver
 id select_dialog_listview
 id selected
+id sentReqsLL
 id sentRequests
 id setupButtonSave
 id setupFirstNameText
@@ -2342,7 +2338,6 @@ id unlabeled
 id up
 id upperView
 id useLogo
-id variableButton
 id view_offset_helper
 id view_pager
 id visible

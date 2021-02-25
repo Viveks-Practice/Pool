@@ -186,12 +186,6 @@ public class rideTripLobby extends AppCompatActivity {
     String cancelDriverDestination;
     Timestamp cancelDriverArrivalTS;
 
-    TextView requestTextView;
-    LinearLayout dataLayout;
-    LinearLayout lowerlayout;
-    Button variableButton;
-
-
     String riderFirstName;
     String riderLastName;
     String riderCarMake;
@@ -248,12 +242,6 @@ public class rideTripLobby extends AppCompatActivity {
         startTimeRider = findViewById(R.id.startTimeRider);
         destTimeRider = findViewById(R.id.destTimeRider);
 
-        requestTextView = findViewById(R.id.requestTextView);
-        dataLayout = findViewById(R.id.listlayout);
-        lowerlayout = findViewById(R.id.layoutBelow);
-        variableButton = findViewById(R.id.variableButton);
-        variableButton.setVisibility(View.INVISIBLE);
-
         CollectionReference collectionRef = FirebaseFirestore.getInstance().collection("GeoFirestore");
         geoFirestore = new GeoFirestore(collectionRef);
 
@@ -290,15 +278,15 @@ public class rideTripLobby extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int id = item.getItemId();
                 if(id == R.id.selectDriver){
-                    setFragment(driverOptionsFrag);
+                    setFragment(driverOptionsFrag, 1);
                     return true;
                 }
                 else if (id == R.id.sentRequests){
-                    setFragment(sentRequestsToDriverFrag);
+                    setFragment(sentRequestsToDriverFrag, 2);
                     return true;
                 }
                 else if(id == R.id.carpoolMap){
-                    setFragment(carpoolMapFrag);
+                    setFragment(carpoolMapFrag, 3);
                     return true;
                 }
                 return false;
@@ -330,9 +318,6 @@ public class rideTripLobby extends AppCompatActivity {
         startTimeRider.setText("");
         destTimeRider.setText(riderArriveStringMonth + " " + riderArriveDate+  ", " +  + riderArrive12Hour + ":" + riderArriveMin + " " + riderArriveAMPM);
 
-        requestTextView.setTextColor(getResources().getColor(android.R.color.black));
-        requestTextView.setPadding(5, 0,0 ,0);
-        requestTextView.setText("");
 
         /*****Below: Check for any drivers that have accepted the request, and if there is one, delete all rider requests for this trip******/
 
@@ -1088,32 +1073,42 @@ public class rideTripLobby extends AppCompatActivity {
         finish();
     }
 
-    private void setFragment(Fragment fragment){
+    private void setFragment(Fragment fragment, int pageNum){
+
 
         FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
         Bundle bundle = new Bundle();
-        bundle.putString(BUNDLE_RIDER_FIRST_NAME, riderFirstName);
-        bundle.putString(BUNDLE_RIDER_LAST_NAME, riderLastName);
-        bundle.putString(BUNDLE_RIDER_CAR_MAKE, riderCarMake);
-        bundle.putString(BUNDLE_RIDER_CAR_MODEL, riderCarModel);
-        bundle.putDouble(BUNDLE_RIDER_CAR_YEAR, riderCarYear);
-        bundle.putDouble(BUNDLE_RIDER_EXPERIENCE, riderExperience);
-        bundle.putDouble(BUNDLE_RIDER_RATING, riderRating);
-        bundle.putString(BUNDLE_RIDER_DESTINATION,riderDestination);
-        bundle.putString(BUNDLE_RIDER_START_POINT, riderStartPoint);
-        bundle.putDouble(BUNDLE_RIDER_STRAY_DEST, riderStrayDest);
-        bundle.putDouble(BUNDLE_RIDER_STRAY_START, riderStrayStart);
-        bundle.putDouble(BUNDLE_RIDER_START_LAT, riderStartLat);
-        bundle.putDouble(BUNDLE_RIDER_START_LNG, riderStartLng);
-        bundle.putDouble(BUNDLE_RIDER_DEST_LAT, riderDestLat);
-        bundle.putDouble(BUNDLE_RIDER_DEST_LNG, riderDestLng);
-        bundle.putInt(BUNDLE_RIDER_ARRIVE_DATE, riderArriveDate);
-        bundle.putString(BUNDLE_RIDER_ARRIVE_WEEKDAY, riderArriveWeekday);
-        bundle.putInt(BUNDLE_RIDER_ARRIVE_MONTH, riderArriveMonth);
-        bundle.putString(BUNDLE_RIDER_ARRIVE_STRING_MONTH, riderArriveStringMonth);
-        bundle.putInt(BUNDLE_RIDER_ARRIVE_YEAR, riderArriveYear);
-        bundle.putInt(BUNDLE_RIDER_ARRIVE_HOUR, riderArriveHour);
-        bundle.putInt(BUNDLE_RIDER_ARRIVE_MINUTE, riderArriveMinute);
+        if(pageNum == 1){
+            bundle.putString(BUNDLE_RIDER_FIRST_NAME, riderFirstName);
+            bundle.putString(BUNDLE_RIDER_LAST_NAME, riderLastName);
+            bundle.putString(BUNDLE_RIDER_CAR_MAKE, riderCarMake);
+            bundle.putString(BUNDLE_RIDER_CAR_MODEL, riderCarModel);
+            bundle.putDouble(BUNDLE_RIDER_CAR_YEAR, riderCarYear);
+            bundle.putDouble(BUNDLE_RIDER_EXPERIENCE, riderExperience);
+            bundle.putDouble(BUNDLE_RIDER_RATING, riderRating);
+            bundle.putString(BUNDLE_RIDER_DESTINATION,riderDestination);
+            bundle.putString(BUNDLE_RIDER_START_POINT, riderStartPoint);
+            bundle.putDouble(BUNDLE_RIDER_STRAY_DEST, riderStrayDest);
+            bundle.putDouble(BUNDLE_RIDER_STRAY_START, riderStrayStart);
+            bundle.putDouble(BUNDLE_RIDER_START_LAT, riderStartLat);
+            bundle.putDouble(BUNDLE_RIDER_START_LNG, riderStartLng);
+            bundle.putDouble(BUNDLE_RIDER_DEST_LAT, riderDestLat);
+            bundle.putDouble(BUNDLE_RIDER_DEST_LNG, riderDestLng);
+            bundle.putInt(BUNDLE_RIDER_ARRIVE_DATE, riderArriveDate);
+            bundle.putString(BUNDLE_RIDER_ARRIVE_WEEKDAY, riderArriveWeekday);
+            bundle.putInt(BUNDLE_RIDER_ARRIVE_MONTH, riderArriveMonth);
+            bundle.putString(BUNDLE_RIDER_ARRIVE_STRING_MONTH, riderArriveStringMonth);
+            bundle.putInt(BUNDLE_RIDER_ARRIVE_YEAR, riderArriveYear);
+            bundle.putInt(BUNDLE_RIDER_ARRIVE_HOUR, riderArriveHour);
+            bundle.putInt(BUNDLE_RIDER_ARRIVE_MINUTE, riderArriveMinute);
+        }
+        else if (pageNum == 2){
+
+        }
+        else if (pageNum == 3){
+
+        }
+
 
         fragment.setArguments(bundle);
         fragmentTransaction.replace(R.id.frameCarpoolLobby, fragment);

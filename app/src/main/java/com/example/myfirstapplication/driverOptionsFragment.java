@@ -7,7 +7,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
-import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
 
@@ -161,29 +160,6 @@ public class driverOptionsFragment extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
-/*    private static final String BUNDLE_RIDER_FIRST_NAME = "keyRiderFirstName";
-    private static final String BUNDLE_RIDER_LAST_NAME = "keyRiderLastName";
-    private static final String BUNDLE_RIDER_CAR_MAKE = "keyRiderCarMake";
-    private static final String BUNDLE_RIDER_CAR_MODEL = "keyRiderCarModel";
-    private static final String BUNDLE_RIDER_CAR_YEAR = "keyRiderCarYear";
-    private static final String BUNDLE_RIDER_EXPERIENCE = "keyRiderExperience";
-    private static final String BUNDLE_RIDER_RATING = "keyRiderRating";
-    private static final String BUNDLE_RIDER_DESTINATION = "keyRiderDestination";
-    private static final String BUNDLE_RIDER_START_POINT = "keyRiderStartPoint";
-    private static final String BUNDLE_RIDER_STRAY_DEST = "keyRiderStrayDest";
-    private static final String BUNDLE_RIDER_STRAY_START = "keyRiderStrayStart";
-    private static final String BUNDLE_RIDER_START_LAT = "keyRiderStartLat";
-    private static final String BUNDLE_RIDER_START_LNG = "keyRiderStartLng";
-    private static final String BUNDLE_RIDER_DEST_LAT = "keyRiderDestLat";
-    private static final String BUNDLE_RIDER_DEST_LNG = "keyRiderDestLng";
-    private static final String BUNDLE_RIDER_ARRIVE_DATE = "keyRiderArriveDate";
-    private static final String BUNDLE_RIDER_ARRIVE_WEEKDAY = "keyRiderArriveWeekday";
-    private static final String BUNDLE_RIDER_ARRIVE_MONTH = "keyRiderArriveMonth";
-    private static final String BUNDLE_RIDER_ARRIVE_STRING_MONTH = "keyRiderArriveStringMonth";
-    private static final String BUNDLE_RIDER_ARRIVE_YEAR = "keyRiderArriveYear";
-    private static final String BUNDLE_RIDER_ARRIVE_HOUR = "keyRiderArriveHour";
-    private static final String BUNDLE_RIDER_ARRIVE_MINUTE = "keyRiderArriveMinute";*/
-
         riderFirstName = getArguments().getString(BUNDLE_RIDER_FIRST_NAME);
         riderLastName = getArguments().getString(BUNDLE_RIDER_LAST_NAME);
         riderCarMake = getArguments().getString(BUNDLE_RIDER_CAR_MAKE);
@@ -277,8 +253,6 @@ public class driverOptionsFragment extends Fragment {
         allTasks.addOnSuccessListener(new OnSuccessListener<List<QuerySnapshot>>() {
             @Override
             public void onSuccess(List<QuerySnapshot> querySnapshots) {
-
-                Toast.makeText(getContext(), "Sillius Soddus", Toast.LENGTH_SHORT).show();
 
                 //This counter will track which query I am working with
                 int queryCounter = 0;

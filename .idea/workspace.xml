@@ -19,76 +19,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce5ae312-c3e2-4bea-a063-a15575cc5798" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/EditProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/EditProfile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/Profile.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/Profile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/SignUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/SignUp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/addDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/addDrive.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/addRide.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/addRide.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/driveTripLobby.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/driveTripLobby.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/driveTripsFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/driveTripsFragment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/profileSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/profileSetup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideAcceptedWaiting.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideAcceptedWaiting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideTripLobby$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideTripLobby$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideTripLobby$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideTripLobby$2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideTripLobby$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideTripLobby$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideTripLobby$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideTripLobby$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideTripLobby$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideTripLobby$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideTripLobby.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/rideTripLobby.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/riderMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/riderMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/tabbedActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/tabbedActivity$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/tabbedActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/tabbedActivity$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/tabbedActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/tabbedActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/ui/main/PlaceholderFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/ui/main/PlaceholderFragment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/EditProfile.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/EditProfile.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/LoginPage.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/LoginPage.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/Profile.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/Profile.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/SignUp.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/SignUp.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/addDrive.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/addDrive.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/addRide.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/addRide.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/driveTripLobby.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/driveTripLobby.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/driveTripsFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/driveTripsFragment.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/profileSetup.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/profileSetup.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideAcceptedWaiting.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideAcceptedWaiting.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideTripLobby$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideTripLobby$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideTripLobby$2$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideTripLobby$2$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideTripLobby$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideTripLobby$2.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideTripLobby$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideTripLobby$3.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideTripLobby$4.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideTripLobby$4.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideTripLobby.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/rideTripLobby.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/riderMap.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/riderMap.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/tabbedActivity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/tabbedActivity$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/tabbedActivity$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/tabbedActivity$2.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/tabbedActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/tabbedActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/ui/main/PlaceholderFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/ui/main/PlaceholderFragment.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myfirstapplication/driverOptionsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/myfirstapplication/driverOptionsFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myfirstapplication/rideTripLobby.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/myfirstapplication/rideTripLobby.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myfirstapplication/tabbedActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/myfirstapplication/tabbedActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myfirstapplication/sentRequestsToDriverFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/myfirstapplication/sentRequestsToDriverFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ride_trip_lobby.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_ride_trip_lobby.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_driver_options.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_driver_options.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_sent_requests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_sent_requests.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -350,13 +288,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557965060408</updated>
-    </task>
-    <task id="LOCAL-00033" summary="July 18 2020 commit">
-      <created>1595093019128</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1595093019130</updated>
     </task>
     <task id="LOCAL-00034" summary="July 19 2020 commit">
       <created>1595224061904</created>
@@ -694,7 +625,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613436639008</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Moving retrieval of drivers from database to the driver options tab from the main activity">
+      <created>1614061425595</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1614061425596</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -742,8 +680,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="August 26 2020 commit - 1st" />
-    <MESSAGE value="August 26 2020 commit - 2nd" />
     <MESSAGE value="August 29 2020 commit" />
     <MESSAGE value="August 30 2020 commit - 1st" />
     <MESSAGE value="August 30 2020 commit - 2nd" />
@@ -767,7 +703,9 @@
     <MESSAGE value="Added google map" />
     <MESSAGE value="Edited driver lobby to include trip data" />
     <MESSAGE value="Integrating a tabbed view into the carpool rides activity" />
-    <option name="LAST_COMMIT_MESSAGE" value="Integrating a tabbed view into the carpool rides activity" />
+    <MESSAGE value="Moving retrieval of drivers from database to the driver options tab from the main activity" />
+    <MESSAGE value="Updating SentRequests tab on carpool lobby" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating SentRequests tab on carpool lobby" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2000" y="217" key="#Notifications" timestamp="1612048461884">
@@ -794,50 +732,50 @@
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="2208" y="413" key="AndroidCreateXmlResourceDialog/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1612126985675" />
-    <state x="1928" y="81" width="1432" height="795" key="CommitChangelistDialog2" timestamp="1614061419208">
+    <state x="1928" y="81" width="1432" height="795" key="CommitChangelistDialog2" timestamp="1614227567609">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state x="1928" y="81" width="1432" height="795" key="CommitChangelistDialog2/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1614061419208" />
+    <state x="1928" y="81" width="1432" height="795" key="CommitChangelistDialog2/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1614227567609" />
     <state width="413" height="438" key="DebuggerActiveHint" timestamp="1610048283724">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state width="413" height="438" key="DebuggerActiveHint/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1610048283724" />
-    <state width="1878" height="208" key="GridCell.Tab.0.bottom" timestamp="1614061038056">
+    <state width="1878" height="208" key="GridCell.Tab.0.bottom" timestamp="1614061453002">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state width="742" height="70" key="GridCell.Tab.0.bottom/0.23.1440.819@0.23.1440.819" timestamp="1612757661232" />
-    <state width="1878" height="208" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1614061038056" />
-    <state width="1878" height="208" key="GridCell.Tab.0.center" timestamp="1614061038052">
+    <state width="1878" height="208" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1614061453002" />
+    <state width="1878" height="208" key="GridCell.Tab.0.center" timestamp="1614061453001">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state width="742" height="70" key="GridCell.Tab.0.center/0.23.1440.819@0.23.1440.819" timestamp="1612757661231" />
-    <state width="1878" height="208" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1614061038052" />
-    <state width="1878" height="208" key="GridCell.Tab.0.left" timestamp="1614061038052">
+    <state width="1878" height="208" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1614061453001" />
+    <state width="1878" height="208" key="GridCell.Tab.0.left" timestamp="1614061453000">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state width="742" height="70" key="GridCell.Tab.0.left/0.23.1440.819@0.23.1440.819" timestamp="1612757661230" />
-    <state width="1878" height="208" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1614061038052" />
-    <state width="1878" height="208" key="GridCell.Tab.0.right" timestamp="1614061038053">
+    <state width="1878" height="208" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1614061453000" />
+    <state width="1878" height="208" key="GridCell.Tab.0.right" timestamp="1614061453001">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state width="742" height="70" key="GridCell.Tab.0.right/0.23.1440.819@0.23.1440.819" timestamp="1612757661231" />
-    <state width="1878" height="208" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1614061038053" />
-    <state width="1878" height="208" key="GridCell.Tab.1.bottom" timestamp="1614061038058">
+    <state width="1878" height="208" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1614061453001" />
+    <state width="1878" height="208" key="GridCell.Tab.1.bottom" timestamp="1614061453004">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="208" key="GridCell.Tab.1.bottom/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1614061038058" />
-    <state width="1878" height="208" key="GridCell.Tab.1.center" timestamp="1614061038057">
+    <state width="1878" height="208" key="GridCell.Tab.1.bottom/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1614061453004" />
+    <state width="1878" height="208" key="GridCell.Tab.1.center" timestamp="1614061453003">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="208" key="GridCell.Tab.1.center/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1614061038057" />
-    <state width="1878" height="208" key="GridCell.Tab.1.left" timestamp="1614061038057">
+    <state width="1878" height="208" key="GridCell.Tab.1.center/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1614061453003" />
+    <state width="1878" height="208" key="GridCell.Tab.1.left" timestamp="1614061453003">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="208" key="GridCell.Tab.1.left/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1614061038057" />
-    <state width="1878" height="208" key="GridCell.Tab.1.right" timestamp="1614061038058">
+    <state width="1878" height="208" key="GridCell.Tab.1.left/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1614061453003" />
+    <state width="1878" height="208" key="GridCell.Tab.1.right" timestamp="1614061453004">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="208" key="GridCell.Tab.1.right/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1614061038058" />
+    <state width="1878" height="208" key="GridCell.Tab.1.right/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1614061453004" />
     <state x="2266" y="162" key="RollbackChangesDialog" timestamp="1605924655915">
       <screen x="1440" y="23" width="1920" height="999" />
     </state>
@@ -847,16 +785,16 @@
     </state>
     <state x="352" y="120" width="900" height="722" key="SettingsEditor/0.23.1440.819@0.23.1440.819" timestamp="1612752829443" />
     <state x="1909" y="190" width="1097" height="803" key="SettingsEditor/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1612038511336" />
-    <state x="2000" y="291" key="Vcs.Push.Dialog.v2" timestamp="1613436642253">
+    <state x="2000" y="291" key="Vcs.Push.Dialog.v2" timestamp="1614061430110">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state x="2000" y="291" key="Vcs.Push.Dialog.v2/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1613436642253" />
-    <state x="1583" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1612588616407">
+    <state x="2000" y="291" key="Vcs.Push.Dialog.v2/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1614061430110" />
+    <state x="1583" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1614143468619">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="107" y="303" key="com.intellij.ide.util.TipDialog/0.23.1440.819@0.23.1440.819" timestamp="1609290871578" />
     <state x="107" y="303" key="com.intellij.ide.util.TipDialog/1440.23.1920.1057/0.23.1440.819@0.23.1440.819" timestamp="1611629178677" />
-    <state x="1583" y="384" key="com.intellij.ide.util.TipDialog/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1612588616407" />
+    <state x="1583" y="384" key="com.intellij.ide.util.TipDialog/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1614143468619" />
     <state x="0" y="23" width="758" height="819" key="dock-window-1" timestamp="1613802466440">
       <screen x="0" y="23" width="1440" height="819" />
     </state>
@@ -890,12 +828,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/myfirstapplication/driverOptionsFragment.java</url>
-          <line>207</line>
+          <line>183</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/myfirstapplication/driverOptionsFragment.java</url>
-          <line>317</line>
+          <line>291</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>

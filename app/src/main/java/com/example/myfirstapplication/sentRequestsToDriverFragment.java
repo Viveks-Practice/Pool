@@ -187,44 +187,8 @@ public class sentRequestsToDriverFragment extends Fragment {
                         sentReqsLL.removeAllViews();//This is here because current implementation is only one request at a time
 
                         for (DocumentSnapshot doc : queryDocumentSnapshots) {
-                            /* rider email
-                             *
-                             * riderArriveDate
-                             * riderArriveMonth
-                             * riderArriveYear
-                             * riderARriveHour
-                             * riderARriveMinute
-                             * riderDestination
-                             * driver start point
-                             * driver dest
-                             * hour depart
-                             * min depart
-                             * ampmdepartstring
-                             * weekdaydepart
-                             * daydepart
-                             * sMonthdepart
-                             * yearDepart
-                             * Hourarrive
-                             * minuteArrive
-                             * ampmArriveString
-                             * weekDayArrive
-                             * dayArrive
-                             * sMonthArrive
-                             * yearArrive
-                             * firstName
-                             * lastName
-                             * carMake
-                             * carModel
-                             * carYear
-                             * Experience
-                             * rating
-                             * mintip
-                             * maxtip
-                             * driver email
-                             * driverArriveTimestamp
-                             * driverDepartTimestamp
-                             * */
 
+                            String driverDest = doc.getString(KEY_DRIVER_DEST);
                             Timestamp departTS = doc.getTimestamp(KEY_DRIVER_DEPART_TIMESTAMP);
                             Calendar calDepart = Calendar.getInstance();
                             calDepart.setTime(departTS.toDate());
@@ -263,6 +227,7 @@ public class sentRequestsToDriverFragment extends Fragment {
                             String weekDayArrive = dayFormat.format(calArrive.getTime());
 
                             createLowerButton(
+                                    driverDest,
                                     doc.getString(KEY_DRIVER_START_POINT),
                                     doc.getString(KEY_DRIVER_DEST),
                                     hourDepart,
@@ -270,6 +235,7 @@ public class sentRequestsToDriverFragment extends Fragment {
                                     ampmDepartString,
                                     weekDayDepart,
                                     dayDepart,
+                                    monthDepart,
                                     sMonthDepart,
                                     yearDepart,
                                     hourArrive,
@@ -277,6 +243,7 @@ public class sentRequestsToDriverFragment extends Fragment {
                                     ampmArriveString,
                                     weekDayArrive,
                                     dayArrive,
+                                    monthArrive,
                                     sMonthArrive,
                                     yearArrive,
                                     doc.getString(KEY_DRIVER_FIRST_NAME),
@@ -297,14 +264,17 @@ public class sentRequestsToDriverFragment extends Fragment {
                 });
     }
 
-    public void createLowerButton(String startPoint, String endPoint, int hourDepart, int minuteDepart,
-                                  String ampmDepartString, String weekDayDepart, int dayDepart,
+    public void createLowerButton(String driverDest, String startPoint, String endPoint, int hourDepart, int minuteDepart,
+                                  String ampmDepartString, String weekDayDepart, int dayDepart, int monthDepart,
                                   String sMonthDepart, int yearDepart, int hourArrive, int minuteArrive,
-                                  String ampmArriveString, String weekDayArrive, int dayArrive,
+                                  String ampmArriveString, String weekDayArrive, int dayArrive, int monthArrive,
                                   String sMonthArrive, int yearArrive, String firstName, String lastName,
                                   String carMake, String carModel, double carYear, double experience,
                                   double rating, double minTip, double maxTip, String driverLowerEmail,
                                   Timestamp driverLowerArrivalTimestamp) {
+
+
+
         Button myButton = new Button(getContext());
         DecimalFormat precision = new DecimalFormat("0.00");
         String moneytipMin = precision.format(minTip);
@@ -343,23 +313,36 @@ public class sentRequestsToDriverFragment extends Fragment {
         myButton.setPadding(20, 10,20,10);
         myButton.setTextSize(12);
         myButton.setAllCaps(false);
-        myButton.setOnClickListener(lowButton(myButton, endPoint, driverLowerEmail, driverLowerArrivalTimestamp));
+        String driveReqDocName = "" + dayArrive +
+                "_" + monthArrive +
+                "_" + yearArrive +
+                "_" + hourArrive +
+                ":" + minuteArrive +
+                " " + driverDest +
+                " " + driverLowerEmail;
+        String riderReqDocName = "" + riderArriveDate + "_" + (riderArriveMonth + 1) + "_" +
+                riderArriveYear + "_" + riderArriveHour + ":" + riderArriveMinute +
+                " " + riderDestination + " " + riderEmail;
+        myButton.setOnClickListener(lowButton(myButton, endPoint, driverLowerEmail, driverLowerArrivalTimestamp, riderReqDocName, driveReqDocName, driverLowerEmail));
+
         sentReqsLL.addView(myButton);
 
     }
 
     private View.OnClickListener lowButton(Button myButton, final String cancelEndpoint, final String cancelEmail,
-                                           final Timestamp cancelArriveTS) {
+                                           final Timestamp cancelArriveTS, final String riderReqDocName, final String driveReqDocName, final String globalDriverEmail) {
         return new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-/*
-                cancelDriverDestination = cancelEndpoint;
-                cancelDriverEmail = cancelEmail;
-                cancelDriverArrivalTS = cancelArriveTS;
 
-                variableButton.setText("Cancel");
-                variableButton.setVisibility(View.VISIBLE);*/
+                //Perform deletion of the ride req in the driver's collection, everywhere a req has been sent out
+                db.collection("Drive").document(globalDriverEmail).collection("Drives")
+                        .document(driveReqDocName).collection("passengerRequests")
+                        .document(riderEmail).delete();
+
+                db.collection("Rider").document(riderEmail).collection("Rides")//Make this a hardcoded path!!
+                        .document(riderReqDocName).collection("sentRequests")
+                        .document(driveReqDocName).delete();
             }
         };
     }
@@ -369,7 +352,7 @@ public class sentRequestsToDriverFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_sent_requests, container, false);
-        sentReqsLL = view.findViewById(R.id.listlayoutDriverOptions);
+        sentReqsLL = view.findViewById(R.id.sentReqsLL);
         return view;
     }
 }

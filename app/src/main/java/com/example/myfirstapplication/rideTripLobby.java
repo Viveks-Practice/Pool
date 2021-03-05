@@ -356,7 +356,7 @@ public class rideTripLobby extends AppCompatActivity {
             }
         });
 
-        navigationViewRideTripLobby.setSelectedItemId(R.id.sentRequests);
+        navigationViewRideTripLobby.setSelectedItemId(R.id.selectDriver);
 
 
         /*******************Rider arrive Mods - Start********************/
@@ -775,7 +775,7 @@ public class rideTripLobby extends AppCompatActivity {
                                             String sMonthArrive = new DateFormatSymbols().getMonths()[monthArrive-1];
                                             String weekDayArrive = dayFormat.format(calArrive.getTime());
 
-                                            createLowerButton(
+                                            /*createLowerButton(
                                                     doc.getString(KEY_DRIVER_START_POINT),
                                                     doc.getString(KEY_DRIVER_DEST),
                                                     hourDepart,
@@ -803,16 +803,14 @@ public class rideTripLobby extends AppCompatActivity {
                                                     doc.getDouble(KEY_DRIVER_MAXTIP),
                                                     doc.getString(KEY_DRIVER_EMAIL),
                                                     doc.getTimestamp(KEY_DRIVER_ARRIVE_TIMESTAMP)
-                                            );//End of createLowerButton function call
+                                            );*///End of createLowerButton function call
                                         }//End of for loop - for all documents in the sentRequests collection
 
                                     }//End of onEvent (in the snapshot listener)
 
                                 });//End of addSnapshotListener to create buttons for drivers that reqs have been sent to
-
-
-
-                      /*  Button variabButton = findViewById(R.id.variableButton);
+/*
+                        Button variabButton = findViewById(R.id.variableButton);
                         variabButton.setOnClickListener(new View.OnClickListener() {
                             @Override
                             public void onClick(View view) {
@@ -914,7 +912,7 @@ public class rideTripLobby extends AppCompatActivity {
 
                             }//End of onClick
                         });//End of variabButton on clicklistener
-                        */
+*/
                     }//End of snapshot query listener for retrieving all tasks to make the appropriate driver list
 
                 });//End of snapshot query listener for retrieving all tasks to make the appropriate driver list

@@ -1,15 +1,19 @@
 package com.example.myfirstapplication;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
+import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.gms.tasks.Tasks;
@@ -27,9 +31,13 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Collections;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
+import java.util.Map;
 import java.util.Vector;
+
+import static androidx.constraintlayout.widget.Constraints.TAG;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -50,6 +58,15 @@ public class driverOptionsFragment extends Fragment {
     private static final String KEY_DRIVER_RATING = "rating";
     private static final String KEY_DRIVER_MAXTIP = "maxTip";
     private static final String KEY_DRIVER_MINTIP = "minTip";
+    private static final String KEY_DRIVER_DEPART_TIMESTAMP = "departTimeStamp";
+    private static final String KEY_DRIVER_ARRIVE_TIMESTAMP = "arriveTimeStamp";
+    private static final String KEY_DRIVER_DESTINATION = "dest";
+
+    private static final String KEY_RIDER_REQ_DOC = "riderReqPath";
+    private static final String KEY_DRIVER_REQ_DOC = "driverReqPath";
+    private static final String KEY_RIDER_EMAIL = "riderEmail";
+    private static final String KEY_RIDER_FIRST_NAME = "riderFirstName";
+    private static final String KEY_RIDER_LAST_NAME = "riderLastName";
 
     private static final String BUNDLE_RIDER_FIRST_NAME = "keyRiderFirstName";
     private static final String BUNDLE_RIDER_LAST_NAME = "keyRiderLastName";
@@ -160,6 +177,14 @@ public class driverOptionsFragment extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+/*
+        Map<String, Object> passengerReq = new HashMap<>();
+        passengerReq.put(KEY_RIDER_EMAIL, "crash test");
+
+        db.collection("Drive").document(globalDriverEmail).collection("Drives")
+                .document(driveReqDocName).collection("passengerRequests")
+                .document(userEmail).set(passengerReq);*/
+
         riderFirstName = getArguments().getString(BUNDLE_RIDER_FIRST_NAME);
         riderLastName = getArguments().getString(BUNDLE_RIDER_LAST_NAME);
         riderCarMake = getArguments().getString(BUNDLE_RIDER_CAR_MAKE);
@@ -454,6 +479,91 @@ public class driverOptionsFragment extends Fragment {
                 globalDriverRating = createClickRating;
                 globalDriverStartPoint = createClickStartPoint;
 
+
+                /*
+                * Create a sentRequst in the Firestore database
+                * */
+
+
+                Toast.makeText(getContext(), "Request sending", Toast.LENGTH_SHORT).show();
+
+
+                Calendar calendarArrive = Calendar.getInstance();
+                calendarArrive.setTime(globalDriverArrivalTS.toDate());
+
+                Calendar calendarDepart = Calendar.getInstance();
+                calendarDepart.setTime(globalDriverDepartTS.toDate());
+
+                String driveReqDocName = "" + calendarArrive.get(Calendar.DATE) +
+                        "_" + (calendarArrive.get(Calendar.MONTH) + 1) +
+                        "_" + calendarArrive.get(Calendar.YEAR) +
+                        "_" + calendarArrive.get(Calendar.HOUR_OF_DAY) +
+                        ":" + calendarArrive.get(Calendar.MINUTE) +
+                        " " + globalDriverDestination +
+                        " " + globalDriverEmail;
+
+                String riderReqDocName = "" + riderArriveDate + "_" + (riderArriveMonth + 1) + "_" +
+                        riderArriveYear + "_" + riderArriveHour + ":" + riderArriveMinute +
+                        " " + riderDestination + " " + userEmail;
+
+                Map<String, Object> passengerReq = new HashMap<>();
+                passengerReq.put(KEY_RIDER_EMAIL, userEmail);
+                passengerReq.put(KEY_RIDER_FIRST_NAME, riderFirstName);
+                passengerReq.put(KEY_RIDER_LAST_NAME, riderLastName);
+                passengerReq.put(KEY_RIDER_REQ_DOC, riderReqDocName);
+                passengerReq.put(KEY_DRIVER_REQ_DOC, driveReqDocName);
+
+
+                Map<String, Object> sentReq = new HashMap<>();
+                sentReq.put(KEY_DRIVER_EMAIL, globalDriverEmail);
+                sentReq.put(KEY_DRIVER_FIRST_NAME, globalDriverFirstName);
+                sentReq.put(KEY_DRIVER_LAST_NAME, globalDriverLastName);
+                sentReq.put(KEY_DRIVER_ARRIVE_TIMESTAMP, globalDriverArrivalTS);
+                sentReq.put(KEY_DRIVER_CAR_MAKE, globalDriverCarMake);
+                sentReq.put(KEY_DRIVER_CAR_MODEL, globalDriverCarModel);
+                sentReq.put(KEY_DRIVER_CAR_YEAR, globalDriverCarYear);
+                sentReq.put(KEY_DRIVER_DEPART_TIMESTAMP, globalDriverDepartTS);
+                sentReq.put(KEY_DRIVER_DESTINATION, globalDriverDestination);
+                sentReq.put(KEY_DRIVER_EXPERIENCE, globalDriverExperience);
+                sentReq.put(KEY_DRIVER_MAXTIP, globalDriverMaxTip);
+                sentReq.put(KEY_DRIVER_MINTIP, globalDriverMinTip);
+                sentReq.put(KEY_DRIVER_RATING, globalDriverRating);
+                sentReq.put(KEY_DRIVER_START_POINT, globalDriverStartPoint);
+
+                db.collection("Drive").document(globalDriverEmail).collection("Drives")
+                        .document(driveReqDocName).collection("passengerRequests")
+                        .document(userEmail).set(passengerReq)
+                        .addOnSuccessListener(new OnSuccessListener<Void>() {
+                    @Override
+                    public void onSuccess(Void aVoid) {
+                        Toast.makeText(getContext(), "Successful add to passengerRequests", Toast.LENGTH_SHORT).show();
+                        Log.d(TAG, "onSuccessful: ");
+                    }
+                })
+                        .addOnFailureListener(new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception e) {
+                        Toast.makeText(getContext(), "Failed addition to passengerRequests", Toast.LENGTH_SHORT).show();
+                        Log.d(TAG, "onFailure: " + e.toString());
+                    }
+                });
+
+                db.collection("Rider").document(userEmail).collection("Rides")//Make this a hardcoded path!!
+                        .document(riderReqDocName).collection("sentRequests")
+                        .document(driveReqDocName).set(sentReq)
+                        .addOnSuccessListener(new OnSuccessListener<Void>() {
+                    @Override
+                    public void onSuccess(Void aVoid) {
+                        Toast.makeText(getContext(), "Successful add to sentRequests", Toast.LENGTH_SHORT).show();
+                        Log.d(TAG, "onSuccessful: ");
+                    }
+                }).addOnFailureListener(new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception e) {
+                        Toast.makeText(getContext(), "Failed to add to sentRequests", Toast.LENGTH_SHORT).show();
+                        Log.d(TAG, "onFailure: " + e.toString());
+                    }
+                });
             }
         };
     }

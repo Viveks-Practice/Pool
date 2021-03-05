@@ -48,6 +48,8 @@ import static android.widget.Toast.makeText;
  * 7! Make a button nav Menu in the drive and ride lobbies
  * Current: Trying to migrate the select Driver stuff to the tab (I got the retrievals to show up on the tabbed view...! Now, remove that from the previous page, its not needed there, and
  * maybe move the code to onStart so it uses a cached version? and its not slow when its reloaded every time)
+ * icons on buttons should be: 1. Total trip duration 2. walking time 3. expected arrival
+ * app crashes when adding a request to rider sentRequests
  * **/
 
 public class tabbedActivity extends AppCompatActivity {

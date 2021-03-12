@@ -209,9 +209,9 @@ MERGED from [com.android.volley:volley:1.1.1] /Users/viveks/.gradle/caches/trans
 	tools:ignore
 		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:28:9-48
 	android:roundIcon
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:25:9-43
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:25:9-59
 	android:icon
-		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:23:9-38
+		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:23:9-48
 	android:allowBackup
 		ADDED from /Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:22:9-35
 	android:theme

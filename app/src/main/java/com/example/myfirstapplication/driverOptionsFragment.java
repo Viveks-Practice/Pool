@@ -12,6 +12,8 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -28,6 +30,7 @@ import org.imperiumlabs.geofirestore.GeoFirestore;
 import java.text.DateFormatSymbols;
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Collections;
 import java.util.Date;
@@ -45,6 +48,10 @@ import static androidx.constraintlayout.widget.Constraints.TAG;
  * create an instance of this fragment.
  */
 public class driverOptionsFragment extends Fragment {
+
+    private RecyclerView mRecyclerView;
+    private RecyclerView.Adapter mAdapter;
+    private RecyclerView.LayoutManager mLayoutManager;
 
     private static final String KEY_DRIVER_EMAIL = "email";
     private static final String KEY_DRIVER_START_POINT = "startPoint";
@@ -177,13 +184,6 @@ public class driverOptionsFragment extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
-/*
-        Map<String, Object> passengerReq = new HashMap<>();
-        passengerReq.put(KEY_RIDER_EMAIL, "crash test");
-
-        db.collection("Drive").document(globalDriverEmail).collection("Drives")
-                .document(driveReqDocName).collection("passengerRequests")
-                .document(userEmail).set(passengerReq);*/
 
         riderFirstName = getArguments().getString(BUNDLE_RIDER_FIRST_NAME);
         riderLastName = getArguments().getString(BUNDLE_RIDER_LAST_NAME);
@@ -395,6 +395,24 @@ public class driverOptionsFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_driver_options, container, false);
         driverOptionsLL = view.findViewById(R.id.listlayoutDriverOptions);
+
+        ArrayList<driverOptionItem> driverOptionList = new ArrayList<>();
+        driverOptionList.add(new driverOptionItem(R.drawable.ic_walk, R.drawable.ic_time, R.drawable.ic_arrival_time,
+                "5.0 KM","54 Mins", "4:53 PM"));
+        driverOptionList.add(new driverOptionItem(R.drawable.ic_walk, R.drawable.ic_time, R.drawable.ic_arrival_time,
+                "240 M","3 Mins", "1:32 AM"));
+        driverOptionList.add(new driverOptionItem(R.drawable.ic_walk, R.drawable.ic_time, R.drawable.ic_arrival_time,
+                "10.0 KM","1 Hr 13 Mins", "12:22 PM"));
+
+        mRecyclerView = view.findViewById(R.id.recyclerViewDriverOptions);
+        mRecyclerView.setHasFixedSize(true);
+        mLayoutManager = new LinearLayoutManager(getContext());
+        mAdapter = new driverOptionsAdapter(driverOptionList);
+
+        mRecyclerView.setLayoutManager(mLayoutManager);
+        mRecyclerView.setAdapter(mAdapter);
+
+
         return view;
     }
 
@@ -443,7 +461,6 @@ public class driverOptionsFragment extends Fragment {
 
         );
         myButton.setBackground(this.getResources().getDrawable(R.drawable.button_background_stroke));
-        //myButton.setTextColor(getResources().getColor(android.R.color.white));
         myButton.setHeight(200);
         myButton.setGravity(Gravity.LEFT);
         myButton.setPadding(20, 10,20,10);

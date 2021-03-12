@@ -69,9 +69,11 @@
                 {
                     "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/values/icon_locate_user_background.xml",
                     "from": {
-                        "startLines": "-1",
-                        "startColumns": "-1",
-                        "startOffsets": "-1"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "61",
+                        "endOffsets": "112"
                     },
                     "to": {
                         "startLines": "313",
@@ -161,11 +163,9 @@
                 {
                     "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/values/colors.xml",
                     "from": {
-                        "startLines": "7,-1,-1,-1,-1,-1,-1",
-                        "startColumns": "4,-1,-1,-1,-1,-1,-1",
-                        "startOffsets": "295,-1,-1,-1,-1,-1,-1",
-                        "endColumns": "44,-1,-1,-1,-1,-1,-1",
-                        "endOffsets": "335,-1,-1,-1,-1,-1,-1"
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1"
                     },
                     "to": {
                         "startLines": "237,254,255,256,257,258,314",

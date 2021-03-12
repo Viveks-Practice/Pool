@@ -1825,6 +1825,7 @@ drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_action_name
+drawable ic_arrival_time
 drawable ic_calendar_black_24dp
 drawable ic_car
 drawable ic_check_mark
@@ -1834,6 +1835,7 @@ drawable ic_edit
 drawable ic_edit_black_24dp
 drawable ic_keyboard_arrow_left_black_24dp
 drawable ic_keyboard_arrow_right_black_24dp
+drawable ic_launcher
 drawable ic_launcher_background
 drawable ic_map
 drawable ic_menu_arrow_down_black_24dp
@@ -1845,6 +1847,9 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_search
 drawable ic_sent
 drawable ic_straight_check
+drawable ic_time
+drawable ic_walk
+drawable icon_launcher
 drawable icon_locate_user_foreground
 drawable larger_blue_car
 drawable logo
@@ -1979,6 +1984,16 @@ id buttonSave
 id buttonSignUp
 id cancel_action
 id cancel_button
+id cardItem1Image
+id cardItem1LL
+id cardItem1Text
+id cardItem2Image
+id cardItem2LL
+id cardItem2Text
+id cardItem3Image
+id cardItem3LL
+id cardItem3Text
+id cardLL
 id carpoolMap
 id center
 id center_horizontal
@@ -2193,6 +2208,7 @@ id progressBarLogin
 id progress_circular
 id progress_horizontal
 id radio
+id recyclerViewDriverOptions
 id rejectRequest
 id relativeLayout
 id reqsTextView
@@ -2424,6 +2440,7 @@ layout activity_rider_map
 layout activity_routing_page
 layout activity_sign_up
 layout activity_tabbed
+layout buttonlayout
 layout content_edit_profile
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -2442,6 +2459,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout drive_trips_fragment
+layout driveritem
 layout fragment_carpool_map
 layout fragment_driver_options
 layout fragment_sent_requests

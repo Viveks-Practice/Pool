@@ -53,7 +53,7 @@
             android:name=".tabbedActivity"
             android:label="@string/title_activity_tabbed"
             android:noHistory="true"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/splashScreenTheme" />
         <activity android:name=".addDrive" />
         <activity android:name=".driveConfirmedWaiting" />
         <activity android:name=".rideAcceptedWaiting" />
@@ -83,7 +83,13 @@
             android:label="@string/title_activity_edit_profile"
             android:parentActivityName=".Profile"
             android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity"></activity>
+            tools:ignore="LockedOrientationActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfirstapplication.Profile" />
+
+        </activity>
 
         <meta-data
             android:name="preloaded_fonts"
@@ -97,9 +103,15 @@
         <activity
             android:name=".Profile"
             android:label="@string/title_activity_profile"
-            android:parentActivityName=".tabbedActivity"
+            android:parentActivityName="com.example.myfirstapplication.tabbedActivity"
             android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity"></activity>
+            tools:ignore="LockedOrientationActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfirstapplication.tabbedActivity" />
+
+        </activity>
     </application>
 
 </manifest>

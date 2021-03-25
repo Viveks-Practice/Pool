@@ -52,6 +52,10 @@
         "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/mipmap-xxxhdpi/icon_locate_user.png"
     },
     {
+        "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/drawable_bamboo.jpg.flat",
+        "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/drawable/bamboo.jpg"
+    },
+    {
         "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/layout_activity_ride_trip_lobby.xml.flat",
         "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/layout/activity_ride_trip_lobby.xml"
     },
@@ -96,12 +100,12 @@
         "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/drawable/poolthumbnail.png"
     },
     {
-        "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/drawable-hdpi_logo.png.flat",
-        "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/drawable-hdpi/logo.png"
-    },
-    {
         "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
         "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/drawable-hdpi_logo.png.flat",
+        "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/drawable-hdpi/logo.png"
     },
     {
         "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/layout_drive_trips_fragment.xml.flat",
@@ -132,12 +136,12 @@
         "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/drawable/plusicon.xml"
     },
     {
-        "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_background.png.flat",
-        "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/mipmap-xhdpi/ic_launcher_background.png"
-    },
-    {
         "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_background.png.flat",
         "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/mipmap-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/mipmap-xhdpi/ic_launcher_background.png"
     },
     {
         "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
@@ -228,12 +232,12 @@
         "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/layout_activity_drive_confirmed_waiting.xml.flat",
-        "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/layout/activity_drive_confirmed_waiting.xml"
-    },
-    {
         "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/layout_activity_login_page.xml.flat",
         "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/layout/activity_login_page.xml"
+    },
+    {
+        "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/layout_activity_drive_confirmed_waiting.xml.flat",
+        "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/layout/activity_drive_confirmed_waiting.xml"
     },
     {
         "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_name.png.flat",
@@ -304,12 +308,12 @@
         "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/layout/fragment_sent_requests.xml"
     },
     {
-        "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/drawable/ic_launcher_background.xml"
-    },
-    {
         "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/drawable_ic_arrival_time.xml.flat",
         "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/drawable/ic_arrival_time.xml"
+    },
+    {
+        "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/drawable/ic_launcher_background.xml"
     },
     {
         "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/mipmap-hdpi_icon_locate_user.png.flat",
@@ -336,12 +340,12 @@
         "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/drawable/ic_time.xml"
     },
     {
-        "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/drawable_larger_blue_car.png.flat",
-        "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/drawable/larger_blue_car.png"
-    },
-    {
         "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/drawable_ic_delete.xml.flat",
         "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/drawable_larger_blue_car.png.flat",
+        "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/drawable/larger_blue_car.png"
     },
     {
         "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/drawable_map_info_shape.xml.flat",
@@ -384,12 +388,12 @@
         "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/layout/activity_drive_trip_lobby.xml"
     },
     {
-        "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/drawable_icon_launcher.xml.flat",
-        "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/drawable/icon_launcher.xml"
-    },
-    {
         "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/drawable_ic_walk.xml.flat",
         "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/drawable/ic_walk.xml"
+    },
+    {
+        "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/drawable_icon_launcher.xml.flat",
+        "source": "/Users/viveks/AndroidStudioProjects/Pool/app/src/main/res/drawable/icon_launcher.xml"
     },
     {
         "merged": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",

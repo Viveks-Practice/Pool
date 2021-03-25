@@ -468,7 +468,7 @@ public class rideTripLobby extends AppCompatActivity {
                             //Logic: If the acceptedDriver Collection was changed, and a driver exists
                             //       send the rider to the other page (its "back" button should be to the rides page!)
                             /*****Start: Send the user to the next page if a driver has already been accepted******/
-                            Intent intentNext = new Intent(getApplicationContext(), riderMap.class);
+                            Intent intentNext = new Intent(getApplicationContext(), rideAcceptedWaiting.class);
                             intentNext.putExtra(EXTRA_DRIVER_CARMAKE, driverCarMake);
                             intentNext.putExtra(EXTRA_DRIVER_CARMODEL, driverCarModel);
                             intentNext.putExtra(EXTRA_DRIVER_CARYEAR, driverCarYear);

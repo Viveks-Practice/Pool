@@ -22,7 +22,8 @@
             <ImageView
                 android:id="@+id/cardItem1Image"
                 android:layout_height="40dp"
-                android:layout_width="40dp"/>
+                android:layout_width="40dp"
+                android:src="@drawable/ic_walk"/>
             <TextView
                 android:id="@+id/cardItem1Text"
                 android:layout_width="wrap_content"
@@ -40,7 +41,8 @@
             <ImageView
                 android:id="@+id/cardItem2Image"
                 android:layout_height="40dp"
-                android:layout_width="40dp"/>
+                android:layout_width="40dp"
+                android:src="@drawable/ic_time"/>
             <TextView
                 android:id="@+id/cardItem2Text"
                 android:layout_width="wrap_content"
@@ -58,7 +60,8 @@
             <ImageView
                 android:id="@+id/cardItem3Image"
                 android:layout_height="40dp"
-                android:layout_width="40dp"/>
+                android:layout_width="40dp"
+                android:src="@drawable/ic_arrival_time"/>
             <TextView
                 android:id="@+id/cardItem3Text"
                 android:layout_width="wrap_content"

@@ -18,93 +18,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce5ae312-c3e2-4bea-a063-a15575cc5798" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/annotation_processor_list/debugUnitTest/annotationProcessors.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/2bBgXTYMK845Y1rWo4D4h1vdLzQ=" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/JkzHZs_tiwyGp6U5oxhKJCGEiBg=" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/_EOJ_PH3d0C0yTDvJ5OcYobAT7E=" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/_iC2pCrlB9LSRWt1mgQrlK9FFW0=" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/b458vzvBBe8I42Pe15cDBpNjZJc=" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/enpNanpIpzQlr1+XNd6QoVCJpss=" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/l+y_5rdiRe43DRp2GSviGRn_Eok=" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/m0jGTGUi2vd2xBuoMwy6yWJwxTo=" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/mioBTTW0X2GagDix9iBhDtww4eY=" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/qSwDSAvml2FQZ1BN9BUjoup98SQ=" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/uaZ2QoDtPGzprHPTBMQ3SPvaPko=" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/2bBgXTYMK845Y1rWo4D4h1vdLzQ=" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/JkzHZs_tiwyGp6U5oxhKJCGEiBg=" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/_EOJ_PH3d0C0yTDvJ5OcYobAT7E=" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/_iC2pCrlB9LSRWt1mgQrlK9FFW0=" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/b458vzvBBe8I42Pe15cDBpNjZJc=" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/enpNanpIpzQlr1+XNd6QoVCJpss=" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/l+y_5rdiRe43DRp2GSviGRn_Eok=" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/m0jGTGUi2vd2xBuoMwy6yWJwxTo=" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/mioBTTW0X2GagDix9iBhDtww4eY=" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/qSwDSAvml2FQZ1BN9BUjoup98SQ=" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/uaZ2QoDtPGzprHPTBMQ3SPvaPko=" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/addRide$4$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/addRide$4$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/carpoolMapFragment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/driverOptionItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/driverOptionsAdapter$driverOptionsViewHolder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/driverOptionsAdapter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/driverOptionsFragment$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/driverOptionsFragment$2$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/driverOptionsFragment$2$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/driverOptionsFragment$2$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/driverOptionsFragment$2$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/driverOptionsFragment$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/driverOptionsFragment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/sentRequestsToDriverFragment$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/sentRequestsToDriverFragment$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/myfirstapplication/sentRequestsToDriverFragment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debugUnitTest/classes/com/example/myfirstapplication/ExampleUnitTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/7829d579c36fff24b3402d0e2014e0d33ac5fb6acf762680463506f54d4bb470_0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/7829d579c36fff24b3402d0e2014e0d33ac5fb6acf762680463506f54d4bb470_1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/addRide$4$1.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/addRide$4$2.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/carpoolMapFragment.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/driverOptionItem.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/driverOptionsAdapter$driverOptionsViewHolder.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/driverOptionsAdapter.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/driverOptionsFragment$1.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/driverOptionsFragment$2$1.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/driverOptionsFragment$2$2.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/driverOptionsFragment$2$3.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/driverOptionsFragment$2$4.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/driverOptionsFragment$2.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/driverOptionsFragment.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/sentRequestsToDriverFragment$1.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/sentRequestsToDriverFragment$2.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/myfirstapplication/sentRequestsToDriverFragment.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/color_bottom_nav_color.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable_bamboo.jpg.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable_custom_button.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable_ic_arrival_time.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable_ic_car.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable_ic_check.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable_ic_check_mark.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable_ic_delete.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable_ic_edit.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable_ic_launcher.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable_ic_map.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable_ic_sent.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable_ic_straight_check.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable_ic_time.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable_ic_walk.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable_icon_launcher.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_buttonlayout.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_driveritem.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_fragment_carpool_map.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_fragment_driver_options.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_fragment_sent_requests.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu_add_ride_menu.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu_bottom_nav_menu.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu_drive_lobby_menu.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu_profile_menu.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu_ride_lobby_menu.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ce5ae312-c3e2-4bea-a063-a15575cc5798" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -381,13 +295,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557965060408</updated>
-    </task>
-    <task id="LOCAL-00040" summary="August 9 2020 commit">
-      <created>1597039067856</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1597039067857</updated>
     </task>
     <task id="LOCAL-00041" summary="August 10 2020 commit">
       <created>1597132703979</created>
@@ -725,7 +632,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618873831194</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="Changed addRide activity so it doesn't have an &quot;add ride&quot; button. Instead the confirmation of the addition of a new ride is done by selecting the checkmark in the menu!">
+      <created>1618874243654</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1618874243654</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -801,9 +715,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Changed addRide activity so it doesn't have an &quot;add ride&quot; button. Instead the confirmation of the addition of a new ride is done by selecting the checkmark in the menu!" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2000" y="217" key="#Notifications" timestamp="1612048461884">
-      <screen x="1440" y="23" width="1920" height="1057" />
+    <state x="-1360" y="217" key="#Notifications" timestamp="1618874309338">
+      <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
+    <state x="-1360" y="217" key="#Notifications/-1920.23.1920.1057/0.23.1440.819@-1920.23.1920.1057" timestamp="1618874309338" />
     <state x="2000" y="217" key="#Notifications/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1612048461884" />
     <state x="-1147" y="255" key="#com.intellij.ide.util.MemberChooser" timestamp="1616797556676">
       <screen x="-1920" y="23" width="1920" height="999" />
@@ -834,37 +749,41 @@
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="2208" y="413" key="AndroidCreateXmlResourceDialog/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1612126985675" />
-    <state x="-1709" y="61" width="1432" height="795" key="CommitChangelistDialog2" timestamp="1618874058645">
+    <state x="-1709" y="61" width="1432" height="795" key="CommitChangelistDialog2" timestamp="1618874242442">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="-1709" y="61" key="CommitChangelistDialog2/-1920.23.1920.1057/0.23.1440.819@-1920.23.1920.1057" timestamp="1618874058645" />
+    <state x="-1709" y="61" key="CommitChangelistDialog2/-1920.23.1920.1057/0.23.1440.819@-1920.23.1920.1057" timestamp="1618874242442" />
     <state x="366" y="68" key="CommitChangelistDialog2/0.23.1440.819@0.23.1440.819" timestamp="1616708669186" />
     <state x="1928" y="81" width="1432" height="795" key="CommitChangelistDialog2/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1615513722486" />
     <state x="508" y="181" key="FileChooserDialogImpl" timestamp="1615434554471">
       <screen x="0" y="23" width="1440" height="819" />
     </state>
     <state x="508" y="181" key="FileChooserDialogImpl/1440.23.1920.1057/0.23.1440.819@0.23.1440.819" timestamp="1615434554471" />
-    <state width="1390" height="433" key="GridCell.Tab.0.bottom" timestamp="1616727165492">
-      <screen x="0" y="23" width="1440" height="819" />
+    <state width="1878" height="597" key="GridCell.Tab.0.bottom" timestamp="1618874315023">
+      <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
+    <state width="1878" height="597" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1440.819@-1920.23.1920.1057" timestamp="1618874315023" />
     <state width="1390" height="433" key="GridCell.Tab.0.bottom/0.23.1440.819@0.23.1440.819" timestamp="1616727165492" />
     <state width="1398" height="77" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.819@0.23.1440.819" timestamp="1615510721376" />
     <state width="1878" height="379" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1615430090030" />
-    <state width="1390" height="433" key="GridCell.Tab.0.center" timestamp="1616727165491">
-      <screen x="0" y="23" width="1440" height="819" />
+    <state width="1878" height="597" key="GridCell.Tab.0.center" timestamp="1618874315022">
+      <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
+    <state width="1878" height="597" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1440.819@-1920.23.1920.1057" timestamp="1618874315022" />
     <state width="1390" height="433" key="GridCell.Tab.0.center/0.23.1440.819@0.23.1440.819" timestamp="1616727165491" />
     <state width="1398" height="77" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.819@0.23.1440.819" timestamp="1615510721373" />
     <state width="1878" height="379" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1615430090018" />
-    <state width="1390" height="433" key="GridCell.Tab.0.left" timestamp="1616727165490">
-      <screen x="0" y="23" width="1440" height="819" />
+    <state width="1878" height="597" key="GridCell.Tab.0.left" timestamp="1618874315020">
+      <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
+    <state width="1878" height="597" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1440.819@-1920.23.1920.1057" timestamp="1618874315020" />
     <state width="1390" height="433" key="GridCell.Tab.0.left/0.23.1440.819@0.23.1440.819" timestamp="1616727165489" />
     <state width="1398" height="77" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.819@0.23.1440.819" timestamp="1615510721372" />
     <state width="1878" height="379" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1615430090017" />
-    <state width="1390" height="433" key="GridCell.Tab.0.right" timestamp="1616727165492">
-      <screen x="0" y="23" width="1440" height="819" />
+    <state width="1878" height="597" key="GridCell.Tab.0.right" timestamp="1618874315022">
+      <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
+    <state width="1878" height="597" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1440.819@-1920.23.1920.1057" timestamp="1618874315022" />
     <state width="1390" height="433" key="GridCell.Tab.0.right/0.23.1440.819@0.23.1440.819" timestamp="1616727165492" />
     <state width="1398" height="77" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.819@0.23.1440.819" timestamp="1615510721374" />
     <state width="1878" height="379" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1615430090022" />
@@ -897,10 +816,10 @@
     </state>
     <state x="352" y="120" width="900" height="722" key="SettingsEditor/0.23.1440.819@0.23.1440.819" timestamp="1615590306344" />
     <state x="1909" y="190" width="1097" height="803" key="SettingsEditor/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1615513746485" />
-    <state x="-1360" y="291" key="Vcs.Push.Dialog.v2" timestamp="1618873842481">
+    <state x="-1360" y="291" key="Vcs.Push.Dialog.v2" timestamp="1618874287564">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/-1920.23.1920.1057/0.23.1440.819@-1920.23.1920.1057" timestamp="1618873842481" />
+    <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/-1920.23.1920.1057/0.23.1440.819@-1920.23.1920.1057" timestamp="1618874287564" />
     <state x="420" y="231" key="Vcs.Push.Dialog.v2/0.23.1440.819@0.23.1440.819" timestamp="1616708679592" />
     <state x="2000" y="291" key="Vcs.Push.Dialog.v2/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1615513731993" />
     <state x="107" y="303" key="com.intellij.ide.util.TipDialog" timestamp="1618870060102">
@@ -923,9 +842,10 @@
     <state x="0" y="203" width="1440" height="819" maximized="true" key="dock-window-2/0.23.1440.819@0.23.1440.819" timestamp="1616210149393" />
     <state x="0" y="203" width="1440" height="819" maximized="true" key="dock-window-2/1440.23.1920.1057/0.23.1440.819@0.23.1440.819" timestamp="1616453816676" />
     <state x="0" y="23" width="1391" height="819" maximized="true" key="dock-window-2/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1615513849764" />
-    <state x="2107" y="350" key="git4idea.merge.GitPullDialog" timestamp="1612048558220">
-      <screen x="1440" y="23" width="1920" height="1057" />
+    <state x="-1253" y="350" key="git4idea.merge.GitPullDialog" timestamp="1618874472319">
+      <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
+    <state x="-1253" y="350" key="git4idea.merge.GitPullDialog/-1920.23.1920.1057/0.23.1440.819@-1920.23.1920.1057" timestamp="1618874472319" />
     <state x="2107" y="350" key="git4idea.merge.GitPullDialog/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1612048558220" />
     <state x="2107" y="174" key="refactoring.ChangeSignatureDialog" timestamp="1612128296508">
       <screen x="1440" y="23" width="1920" height="1057" />

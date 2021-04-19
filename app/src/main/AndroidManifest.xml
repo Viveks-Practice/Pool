@@ -17,6 +17,7 @@
     -->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
 
     <application
         android:allowBackup="true"
@@ -53,7 +54,7 @@
             android:name=".tabbedActivity"
             android:label="@string/title_activity_tabbed"
             android:noHistory="true"
-            android:theme="@style/splashScreenTheme" />
+            android:theme="@style/AppTheme" />
         <activity android:name=".addDrive" />
         <activity android:name=".driveConfirmedWaiting" />
         <activity android:name=".rideAcceptedWaiting" />
@@ -77,6 +78,7 @@
         <activity
             android:name=".addRide"
             android:screenOrientation="portrait"
+            android:parentActivityName=".tabbedActivity"
             tools:ignore="LockedOrientationActivity" />
         <activity
             android:name=".EditProfile"
@@ -106,7 +108,6 @@
             android:parentActivityName="com.example.myfirstapplication.tabbedActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity">
-
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.myfirstapplication.tabbedActivity" />

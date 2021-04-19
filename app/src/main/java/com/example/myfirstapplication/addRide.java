@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.text.SpannableString;
 import android.text.style.UnderlineSpan;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
@@ -16,6 +19,7 @@ import android.widget.TimePicker;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.DialogFragment;
 
 import com.android.volley.Request;
@@ -55,7 +59,6 @@ public class addRide extends AppCompatActivity implements DatePickerDialog.OnDat
     private PlaceInfo destRideAutoComplete;
     private PlaceInfo startRideAutoComplete;
 
-    private Button buttonToLobby;
     private static final String TAG = "poolDetails";
     private static final String KEY_RIDER_ARRIVE_TIMESTAMP = "riderArriveTimeStamp";
     private static final String KEY_RIDER_DEST_LAT = "riderDestLat";
@@ -83,11 +86,6 @@ public class addRide extends AppCompatActivity implements DatePickerDialog.OnDat
     private static final String EXTRA_RATING = "ex_rating";
     private static final String EXTRA_PAGE_NUM = "ex_page_num";
 
-
-
-
-
-
     EditText strayRiderStartField;
     EditText strayRiderDestField;
     Button arriveDateField;
@@ -98,12 +96,13 @@ public class addRide extends AppCompatActivity implements DatePickerDialog.OnDat
     int riderGlobalHour;
     int riderGlobalMinute;
 
-
     private FirebaseFirestore db = FirebaseFirestore.getInstance();
     private FirebaseAuth fAuth = FirebaseAuth.getInstance();
     String userEmail = fAuth.getCurrentUser().getEmail();
     String userFirstName;
     String userLastName;
+
+    private Toolbar toolbarAddRide;
 
     int tripDurationSec = 0;
 
@@ -112,13 +111,10 @@ public class addRide extends AppCompatActivity implements DatePickerDialog.OnDat
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_ride);
 
-        buttonToLobby = findViewById(R.id.buttonDriverLobby);
-        buttonToLobby.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v1){
-                save();
-            }
-        });
+        toolbarAddRide = findViewById(R.id.toolbarAddRide);
+        setSupportActionBar(toolbarAddRide);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("");
 
         arriveTimeField = findViewById(R.id.riderArriveTime);
         arriveDateField = findViewById(R.id.riderArriveDate);
@@ -236,6 +232,31 @@ public class addRide extends AppCompatActivity implements DatePickerDialog.OnDat
          */
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.add_ride_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.check:
+                save();
+                return true;
+            /*case R.id.logout:
+                FirebaseAuth.getInstance().signOut();
+                Intent intentLogout = new Intent (new Intent (this, LoginPage.class));
+                //intentLogout.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(intentLogout);*/
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+
+
+    }
+
 
     public void openRideTrips() {
         Intent intent = new Intent(this, tabbedActivity.class);
@@ -243,6 +264,8 @@ public class addRide extends AppCompatActivity implements DatePickerDialog.OnDat
 
     }
 
+    //use the information entered by the user to add a new trip for this user into the database
+    //before adding to the database, it will be checked if a car can actually travel to  the selected location from the selected start point
     public void save () {
 
         String dest = destRideAutoComplete.getName();

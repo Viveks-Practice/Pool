@@ -43,10 +43,6 @@ public class EditProfile extends AppCompatActivity {
 
     private Toolbar toolbarEditProfile;
 
-
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

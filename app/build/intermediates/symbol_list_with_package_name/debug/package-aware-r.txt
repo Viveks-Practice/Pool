@@ -1829,6 +1829,7 @@ drawable ic_action_name
 drawable ic_arrival_time
 drawable ic_calendar_black_24dp
 drawable ic_car
+drawable ic_check
 drawable ic_check_mark
 drawable ic_clear_black_24dp
 drawable ic_delete
@@ -1960,6 +1961,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addRideLL
 id adjust_height
 id adjust_width
 id alertTitle
@@ -1977,7 +1979,6 @@ id beginning
 id blocking
 id bottom
 id bottomNavigationView
-id buttonDriverLobby
 id buttonLogin
 id buttonPanel
 id buttonPoolLobby
@@ -2000,6 +2001,7 @@ id center
 id center_horizontal
 id center_vertical
 id chains
+id check
 id checkbox
 id checked
 id chip
@@ -2333,6 +2335,7 @@ id title_template
 id toViewDriver
 id toViewRider
 id toolbar
+id toolbarAddRide
 id toolbarDriveLobby
 id toolbarEditProfile
 id toolbarProfile
@@ -2540,6 +2543,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+menu add_ride_menu
 menu bottom_nav_menu
 menu drive_lobby_menu
 menu profile_menu
@@ -3380,7 +3384,6 @@ style Widget_MaterialComponents_Toolbar_Primary
 style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_Support_CoordinatorLayout
-style splashScreenTheme
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth

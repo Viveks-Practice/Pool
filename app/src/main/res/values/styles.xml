@@ -6,7 +6,6 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
@@ -25,11 +24,5 @@
         <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
     </style>
 
-    <style name="splashScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:windowBackground">@drawable/bamboo</item>
-    </style>
 
 </resources>

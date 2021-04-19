@@ -40,17 +40,11 @@ import static android.widget.Toast.LENGTH_SHORT;
 import static android.widget.Toast.makeText;
 
 /***
- * 1. Carpool Lobby - Make buttons change colours when selected. (example in vid?  https://www.youtube.com/watch?v=8qwaLC1_Trw  )
- * 2. Make the options buttons do things
- * 3. Reduce the information on the buttons, and make them clickable to see more information or to accept
- * 4. Add sorting capability to the options shown
- * 5. Implement a similar layout for Driving Lobby - I shall work on this part first
- * 6. The colors could be better
- * 7! Make a button nav Menu in the drive and ride lobbies
- * Current: Trying to migrate the select Driver stuff to the tab (I got the retrievals to show up on the tabbed view...! Now, remove that from the previous page, its not needed there, and
- * maybe move the code to onStart so it uses a cached version? and its not slow when its reloaded every time)
- * icons on buttons should be: 1. Total trip duration 2. walking time 3. expected arrival
- * app crashes when adding a request to rider sentRequests
+ * 1. Make github work right now
+ * 1. Move project to new macbook
+ * 2. Keep polishing the app so it looks consistent and has basic functions
+ * 3. Remove all the weird bugs from the app
+ * 3.1 Adding to the database causes a crash after the entry is added to the database...why? use breakpoints. test adding on a new empty activity
  * **/
 
 public class tabbedActivity extends AppCompatActivity {
@@ -76,7 +70,6 @@ public class tabbedActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        setTheme(R.style.splashScreenTheme);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tabbed);
         SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager());

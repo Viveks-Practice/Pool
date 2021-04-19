@@ -22,6 +22,7 @@
     -->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
     <!-- <uses-sdk android:minSdkVersion="14"/> -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -72,7 +73,7 @@
             android:name="com.example.myfirstapplication.tabbedActivity"
             android:label="@string/title_activity_tabbed"
             android:noHistory="true"
-            android:theme="@style/splashScreenTheme" />
+            android:theme="@style/AppTheme" />
         <activity android:name="com.example.myfirstapplication.addDrive" />
         <activity android:name="com.example.myfirstapplication.driveConfirmedWaiting" />
         <activity android:name="com.example.myfirstapplication.rideAcceptedWaiting" />
@@ -92,6 +93,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name="com.example.myfirstapplication.addRide"
+            android:parentActivityName="com.example.myfirstapplication.tabbedActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.example.myfirstapplication.EditProfile"

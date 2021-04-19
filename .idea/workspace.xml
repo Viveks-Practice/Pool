@@ -18,7 +18,9 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce5ae312-c3e2-4bea-a063-a15575cc5798" name="Default Changelist" comment="" />
+    <list default="true" id="ce5ae312-c3e2-4bea-a063-a15575cc5798" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -295,13 +297,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557965060408</updated>
-    </task>
-    <task id="LOCAL-00041" summary="August 10 2020 commit">
-      <created>1597132703979</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1597132703979</updated>
     </task>
     <task id="LOCAL-00042" summary="August 11 2020 commit - midday">
       <created>1597184171480</created>
@@ -639,7 +634,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618874243654</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="Changed addRide activity so it doesn't have an &quot;add ride&quot; button. Instead the confirmation of the addition of a new ride is done by selecting the checkmark in the menu!">
+      <created>1618874494928</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1618874494929</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -749,10 +751,10 @@
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="2208" y="413" key="AndroidCreateXmlResourceDialog/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1612126985675" />
-    <state x="-1709" y="61" width="1432" height="795" key="CommitChangelistDialog2" timestamp="1618874242442">
+    <state x="-1709" y="61" width="1432" height="795" key="CommitChangelistDialog2" timestamp="1618874791957">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="-1709" y="61" key="CommitChangelistDialog2/-1920.23.1920.1057/0.23.1440.819@-1920.23.1920.1057" timestamp="1618874242442" />
+    <state x="-1709" y="61" key="CommitChangelistDialog2/-1920.23.1920.1057/0.23.1440.819@-1920.23.1920.1057" timestamp="1618874791957" />
     <state x="366" y="68" key="CommitChangelistDialog2/0.23.1440.819@0.23.1440.819" timestamp="1616708669186" />
     <state x="1928" y="81" width="1432" height="795" key="CommitChangelistDialog2/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1615513722486" />
     <state x="508" y="181" key="FileChooserDialogImpl" timestamp="1615434554471">
@@ -816,10 +818,10 @@
     </state>
     <state x="352" y="120" width="900" height="722" key="SettingsEditor/0.23.1440.819@0.23.1440.819" timestamp="1615590306344" />
     <state x="1909" y="190" width="1097" height="803" key="SettingsEditor/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1615513746485" />
-    <state x="-1360" y="291" key="Vcs.Push.Dialog.v2" timestamp="1618874287564">
+    <state x="-1360" y="291" key="Vcs.Push.Dialog.v2" timestamp="1618874560777">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/-1920.23.1920.1057/0.23.1440.819@-1920.23.1920.1057" timestamp="1618874287564" />
+    <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/-1920.23.1920.1057/0.23.1440.819@-1920.23.1920.1057" timestamp="1618874560777" />
     <state x="420" y="231" key="Vcs.Push.Dialog.v2/0.23.1440.819@0.23.1440.819" timestamp="1616708679592" />
     <state x="2000" y="291" key="Vcs.Push.Dialog.v2/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1615513731993" />
     <state x="107" y="303" key="com.intellij.ide.util.TipDialog" timestamp="1618870060102">

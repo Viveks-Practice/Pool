@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/viveks/AndroidStudioProjects/Pool/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
+            "outputFile": "/Users/viveksharma/AndroidStudioProjects/Pool/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/viveks/.gradle/caches/transforms-2/files-2.1/396e7ddea1addefd32f4f3d87ec48909/appcompat-1.1.0/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "source": "/Users/viveksharma/.gradle/caches/transforms-2/files-2.1/396e7ddea1addefd32f4f3d87ec48909/appcompat-1.1.0/res/values-h720dp-v13/values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

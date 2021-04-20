@@ -6,9 +6,9 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="26"
-8-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml
+8-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml
+9-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml
 10
 11    <!--
 12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -16,8 +16,8 @@
 14         location permissions for the "MyLocation" functionality.
 15    -->
 16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-16-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:11:5-79
-16-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:11:22-76
+16-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:11:5-79
+16-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:11:22-76
 17
 18    <!--
 19         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -25,58 +25,58 @@
 21         location permissions for the 'MyLocation' functionality.
 22    -->
 23    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-23-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:18:5-81
-23-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:18:22-78
+23-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:18:5-81
+23-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:18:22-78
 24    <uses-permission android:name="android.permission.INTERNET" />
-24-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:19:5-67
-24-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:19:22-64
+24-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:19:5-67
+24-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:19:22-64
 25    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
-25-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:20:5-76
-25-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:20:22-74
+25-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:20:5-76
+25-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:20:22-74
 26    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
-26-->[com.google.android.libraries.places:places:2.3.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/5c911ddb3644dd9711f84333580e2aaf/jetified-places-2.3.0/AndroidManifest.xml:10:5-76
-26-->[com.google.android.libraries.places:places:2.3.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/5c911ddb3644dd9711f84333580e2aaf/jetified-places-2.3.0/AndroidManifest.xml:10:22-73
+26-->[com.google.android.libraries.places:places:2.3.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/5c911ddb3644dd9711f84333580e2aaf/jetified-places-2.3.0/AndroidManifest.xml:10:5-76
+26-->[com.google.android.libraries.places:places:2.3.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/5c911ddb3644dd9711f84333580e2aaf/jetified-places-2.3.0/AndroidManifest.xml:10:22-73
 27    <!-- <uses-sdk android:minSdkVersion="14"/> -->
 28    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-28-->[com.google.firebase:firebase-database:19.2.1] /Users/viveks/.gradle/caches/transforms-2/files-2.1/faf5133ba0b33a2fde13b99aa002026c/jetified-firebase-database-19.2.1/AndroidManifest.xml:25:5-79
-28-->[com.google.firebase:firebase-database:19.2.1] /Users/viveks/.gradle/caches/transforms-2/files-2.1/faf5133ba0b33a2fde13b99aa002026c/jetified-firebase-database-19.2.1/AndroidManifest.xml:25:22-76
+28-->[com.google.firebase:firebase-database:19.2.1] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/faf5133ba0b33a2fde13b99aa002026c/jetified-firebase-database-19.2.1/AndroidManifest.xml:25:5-79
+28-->[com.google.firebase:firebase-database:19.2.1] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/faf5133ba0b33a2fde13b99aa002026c/jetified-firebase-database-19.2.1/AndroidManifest.xml:25:22-76
 29
 30    <uses-feature
-30-->[com.google.android.gms:play-services-maps:17.0.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/7dfc471bb7895bd3179d625100b7218f/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+30-->[com.google.android.gms:play-services-maps:17.0.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/7dfc471bb7895bd3179d625100b7218f/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
 31        android:glEsVersion="0x00020000"
-31-->[com.google.android.gms:play-services-maps:17.0.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/7dfc471bb7895bd3179d625100b7218f/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+31-->[com.google.android.gms:play-services-maps:17.0.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/7dfc471bb7895bd3179d625100b7218f/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
 32        android:required="true" />
-32-->[com.google.android.gms:play-services-maps:17.0.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/7dfc471bb7895bd3179d625100b7218f/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+32-->[com.google.android.gms:play-services-maps:17.0.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/7dfc471bb7895bd3179d625100b7218f/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
 33
 34    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-34-->[com.google.android.gms:play-services-measurement-api:17.2.3] /Users/viveks/.gradle/caches/transforms-2/files-2.1/33863a16f15bdc8996a6b131818b6387/jetified-play-services-measurement-api-17.2.3/AndroidManifest.xml:24:5-68
-34-->[com.google.android.gms:play-services-measurement-api:17.2.3] /Users/viveks/.gradle/caches/transforms-2/files-2.1/33863a16f15bdc8996a6b131818b6387/jetified-play-services-measurement-api-17.2.3/AndroidManifest.xml:24:22-65
+34-->[com.google.android.gms:play-services-measurement-api:17.2.3] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/33863a16f15bdc8996a6b131818b6387/jetified-play-services-measurement-api-17.2.3/AndroidManifest.xml:24:5-68
+34-->[com.google.android.gms:play-services-measurement-api:17.2.3] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/33863a16f15bdc8996a6b131818b6387/jetified-play-services-measurement-api-17.2.3/AndroidManifest.xml:24:22-65
 35    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-35-->[com.google.firebase:firebase-iid:20.0.2] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2871e420aea024633604a68f8f003ca0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:26:5-82
-35-->[com.google.firebase:firebase-iid:20.0.2] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2871e420aea024633604a68f8f003ca0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:26:22-79
+35-->[com.google.firebase:firebase-iid:20.0.2] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2871e420aea024633604a68f8f003ca0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:26:5-82
+35-->[com.google.firebase:firebase-iid:20.0.2] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2871e420aea024633604a68f8f003ca0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:26:22-79
 36    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-36-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:26:5-110
-36-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:26:22-107
+36-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:26:5-110
+36-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:26:22-107
 37
 38    <application
-38-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:22:5-116:19
+38-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:22:5-116:19
 39        android:allowBackup="true"
-39-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:23:9-35
+39-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:23:9-35
 40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-40-->[androidx.core:core:1.1.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/6cdf211888e0a7ccbf81d39b63072413/core-1.1.0/AndroidManifest.xml:24:18-86
+40-->[androidx.core:core:1.1.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/6cdf211888e0a7ccbf81d39b63072413/core-1.1.0/AndroidManifest.xml:24:18-86
 41        android:debuggable="true"
 42        android:extractNativeLibs="false"
 43        android:icon="@mipmap/icon_locate_user"
-43-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:24:9-48
+43-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:24:9-48
 44        android:label="@string/app_name"
-44-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:25:9-41
+44-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:25:9-41
 45        android:roundIcon="@mipmap/icon_locate_user_round"
-45-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:26:9-59
+45-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:26:9-59
 46        android:supportsRtl="true"
-46-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:27:9-35
+46-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:27:9-35
 47        android:testOnly="true"
 48        android:theme="@style/AppTheme" >
-48-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:28:9-40
+48-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:28:9-40
 49
 50        <!--
 51             The API key for Google Maps-based APIs is defined as a string resource.
@@ -87,342 +87,342 @@
 56             You can define the keys for the debug and release targets in src/debug/ and src/release/.
 57        -->
 58        <meta-data
-58-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:39:9-41:55
+58-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:39:9-41:55
 59            android:name="com.google.android.geo.API_KEY"
-59-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:40:13-58
+59-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:40:13-58
 60            android:value="@string/google_maps_key" />
-60-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:41:13-52
+60-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:41:13-52
 61
 62        <activity
-62-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:43:9-45:73
+62-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:43:9-45:73
 63            android:name="com.example.myfirstapplication.riderMap"
-63-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:44:13-37
+63-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:44:13-37
 64            android:label="@string/title_activity_rider_map" />
-64-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:45:13-61
+64-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:45:13-61
 65        <activity android:name="com.example.myfirstapplication.RoutingPage" >
-65-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:46:9-52:20
-65-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:46:19-46
+65-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:46:9-52:20
+65-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:46:19-46
 66            <intent-filter>
-66-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:47:13-51:29
+66-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:47:13-51:29
 67                <action android:name="android.intent.action.MAIN" />
-67-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:48:17-69
-67-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:48:25-66
+67-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:48:17-69
+67-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:48:25-66
 68
 69                <category android:name="android.intent.category.LAUNCHER" />
-69-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:50:17-77
-69-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:50:27-74
+69-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:50:17-77
+69-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:50:27-74
 70            </intent-filter>
 71        </activity>
 72        <activity
-72-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:53:9-57:47
+72-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:53:9-57:47
 73            android:name="com.example.myfirstapplication.tabbedActivity"
-73-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:54:13-43
+73-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:54:13-43
 74            android:label="@string/title_activity_tabbed"
-74-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:55:13-58
+74-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:55:13-58
 75            android:noHistory="true"
-75-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:56:13-37
+75-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:56:13-37
 76            android:theme="@style/AppTheme" />
-76-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:57:13-44
+76-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:57:13-44
 77        <activity android:name="com.example.myfirstapplication.addDrive" />
-77-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:58:9-46
-77-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:58:19-43
+77-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:58:9-46
+77-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:58:19-43
 78        <activity android:name="com.example.myfirstapplication.driveConfirmedWaiting" />
-78-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:59:9-59
-78-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:59:19-56
+78-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:59:9-59
+78-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:59:19-56
 79        <activity android:name="com.example.myfirstapplication.rideAcceptedWaiting" />
-79-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:60:9-57
-79-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:60:19-54
+79-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:60:9-57
+79-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:60:19-54
 80        <activity
-80-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:61:9-63:60
+80-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:61:9-63:60
 81            android:name="com.example.myfirstapplication.driveTripLobby"
-81-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:62:13-43
+81-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:62:13-43
 82            android:parentActivityName="com.example.myfirstapplication.tabbedActivity" />
-82-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:63:13-57
+82-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:63:13-57
 83        <activity android:name="com.example.myfirstapplication.profileSetup" />
-83-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:64:9-50
-83-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:64:19-47
+83-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:64:9-50
+83-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:64:19-47
 84        <activity
-84-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:65:9-68:56
+84-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:65:9-68:56
 85            android:name="com.example.myfirstapplication.SignUp"
-85-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:66:13-35
+85-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:66:13-35
 86            android:screenOrientation="portrait" />
-86-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:67:13-49
+86-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:67:13-49
 87        <activity
-87-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:69:9-72:65
+87-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:69:9-72:65
 88            android:name="com.example.myfirstapplication.LoginPage"
-88-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:70:13-38
+88-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:70:13-38
 89            android:screenOrientation="portrait" />
-89-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:71:13-49
+89-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:71:13-49
 90        <activity
-90-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:73:9-77:56
+90-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:73:9-77:56
 91            android:name="com.example.myfirstapplication.rideTripLobby"
-91-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:74:13-42
+91-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:74:13-42
 92            android:parentActivityName="com.example.myfirstapplication.tabbedActivity"
-92-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:75:13-57
+92-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:75:13-57
 93            android:screenOrientation="portrait" />
-93-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:76:13-49
+93-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:76:13-49
 94        <activity
-94-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:78:9-82:56
+94-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:78:9-82:56
 95            android:name="com.example.myfirstapplication.addRide"
-95-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:79:13-36
+95-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:79:13-36
 96            android:parentActivityName="com.example.myfirstapplication.tabbedActivity"
-96-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:81:13-57
+96-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:81:13-57
 97            android:screenOrientation="portrait" />
-97-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:80:13-49
+97-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:80:13-49
 98        <activity
-98-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:83:9-94:20
+98-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:83:9-94:20
 99            android:name="com.example.myfirstapplication.EditProfile"
-99-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:84:13-40
+99-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:84:13-40
 100            android:label="@string/title_activity_edit_profile"
-100-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:85:13-64
+100-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:85:13-64
 101            android:parentActivityName="com.example.myfirstapplication.Profile"
-101-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:86:13-50
+101-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:86:13-50
 102            android:screenOrientation="portrait" >
-102-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:87:13-49
+102-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:87:13-49
 103            <meta-data
-103-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:90:13-92:74
+103-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:90:13-92:74
 104                android:name="android.support.PARENT_ACTIVITY"
-104-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:91:17-63
+104-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:91:17-63
 105                android:value="com.example.myfirstapplication.Profile" />
-105-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:92:17-71
+105-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:92:17-71
 106        </activity>
 107
 108        <meta-data
-108-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:96:9-98:57
+108-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:96:9-98:57
 109            android:name="preloaded_fonts"
-109-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:97:13-43
+109-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:97:13-43
 110            android:resource="@array/preloaded_fonts" />
-110-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:98:13-54
+110-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:98:13-54
 111
 112        <activity
-112-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:100:9-104:56
+112-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:100:9-104:56
 113            android:name="com.example.myfirstapplication.DriverMap"
-113-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:101:13-38
+113-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:101:13-38
 114            android:label="@string/title_activity_driver_map"
-114-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:102:13-62
+114-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:102:13-62
 115            android:screenOrientation="portrait" />
-115-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:103:13-49
+115-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:103:13-49
 116        <activity
-116-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:105:9-115:20
+116-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:105:9-115:20
 117            android:name="com.example.myfirstapplication.Profile"
-117-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:106:13-36
+117-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:106:13-36
 118            android:label="@string/title_activity_profile"
-118-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:107:13-59
+118-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:107:13-59
 119            android:parentActivityName="com.example.myfirstapplication.tabbedActivity"
-119-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:108:13-87
+119-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:108:13-87
 120            android:screenOrientation="portrait" >
-120-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:109:13-49
+120-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:109:13-49
 121            <meta-data
-121-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:90:13-92:74
+121-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:90:13-92:74
 122                android:name="android.support.PARENT_ACTIVITY"
-122-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:91:17-63
+122-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:91:17-63
 123                android:value="com.example.myfirstapplication.tabbedActivity" />
-123-->/Users/viveks/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:92:17-71
+123-->/Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:92:17-71
 124        </activity>
 125        <activity
-125-->[com.google.android.libraries.places:places:2.3.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/5c911ddb3644dd9711f84333580e2aaf/jetified-places-2.3.0/AndroidManifest.xml:14:9-20:20
+125-->[com.google.android.libraries.places:places:2.3.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/5c911ddb3644dd9711f84333580e2aaf/jetified-places-2.3.0/AndroidManifest.xml:14:9-20:20
 126            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
-126-->[com.google.android.libraries.places:places:2.3.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/5c911ddb3644dd9711f84333580e2aaf/jetified-places-2.3.0/AndroidManifest.xml:15:13-91
+126-->[com.google.android.libraries.places:places:2.3.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/5c911ddb3644dd9711f84333580e2aaf/jetified-places-2.3.0/AndroidManifest.xml:15:13-91
 127            android:exported="false"
-127-->[com.google.android.libraries.places:places:2.3.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/5c911ddb3644dd9711f84333580e2aaf/jetified-places-2.3.0/AndroidManifest.xml:16:13-37
+127-->[com.google.android.libraries.places:places:2.3.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/5c911ddb3644dd9711f84333580e2aaf/jetified-places-2.3.0/AndroidManifest.xml:16:13-37
 128            android:label="@string/places_autocomplete_label"
-128-->[com.google.android.libraries.places:places:2.3.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/5c911ddb3644dd9711f84333580e2aaf/jetified-places-2.3.0/AndroidManifest.xml:17:13-62
+128-->[com.google.android.libraries.places:places:2.3.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/5c911ddb3644dd9711f84333580e2aaf/jetified-places-2.3.0/AndroidManifest.xml:17:13-62
 129            android:theme="@style/PlacesAutocompleteOverlay"
-129-->[com.google.android.libraries.places:places:2.3.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/5c911ddb3644dd9711f84333580e2aaf/jetified-places-2.3.0/AndroidManifest.xml:18:13-61
+129-->[com.google.android.libraries.places:places:2.3.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/5c911ddb3644dd9711f84333580e2aaf/jetified-places-2.3.0/AndroidManifest.xml:18:13-61
 130            android:windowSoftInputMode="adjustResize" >
-130-->[com.google.android.libraries.places:places:2.3.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/5c911ddb3644dd9711f84333580e2aaf/jetified-places-2.3.0/AndroidManifest.xml:19:13-55
+130-->[com.google.android.libraries.places:places:2.3.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/5c911ddb3644dd9711f84333580e2aaf/jetified-places-2.3.0/AndroidManifest.xml:19:13-55
 131        </activity>
 132
 133        <service
-133-->[com.google.firebase:firebase-database:19.2.1] /Users/viveks/.gradle/caches/transforms-2/files-2.1/faf5133ba0b33a2fde13b99aa002026c/jetified-firebase-database-19.2.1/AndroidManifest.xml:29:9-35:19
+133-->[com.google.firebase:firebase-database:19.2.1] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/faf5133ba0b33a2fde13b99aa002026c/jetified-firebase-database-19.2.1/AndroidManifest.xml:29:9-35:19
 134            android:name="com.google.firebase.components.ComponentDiscoveryService"
-134-->[com.google.firebase:firebase-database:19.2.1] /Users/viveks/.gradle/caches/transforms-2/files-2.1/faf5133ba0b33a2fde13b99aa002026c/jetified-firebase-database-19.2.1/AndroidManifest.xml:30:13-84
+134-->[com.google.firebase:firebase-database:19.2.1] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/faf5133ba0b33a2fde13b99aa002026c/jetified-firebase-database-19.2.1/AndroidManifest.xml:30:13-84
 135            android:directBootAware="true"
-135-->[com.google.firebase:firebase-common:19.3.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+135-->[com.google.firebase:firebase-common:19.3.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
 136            android:exported="false" >
-136-->[com.google.firebase:firebase-database:19.2.1] /Users/viveks/.gradle/caches/transforms-2/files-2.1/faf5133ba0b33a2fde13b99aa002026c/jetified-firebase-database-19.2.1/AndroidManifest.xml:31:13-37
+136-->[com.google.firebase:firebase-database:19.2.1] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/faf5133ba0b33a2fde13b99aa002026c/jetified-firebase-database-19.2.1/AndroidManifest.xml:31:13-37
 137            <meta-data
-137-->[com.google.firebase:firebase-database:19.2.1] /Users/viveks/.gradle/caches/transforms-2/files-2.1/faf5133ba0b33a2fde13b99aa002026c/jetified-firebase-database-19.2.1/AndroidManifest.xml:32:13-34:85
+137-->[com.google.firebase:firebase-database:19.2.1] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/faf5133ba0b33a2fde13b99aa002026c/jetified-firebase-database-19.2.1/AndroidManifest.xml:32:13-34:85
 138                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-138-->[com.google.firebase:firebase-database:19.2.1] /Users/viveks/.gradle/caches/transforms-2/files-2.1/faf5133ba0b33a2fde13b99aa002026c/jetified-firebase-database-19.2.1/AndroidManifest.xml:33:17-109
+138-->[com.google.firebase:firebase-database:19.2.1] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/faf5133ba0b33a2fde13b99aa002026c/jetified-firebase-database-19.2.1/AndroidManifest.xml:33:17-109
 139                android:value="com.google.firebase.components.ComponentRegistrar" />
-139-->[com.google.firebase:firebase-database:19.2.1] /Users/viveks/.gradle/caches/transforms-2/files-2.1/faf5133ba0b33a2fde13b99aa002026c/jetified-firebase-database-19.2.1/AndroidManifest.xml:34:17-82
+139-->[com.google.firebase:firebase-database:19.2.1] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/faf5133ba0b33a2fde13b99aa002026c/jetified-firebase-database-19.2.1/AndroidManifest.xml:34:17-82
 140            <meta-data
-140-->[com.google.firebase:firebase-firestore:21.4.1] /Users/viveks/.gradle/caches/transforms-2/files-2.1/92f9dc59a7674ce085dbee56f0c7dd03/jetified-firebase-firestore-21.4.1/AndroidManifest.xml:20:13-22:85
+140-->[com.google.firebase:firebase-firestore:21.4.1] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/92f9dc59a7674ce085dbee56f0c7dd03/jetified-firebase-firestore-21.4.1/AndroidManifest.xml:20:13-22:85
 141                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-141-->[com.google.firebase:firebase-firestore:21.4.1] /Users/viveks/.gradle/caches/transforms-2/files-2.1/92f9dc59a7674ce085dbee56f0c7dd03/jetified-firebase-firestore-21.4.1/AndroidManifest.xml:21:17-111
+141-->[com.google.firebase:firebase-firestore:21.4.1] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/92f9dc59a7674ce085dbee56f0c7dd03/jetified-firebase-firestore-21.4.1/AndroidManifest.xml:21:17-111
 142                android:value="com.google.firebase.components.ComponentRegistrar" />
-142-->[com.google.firebase:firebase-firestore:21.4.1] /Users/viveks/.gradle/caches/transforms-2/files-2.1/92f9dc59a7674ce085dbee56f0c7dd03/jetified-firebase-firestore-21.4.1/AndroidManifest.xml:22:17-82
+142-->[com.google.firebase:firebase-firestore:21.4.1] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/92f9dc59a7674ce085dbee56f0c7dd03/jetified-firebase-firestore-21.4.1/AndroidManifest.xml:22:17-82
 143            <meta-data
-143-->[com.google.firebase:firebase-auth:19.2.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/6060393a4bea94423efc31c59881210c/jetified-firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+143-->[com.google.firebase:firebase-auth:19.2.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/6060393a4bea94423efc31c59881210c/jetified-firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
 144                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-144-->[com.google.firebase:firebase-auth:19.2.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/6060393a4bea94423efc31c59881210c/jetified-firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+144-->[com.google.firebase:firebase-auth:19.2.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/6060393a4bea94423efc31c59881210c/jetified-firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
 145                android:value="com.google.firebase.components.ComponentRegistrar" />
-145-->[com.google.firebase:firebase-auth:19.2.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/6060393a4bea94423efc31c59881210c/jetified-firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+145-->[com.google.firebase:firebase-auth:19.2.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/6060393a4bea94423efc31c59881210c/jetified-firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
 146            <meta-data
-146-->[com.google.android.gms:play-services-measurement-api:17.2.3] /Users/viveks/.gradle/caches/transforms-2/files-2.1/33863a16f15bdc8996a6b131818b6387/jetified-play-services-measurement-api-17.2.3/AndroidManifest.xml:30:13-32:85
+146-->[com.google.android.gms:play-services-measurement-api:17.2.3] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/33863a16f15bdc8996a6b131818b6387/jetified-play-services-measurement-api-17.2.3/AndroidManifest.xml:30:13-32:85
 147                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-147-->[com.google.android.gms:play-services-measurement-api:17.2.3] /Users/viveks/.gradle/caches/transforms-2/files-2.1/33863a16f15bdc8996a6b131818b6387/jetified-play-services-measurement-api-17.2.3/AndroidManifest.xml:31:17-139
+147-->[com.google.android.gms:play-services-measurement-api:17.2.3] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/33863a16f15bdc8996a6b131818b6387/jetified-play-services-measurement-api-17.2.3/AndroidManifest.xml:31:17-139
 148                android:value="com.google.firebase.components.ComponentRegistrar" />
-148-->[com.google.android.gms:play-services-measurement-api:17.2.3] /Users/viveks/.gradle/caches/transforms-2/files-2.1/33863a16f15bdc8996a6b131818b6387/jetified-play-services-measurement-api-17.2.3/AndroidManifest.xml:32:17-82
+148-->[com.google.android.gms:play-services-measurement-api:17.2.3] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/33863a16f15bdc8996a6b131818b6387/jetified-play-services-measurement-api-17.2.3/AndroidManifest.xml:32:17-82
 149            <meta-data
-149-->[com.google.firebase:firebase-iid:20.0.2] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2871e420aea024633604a68f8f003ca0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:32:13-34:85
+149-->[com.google.firebase:firebase-iid:20.0.2] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2871e420aea024633604a68f8f003ca0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:32:13-34:85
 150                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-150-->[com.google.firebase:firebase-iid:20.0.2] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2871e420aea024633604a68f8f003ca0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:33:17-96
+150-->[com.google.firebase:firebase-iid:20.0.2] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2871e420aea024633604a68f8f003ca0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:33:17-96
 151                android:value="com.google.firebase.components.ComponentRegistrar" />
-151-->[com.google.firebase:firebase-iid:20.0.2] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2871e420aea024633604a68f8f003ca0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:34:17-82
+151-->[com.google.firebase:firebase-iid:20.0.2] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2871e420aea024633604a68f8f003ca0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:34:17-82
 152        </service> <!-- Needs to be explicitly declared on P+ -->
 153        <uses-library
-153-->[com.google.android.gms:play-services-maps:17.0.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/7dfc471bb7895bd3179d625100b7218f/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+153-->[com.google.android.gms:play-services-maps:17.0.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/7dfc471bb7895bd3179d625100b7218f/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
 154            android:name="org.apache.http.legacy"
-154-->[com.google.android.gms:play-services-maps:17.0.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/7dfc471bb7895bd3179d625100b7218f/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+154-->[com.google.android.gms:play-services-maps:17.0.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/7dfc471bb7895bd3179d625100b7218f/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
 155            android:required="false" />
-155-->[com.google.android.gms:play-services-maps:17.0.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/7dfc471bb7895bd3179d625100b7218f/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+155-->[com.google.android.gms:play-services-maps:17.0.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/7dfc471bb7895bd3179d625100b7218f/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
 156
 157        <activity
-157-->[com.google.firebase:firebase-auth:19.2.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/6060393a4bea94423efc31c59881210c/jetified-firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+157-->[com.google.firebase:firebase-auth:19.2.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/6060393a4bea94423efc31c59881210c/jetified-firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
 158            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-158-->[com.google.firebase:firebase-auth:19.2.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/6060393a4bea94423efc31c59881210c/jetified-firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+158-->[com.google.firebase:firebase-auth:19.2.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/6060393a4bea94423efc31c59881210c/jetified-firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
 159            android:excludeFromRecents="true"
-159-->[com.google.firebase:firebase-auth:19.2.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/6060393a4bea94423efc31c59881210c/jetified-firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+159-->[com.google.firebase:firebase-auth:19.2.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/6060393a4bea94423efc31c59881210c/jetified-firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
 160            android:exported="true"
-160-->[com.google.firebase:firebase-auth:19.2.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/6060393a4bea94423efc31c59881210c/jetified-firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+160-->[com.google.firebase:firebase-auth:19.2.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/6060393a4bea94423efc31c59881210c/jetified-firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
 161            android:launchMode="singleTask"
-161-->[com.google.firebase:firebase-auth:19.2.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/6060393a4bea94423efc31c59881210c/jetified-firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+161-->[com.google.firebase:firebase-auth:19.2.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/6060393a4bea94423efc31c59881210c/jetified-firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
 162            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-162-->[com.google.firebase:firebase-auth:19.2.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/6060393a4bea94423efc31c59881210c/jetified-firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+162-->[com.google.firebase:firebase-auth:19.2.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/6060393a4bea94423efc31c59881210c/jetified-firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
 163            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-163-->[com.google.firebase:firebase-auth:19.2.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/6060393a4bea94423efc31c59881210c/jetified-firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+163-->[com.google.firebase:firebase-auth:19.2.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/6060393a4bea94423efc31c59881210c/jetified-firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
 164
 165        <receiver
-165-->[com.google.firebase:firebase-iid:20.0.2] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2871e420aea024633604a68f8f003ca0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:37:9-44:20
+165-->[com.google.firebase:firebase-iid:20.0.2] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2871e420aea024633604a68f8f003ca0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:37:9-44:20
 166            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-166-->[com.google.firebase:firebase-iid:20.0.2] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2871e420aea024633604a68f8f003ca0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:38:13-78
+166-->[com.google.firebase:firebase-iid:20.0.2] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2871e420aea024633604a68f8f003ca0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:38:13-78
 167            android:exported="true"
-167-->[com.google.firebase:firebase-iid:20.0.2] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2871e420aea024633604a68f8f003ca0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:39:13-36
+167-->[com.google.firebase:firebase-iid:20.0.2] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2871e420aea024633604a68f8f003ca0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:39:13-36
 168            android:permission="com.google.android.c2dm.permission.SEND" >
-168-->[com.google.firebase:firebase-iid:20.0.2] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2871e420aea024633604a68f8f003ca0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:40:13-73
+168-->[com.google.firebase:firebase-iid:20.0.2] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2871e420aea024633604a68f8f003ca0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:40:13-73
 169            <intent-filter>
-169-->[com.google.firebase:firebase-iid:20.0.2] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2871e420aea024633604a68f8f003ca0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:41:13-43:29
+169-->[com.google.firebase:firebase-iid:20.0.2] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2871e420aea024633604a68f8f003ca0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:41:13-43:29
 170                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-170-->[com.google.firebase:firebase-iid:20.0.2] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2871e420aea024633604a68f8f003ca0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:42:17-81
-170-->[com.google.firebase:firebase-iid:20.0.2] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2871e420aea024633604a68f8f003ca0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:42:25-78
+170-->[com.google.firebase:firebase-iid:20.0.2] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2871e420aea024633604a68f8f003ca0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:42:17-81
+170-->[com.google.firebase:firebase-iid:20.0.2] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2871e420aea024633604a68f8f003ca0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:42:25-78
 171            </intent-filter>
 172        </receiver>
 173
 174        <provider
-174-->[com.google.firebase:firebase-common:19.3.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+174-->[com.google.firebase:firebase-common:19.3.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
 175            android:name="com.google.firebase.provider.FirebaseInitProvider"
-175-->[com.google.firebase:firebase-common:19.3.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+175-->[com.google.firebase:firebase-common:19.3.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
 176            android:authorities="com.example.myfirstapplication.firebaseinitprovider"
-176-->[com.google.firebase:firebase-common:19.3.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+176-->[com.google.firebase:firebase-common:19.3.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
 177            android:exported="false"
-177-->[com.google.firebase:firebase-common:19.3.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+177-->[com.google.firebase:firebase-common:19.3.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
 178            android:initOrder="100" />
-178-->[com.google.firebase:firebase-common:19.3.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+178-->[com.google.firebase:firebase-common:19.3.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
 179
 180        <activity
-180-->[com.google.android.gms:play-services-base:17.1.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+180-->[com.google.android.gms:play-services-base:17.1.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
 181            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-181-->[com.google.android.gms:play-services-base:17.1.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+181-->[com.google.android.gms:play-services-base:17.1.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
 182            android:exported="false"
-182-->[com.google.android.gms:play-services-base:17.1.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+182-->[com.google.android.gms:play-services-base:17.1.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
 183            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-183-->[com.google.android.gms:play-services-base:17.1.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+183-->[com.google.android.gms:play-services-base:17.1.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
 184
 185        <receiver
-185-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:29:9-33:20
+185-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:29:9-33:20
 186            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-186-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:30:13-85
+186-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:30:13-85
 187            android:enabled="true"
-187-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:31:13-35
+187-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:31:13-35
 188            android:exported="false" >
-188-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:32:13-37
+188-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:32:13-37
 189        </receiver>
 190        <receiver
-190-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:34:9-42:20
+190-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:34:9-42:20
 191            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-191-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:35:13-100
+191-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:35:13-100
 192            android:enabled="true"
-192-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:36:13-35
+192-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:36:13-35
 193            android:exported="true"
-193-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:37:13-36
+193-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:37:13-36
 194            android:permission="android.permission.INSTALL_PACKAGES" >
-194-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:38:13-69
+194-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:38:13-69
 195            <intent-filter>
-195-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:39:13-41:29
+195-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:39:13-41:29
 196                <action android:name="com.android.vending.INSTALL_REFERRER" />
-196-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:40:17-79
-196-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:40:25-76
+196-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:40:17-79
+196-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:40:25-76
 197            </intent-filter>
 198        </receiver>
 199
 200        <service
-200-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:44:9-47:40
+200-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:44:9-47:40
 201            android:name="com.google.android.gms.measurement.AppMeasurementService"
-201-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:45:13-84
+201-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:45:13-84
 202            android:enabled="true"
-202-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:46:13-35
+202-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:46:13-35
 203            android:exported="false" />
-203-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:47:13-37
+203-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:47:13-37
 204        <service
-204-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:48:9-52:72
+204-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:48:9-52:72
 205            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-205-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:49:13-87
+205-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:49:13-87
 206            android:enabled="true"
-206-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:50:13-35
+206-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:50:13-35
 207            android:exported="false"
-207-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:51:13-37
+207-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:51:13-37
 208            android:permission="android.permission.BIND_JOB_SERVICE" />
-208-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveks/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:52:13-69
+208-->[com.google.android.gms:play-services-measurement:17.2.3] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/2ef02f0a215ef1ffc50b767f6e90b2f6/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:52:13-69
 209
 210        <meta-data
-210-->[com.google.android.gms:play-services-basement:17.0.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/f258e3825c6af3b14c7ec1616fae4742/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+210-->[com.google.android.gms:play-services-basement:17.0.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/f258e3825c6af3b14c7ec1616fae4742/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
 211            android:name="com.google.android.gms.version"
-211-->[com.google.android.gms:play-services-basement:17.0.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/f258e3825c6af3b14c7ec1616fae4742/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+211-->[com.google.android.gms:play-services-basement:17.0.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/f258e3825c6af3b14c7ec1616fae4742/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
 212            android:value="@integer/google_play_services_version" />
-212-->[com.google.android.gms:play-services-basement:17.0.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/f258e3825c6af3b14c7ec1616fae4742/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+212-->[com.google.android.gms:play-services-basement:17.0.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/f258e3825c6af3b14c7ec1616fae4742/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
 213
 214        <provider
-214-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/fbb45a1792cf0e97ccf5507b087b63b1/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+214-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/fbb45a1792cf0e97ccf5507b087b63b1/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
 215            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-215-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/fbb45a1792cf0e97ccf5507b087b63b1/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+215-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/fbb45a1792cf0e97ccf5507b087b63b1/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
 216            android:authorities="com.example.myfirstapplication.lifecycle-process"
-216-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/fbb45a1792cf0e97ccf5507b087b63b1/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+216-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/fbb45a1792cf0e97ccf5507b087b63b1/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
 217            android:exported="false"
-217-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/fbb45a1792cf0e97ccf5507b087b63b1/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+217-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/fbb45a1792cf0e97ccf5507b087b63b1/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
 218            android:multiprocess="true" />
-218-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/fbb45a1792cf0e97ccf5507b087b63b1/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+218-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/fbb45a1792cf0e97ccf5507b087b63b1/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
 219
 220        <service
-220-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/8b4f96445acde6d456493985210631cb/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:29:9-35:19
+220-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/8b4f96445acde6d456493985210631cb/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:29:9-35:19
 221            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-221-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/8b4f96445acde6d456493985210631cb/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:30:13-103
+221-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/8b4f96445acde6d456493985210631cb/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:30:13-103
 222            android:exported="false" >
-222-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/8b4f96445acde6d456493985210631cb/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:31:13-37
+222-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/8b4f96445acde6d456493985210631cb/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:31:13-37
 223            <meta-data
-223-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/8b4f96445acde6d456493985210631cb/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:32:13-34:39
+223-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/8b4f96445acde6d456493985210631cb/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:32:13-34:39
 224                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-224-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/8b4f96445acde6d456493985210631cb/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:33:17-94
+224-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/8b4f96445acde6d456493985210631cb/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:33:17-94
 225                android:value="cct" />
-225-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/8b4f96445acde6d456493985210631cb/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:34:17-36
+225-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/8b4f96445acde6d456493985210631cb/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:34:17-36
 226        </service>
 227        <service
-227-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/535fbfb92cc17a295de946bf1f90bc3d/jetified-transport-runtime-2.1.0/AndroidManifest.xml:26:9-30:19
+227-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/535fbfb92cc17a295de946bf1f90bc3d/jetified-transport-runtime-2.1.0/AndroidManifest.xml:26:9-30:19
 228            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-228-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/535fbfb92cc17a295de946bf1f90bc3d/jetified-transport-runtime-2.1.0/AndroidManifest.xml:27:13-117
+228-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/535fbfb92cc17a295de946bf1f90bc3d/jetified-transport-runtime-2.1.0/AndroidManifest.xml:27:13-117
 229            android:exported="false"
-229-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/535fbfb92cc17a295de946bf1f90bc3d/jetified-transport-runtime-2.1.0/AndroidManifest.xml:28:13-37
+229-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/535fbfb92cc17a295de946bf1f90bc3d/jetified-transport-runtime-2.1.0/AndroidManifest.xml:28:13-37
 230            android:permission="android.permission.BIND_JOB_SERVICE" >
-230-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/535fbfb92cc17a295de946bf1f90bc3d/jetified-transport-runtime-2.1.0/AndroidManifest.xml:29:13-69
+230-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/535fbfb92cc17a295de946bf1f90bc3d/jetified-transport-runtime-2.1.0/AndroidManifest.xml:29:13-69
 231        </service>
 232
 233        <receiver
-233-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/535fbfb92cc17a295de946bf1f90bc3d/jetified-transport-runtime-2.1.0/AndroidManifest.xml:32:9-34:40
+233-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/535fbfb92cc17a295de946bf1f90bc3d/jetified-transport-runtime-2.1.0/AndroidManifest.xml:32:9-34:40
 234            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-234-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/535fbfb92cc17a295de946bf1f90bc3d/jetified-transport-runtime-2.1.0/AndroidManifest.xml:33:13-132
+234-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/535fbfb92cc17a295de946bf1f90bc3d/jetified-transport-runtime-2.1.0/AndroidManifest.xml:33:13-132
 235            android:exported="false" />
-235-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/viveks/.gradle/caches/transforms-2/files-2.1/535fbfb92cc17a295de946bf1f90bc3d/jetified-transport-runtime-2.1.0/AndroidManifest.xml:34:13-37
+235-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/viveksharma/.gradle/caches/transforms-2/files-2.1/535fbfb92cc17a295de946bf1f90bc3d/jetified-transport-runtime-2.1.0/AndroidManifest.xml:34:13-37
 236    </application>
 237
 238</manifest>

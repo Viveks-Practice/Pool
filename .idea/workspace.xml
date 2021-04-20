@@ -36,13 +36,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce5ae312-c3e2-4bea-a063-a15575cc5798" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+    <list default="true" id="ce5ae312-c3e2-4bea-a063-a15575cc5798" name="Default Changelist" comment="First commit from M1 macbook">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_drive.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_drive.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_ride.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_ride.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +49,7 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[R38M60F1KCD]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -98,9 +95,6 @@
         </projects_view>
       </state>
     </system>
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="MyFirstApplication" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -325,13 +319,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557965060408</updated>
-    </task>
-    <task id="LOCAL-00042" summary="August 11 2020 commit - midday">
-      <created>1597184171480</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1597184171480</updated>
     </task>
     <task id="LOCAL-00043" summary="August 11 2020 commit - day end">
       <created>1597210069829</created>
@@ -669,7 +656,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618874494929</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="First commit from M1 macbook">
+      <created>1618883897665</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1618883897669</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -716,7 +710,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="September 2020 commit - 1st commit" />
     <MESSAGE value="September 1 2020 commit - 2nd commit" />
     <MESSAGE value="September 8 2020 commit - 1st commit" />
     <MESSAGE value="September 8 2020 commit - 2nd commit" />
@@ -741,7 +734,8 @@
     <MESSAGE value="Added recycler view to driveroptions fragment. Next step is to completely replace the current button additions to the Linear layout with the new cardviews in the recycler view!" />
     <MESSAGE value="Adding new google places api implementation" />
     <MESSAGE value="Changed addRide activity so it doesn't have an &quot;add ride&quot; button. Instead the confirmation of the addition of a new ride is done by selecting the checkmark in the menu!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed addRide activity so it doesn't have an &quot;add ride&quot; button. Instead the confirmation of the addition of a new ride is done by selecting the checkmark in the menu!" />
+    <MESSAGE value="First commit from M1 macbook" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit from M1 macbook" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1360" y="217" key="#Notifications" timestamp="1618874309338">
@@ -845,11 +839,12 @@
     </state>
     <state x="352" y="120" width="900" height="722" key="SettingsEditor/0.23.1440.819@0.23.1440.819" timestamp="1615590306344" />
     <state x="1909" y="190" width="1097" height="803" key="SettingsEditor/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1615513746485" />
-    <state x="-1360" y="291" key="Vcs.Push.Dialog.v2" timestamp="1618874560777">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state x="420" y="231" key="Vcs.Push.Dialog.v2" timestamp="1618883922292">
+      <screen x="0" y="25" width="1440" height="812" />
     </state>
     <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/-1920.23.1920.1057/0.23.1440.819@-1920.23.1920.1057" timestamp="1618874560777" />
     <state x="420" y="231" key="Vcs.Push.Dialog.v2/0.23.1440.819@0.23.1440.819" timestamp="1616708679592" />
+    <state x="420" y="231" key="Vcs.Push.Dialog.v2/0.25.1440.812@0.25.1440.812" timestamp="1618883922292" />
     <state x="2000" y="291" key="Vcs.Push.Dialog.v2/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1615513731993" />
     <state x="107" y="303" key="com.intellij.ide.util.TipDialog" timestamp="1618870060102">
       <screen x="0" y="23" width="1440" height="819" />
@@ -857,11 +852,12 @@
     <state x="107" y="303" key="com.intellij.ide.util.TipDialog/-1920.23.1920.1057/0.23.1440.819@-1920.23.1920.1057" timestamp="1618870060102" />
     <state x="107" y="303" key="com.intellij.ide.util.TipDialog/1440.23.1920.1057/0.23.1440.819@0.23.1440.819" timestamp="1616453787186" />
     <state x="1583" y="384" key="com.intellij.ide.util.TipDialog/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1614143468619" />
-    <state x="0" y="203" width="1440" height="877" maximized="true" key="dock-window-1" timestamp="1618869891348">
-      <screen x="0" y="23" width="1440" height="819" />
+    <state x="0" y="25" width="1422" height="811" maximized="true" key="dock-window-1" timestamp="1618886073298">
+      <screen x="0" y="25" width="1440" height="812" />
     </state>
     <state x="0" y="203" width="1440" height="877" maximized="true" key="dock-window-1/-1920.23.1920.1057/0.23.1440.819@0.23.1440.819" timestamp="1618869891348" />
     <state x="0" y="203" width="1440" height="877" maximized="true" key="dock-window-1/0.23.1440.819@0.23.1440.819" timestamp="1617400839467" />
+    <state x="0" y="25" width="1422" height="811" maximized="true" key="dock-window-1/0.25.1440.812@0.25.1440.812" timestamp="1618886073298" />
     <state x="0" y="203" width="1440" height="819" maximized="true" key="dock-window-1/1440.23.1920.1057/0.23.1440.819@0.23.1440.819" timestamp="1615406739295" />
     <state x="0" y="203" width="1440" height="819" maximized="true" key="dock-window-1/1440.23.1920.1057/0.23.1440.819@1440.23.1920.1057" timestamp="1615430255776" />
     <state x="0" y="203" width="1440" height="819" maximized="true" key="dock-window-2" timestamp="1616547748775">

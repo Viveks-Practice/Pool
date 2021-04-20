@@ -63,18 +63,15 @@
             android:id="@+id/strayRiderStart"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
             android:ems="10"
             android:hint="Start Point Stray"
             android:inputType="numberDecimal"
-            android:layout_below="@+id/autocomplete_fragment_ride_start"
             android:layout_marginBottom="5dp"/>
 
         <EditText
             android:id="@+id/strayRiderEnd"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/strayRiderStart"
             android:ems="10"
             android:hint="End Point Stray"
             android:inputType="numberDecimal"

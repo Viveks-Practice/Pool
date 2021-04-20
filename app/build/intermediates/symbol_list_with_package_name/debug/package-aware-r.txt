@@ -2314,7 +2314,6 @@ id textSpacerNoTitle
 id textStart
 id textView12
 id textView13
-id textView2
 id textView4
 id textView5
 id textView6
@@ -2335,6 +2334,7 @@ id title_template
 id toViewDriver
 id toViewRider
 id toolbar
+id toolbarAddDrive
 id toolbarAddRide
 id toolbarDriveLobby
 id toolbarEditProfile
@@ -2342,6 +2342,7 @@ id toolbarProfile
 id toolbarRideLobby
 id toolbarRideLobby2
 id toolbar_title
+id toolbar_title_add_drive
 id toolbar_title_drive_lobby
 id toolbar_title_ride_lobby
 id top

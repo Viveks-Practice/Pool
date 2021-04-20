@@ -9,91 +9,117 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.myfirstapplication.addDrive">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="380dp"
-        android:layout_height="54dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:text="Enter Driving Details"
-        android:textAlignment="center"
-        android:textColor="#74c4f2"
-        android:textSize="36sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.50"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.Toolbar
 
-    <Button
-        android:id="@+id/driverDepartTime"
-        android:layout_width="144dp"
-        android:layout_height="44dp"
-        android:layout_marginTop="60dp"
-        android:background="@drawable/button_background3"
-        android:ems="10"
-        android:hint="Depart Time"
-        android:inputType="numberDecimal"
-        android:onClick="timePicker"
-        app:layout_constraintBottom_toTopOf="@+id/buttonPoolLobby"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.04"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/maxTipText"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/driverDepartDate"
-        android:layout_width="240dp"
-        android:layout_height="44dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="60dp"
-        android:background="@drawable/button_background3"
-        android:ems="10"
-        android:hint="Depart Date"
-        android:inputType="numberDecimal"
-        android:onClick="datePicker"
-        app:layout_constraintBottom_toTopOf="@+id/buttonPoolLobby"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.04"
-        app:layout_constraintStart_toEndOf="@+id/driverDepartTime"
-        app:layout_constraintTop_toBottomOf="@+id/maxTipText"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <EditText
-        android:id="@+id/seatsText"
-        android:layout_width="wrap_content"
+        android:id="@+id/toolbarAddDrive"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Seats available"
-        android:inputType="number"
+        android:background="?attr/colorPrimary"
+        android:gravity="center"
+        android:minHeight="?attr/actionBarSize"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.50"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/autocomplete_fragment" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationContentDescription="@string/abc_action_bar_up_description"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="">
 
-    <EditText
-        android:id="@+id/minTipText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Minimum  Tip"
-        android:inputType="numberDecimal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.50"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/seatsText" />
+        <TextView
+            android:id="@+id/toolbar_title_add_drive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="New Drive"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp" />
 
-    <EditText
-        android:id="@+id/maxTipText"
-        android:layout_width="wrap_content"
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/addRideLL"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Maximum Tip"
-        android:inputType="numberDecimal"
+        android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.50"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/minTipText" />
+        app:layout_constraintTop_toBottomOf="@+id/toolbarAddDrive"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/autocomplete_fragment"
+            android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter your destination"
+            android:layout_marginBottom="5dp"/>
+
+        <fragment
+            android:id="@+id/autocomplete_fragment_startpoint"
+            android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter your start point"
+            android:layout_marginBottom="5dp"/>
+
+        <EditText
+            android:id="@+id/seatsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Seats available"
+            android:inputType="number"
+            android:layout_marginBottom="5dp"/>
+
+        <EditText
+            android:id="@+id/minTipText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Minimum  Tip"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="5dp"/>
+
+        <EditText
+            android:id="@+id/maxTipText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Maximum Tip"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:id="@+id/driverDepartTime"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@drawable/button_background3"
+            android:ems="10"
+            android:hint="Depart Time"
+            android:inputType="numberDecimal"
+            android:onClick="timePicker"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:id="@+id/driverDepartDate"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@drawable/button_background3"
+            android:ems="10"
+            android:hint="Depart Date"
+            android:inputType="numberDecimal"
+            android:onClick="datePicker"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/whatAVolley"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginBottom="5dp"
+            android:text="" />
+
+    </LinearLayout>
+
 
     <Button
         android:id="@+id/buttonPoolLobby"
@@ -107,41 +133,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.50"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addRideLL"
         app:layout_constraintVertical_bias="0.98" />
 
-    <fragment
-        android:id="@+id/autocomplete_fragment_startpoint"
-        android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:gravity="center"
-        android:text="Enter your start point"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.50"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
-    <fragment
-        android:id="@+id/autocomplete_fragment"
-        android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Enter your destination"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.50"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/autocomplete_fragment_startpoint" />
 
-    <TextView
-        android:id="@+id/whatAVolley"
-        android:layout_width="91dp"
-        android:layout_height="52dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="8dp"
-        android:text=""
-        app:layout_constraintBottom_toTopOf="@+id/buttonPoolLobby"
-        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

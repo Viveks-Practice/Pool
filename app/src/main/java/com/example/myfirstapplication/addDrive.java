@@ -469,14 +469,9 @@ public class addDrive extends AppCompatActivity implements DatePickerDialog.OnDa
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
-            case R.id.check:
-                //save();
+            case R.id.add_drive_check:
+                saveDriveTrip();
                 return true;
-            /*case R.id.logout:
-                FirebaseAuth.getInstance().signOut();
-                Intent intentLogout = new Intent (new Intent (this, LoginPage.class));
-                //intentLogout.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                startActivity(intentLogout);*/
             default:
                 return super.onOptionsItemSelected(item);
         }

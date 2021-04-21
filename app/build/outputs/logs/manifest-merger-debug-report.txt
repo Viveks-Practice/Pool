@@ -257,63 +257,61 @@ ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidMan
 	android:name
 		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:54:13-43
 activity#com.example.myfirstapplication.addDrive
-ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:58:9-46
+ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:58:9-60:59
+	android:parentActivityName
+		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:60:13-57
 	android:name
-		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:58:19-43
+		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:59:13-37
 activity#com.example.myfirstapplication.driveConfirmedWaiting
-ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:59:9-59
+ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:61:9-59
 	android:name
-		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:59:19-56
+		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:61:19-56
 activity#com.example.myfirstapplication.rideAcceptedWaiting
-ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:60:9-57
+ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:62:9-57
 	android:name
-		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:60:19-54
+		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:62:19-54
 activity#com.example.myfirstapplication.driveTripLobby
-ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:61:9-63:60
+ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:63:9-65:60
 	android:parentActivityName
-		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:63:13-57
+		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:65:13-57
 	android:name
-		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:62:13-43
+		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:64:13-43
 activity#com.example.myfirstapplication.profileSetup
-ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:64:9-50
+ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:66:9-50
 	android:name
-		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:64:19-47
+		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:66:19-47
 activity#com.example.myfirstapplication.SignUp
-ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:65:9-68:56
+ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:67:9-70:56
 	android:screenOrientation
-		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:67:13-49
+		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:69:13-49
 	tools:ignore
-		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:68:13-53
+		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:70:13-53
 	android:name
-		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:66:13-35
+		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:68:13-35
 activity#com.example.myfirstapplication.LoginPage
-ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:69:9-72:65
+ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:71:9-74:65
 	android:screenOrientation
-		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:71:13-49
+		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:73:13-49
 	tools:ignore
-		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:72:13-53
+		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:74:13-53
 	android:name
-		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:70:13-38
+		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:72:13-38
 activity#com.example.myfirstapplication.rideTripLobby
-ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:73:9-77:56
+ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:75:9-79:56
 	android:screenOrientation
-		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:76:13-49
+		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:78:13-49
 	android:parentActivityName
-		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:75:13-57
+		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:77:13-57
 	tools:ignore
-		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:77:13-53
+		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:79:13-53
 	android:name
-		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:74:13-42
+		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:76:13-42
 activity#com.example.myfirstapplication.addRide
-ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:78:9-82:56
-	android:screenOrientation
-		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:80:13-49
+ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:80:9-82:60
 	android:parentActivityName
-		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:81:13-57
-	tools:ignore
-		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:82:13-53
+		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:82:13-57
 	android:name
-		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:79:13-36
+		ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:81:13-36
 activity#com.example.myfirstapplication.EditProfile
 ADDED from /Users/viveksharma/AndroidStudioProjects/Pool/app/src/main/AndroidManifest.xml:83:9-94:20
 	android:screenOrientation

@@ -74,7 +74,9 @@
             android:label="@string/title_activity_tabbed"
             android:noHistory="true"
             android:theme="@style/AppTheme" />
-        <activity android:name="com.example.myfirstapplication.addDrive" />
+        <activity
+            android:name="com.example.myfirstapplication.addDrive"
+            android:parentActivityName="com.example.myfirstapplication.tabbedActivity" />
         <activity android:name="com.example.myfirstapplication.driveConfirmedWaiting" />
         <activity android:name="com.example.myfirstapplication.rideAcceptedWaiting" />
         <activity
@@ -93,8 +95,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name="com.example.myfirstapplication.addRide"
-            android:parentActivityName="com.example.myfirstapplication.tabbedActivity"
-            android:screenOrientation="portrait" />
+            android:parentActivityName="com.example.myfirstapplication.tabbedActivity" />
         <activity
             android:name="com.example.myfirstapplication.EditProfile"
             android:label="@string/title_activity_edit_profile"

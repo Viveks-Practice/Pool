@@ -55,7 +55,9 @@
             android:label="@string/title_activity_tabbed"
             android:noHistory="true"
             android:theme="@style/AppTheme" />
-        <activity android:name=".addDrive" />
+        <activity
+            android:name=".addDrive"
+            android:parentActivityName=".tabbedActivity"/>
         <activity android:name=".driveConfirmedWaiting" />
         <activity android:name=".rideAcceptedWaiting" />
         <activity
@@ -77,9 +79,7 @@
             tools:ignore="LockedOrientationActivity" />
         <activity
             android:name=".addRide"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".tabbedActivity"
-            tools:ignore="LockedOrientationActivity" />
+            android:parentActivityName=".tabbedActivity" />
         <activity
             android:name=".EditProfile"
             android:label="@string/title_activity_edit_profile"

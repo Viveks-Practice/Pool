@@ -18,6 +18,7 @@ import android.widget.TimePicker;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.DialogFragment;
 
 import com.android.volley.Request;
@@ -116,6 +117,8 @@ public class addDrive extends AppCompatActivity implements DatePickerDialog.OnDa
     double addLatitude;
     double addLongitude;
 
+    private Toolbar toolbarAddDrive;
+
     private FusedLocationProviderClient fusedLocationClient;
     int tripDurationSec = 0;
 
@@ -123,6 +126,11 @@ public class addDrive extends AppCompatActivity implements DatePickerDialog.OnDa
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_drive);
+
+        toolbarAddDrive = findViewById(R.id.toolbarAddDrive);
+        setSupportActionBar(toolbarAddDrive);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("");
 
 
         departTimeField = findViewById(R.id.driverDepartTime);
@@ -445,6 +453,30 @@ public class addDrive extends AppCompatActivity implements DatePickerDialog.OnDa
 
         }
     }
+    /***************************** Below *********************************/
+    /**************Toolbar/Menu configurations and imports***************/
+    /********************************************************************/
+    /*@Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.add_drive_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.check:
+                save();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }*/
+
+    /***************************** Above *********************************/
+    /**************Toolbar/Menu configurations and imports***************/
+    /********************************************************************/
 
     public void timePicker(View view) {
         DialogFragment timePicker = new TimePickerFragment();

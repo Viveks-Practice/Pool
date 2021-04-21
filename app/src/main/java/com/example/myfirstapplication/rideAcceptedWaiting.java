@@ -318,7 +318,7 @@ public class rideAcceptedWaiting extends AppCompatActivity {
                         globalCurrentMinute + ":" + globalCurrentSecond + " " + globalCurrentAMPM);
                 //Set the text in departView
                 departTimeView.setText("Trip begins at:\t\t" + driverDepartDate + "/" +
-                        driverDepartMonth + "/" + driverDepartYear + " " + globalDepartHour + ":" +
+                        (driverDepartMonth + 1) + "/" + driverDepartYear + " " + globalDepartHour + ":" +
                         globalDepartMinute + " " + globalDepartAMPM);
                 //Set the text in the countDownView
                 if(departDrive.getTimeInMillis() < currentTime.getTimeInMillis()) {

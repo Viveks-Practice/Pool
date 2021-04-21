@@ -46,6 +46,9 @@ import static android.widget.Toast.makeText;
  * 3. Remove all the weird bugs from the app
  * 3.1 Adding to the database causes a crash after the entry is added to the database...why? use breakpoints. test adding on a new empty activity
  * 4. Add check mark to add drive menu? - Done
+ * 5. Up button only works on level deep ie:
+ *    -Add drive/ride activities: if the place api is accessed, and the phones native back button is selected, the up button exits the app
+ *    -profile, when coming from using editprofile's up button, the profile up button exits the app
  *
  *
  * Post first iteration:

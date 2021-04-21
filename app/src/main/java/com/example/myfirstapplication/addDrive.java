@@ -9,6 +9,9 @@ import android.os.Bundle;
 import android.text.SpannableString;
 import android.text.style.UnderlineSpan;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
@@ -456,7 +459,7 @@ public class addDrive extends AppCompatActivity implements DatePickerDialog.OnDa
     /***************************** Below *********************************/
     /**************Toolbar/Menu configurations and imports***************/
     /********************************************************************/
-    /*@Override
+    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.add_drive_menu, menu);
@@ -467,12 +470,17 @@ public class addDrive extends AppCompatActivity implements DatePickerDialog.OnDa
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
             case R.id.check:
-                save();
+                //save();
                 return true;
+            /*case R.id.logout:
+                FirebaseAuth.getInstance().signOut();
+                Intent intentLogout = new Intent (new Intent (this, LoginPage.class));
+                //intentLogout.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(intentLogout);*/
             default:
                 return super.onOptionsItemSelected(item);
         }
-    }*/
+    }
 
     /***************************** Above *********************************/
     /**************Toolbar/Menu configurations and imports***************/

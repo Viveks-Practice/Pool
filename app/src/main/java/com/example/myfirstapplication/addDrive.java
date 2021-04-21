@@ -91,9 +91,6 @@ public class addDrive extends AppCompatActivity implements DatePickerDialog.OnDa
     private static final String EXTRA_RATING = "ex_rating";
     private static final String EXTRA_PAGE_NUM = "ex_page_num";
 
-
-
-    private Button buttonToLobby;
     private PlaceInfo destAutoComplete;
     private PlaceInfo startAutoComplete;
 
@@ -240,14 +237,6 @@ public class addDrive extends AppCompatActivity implements DatePickerDialog.OnDa
         /**
          * Thus ENDS Places related code
          */
-
-        buttonToLobby = ( Button ) findViewById(R.id.buttonPoolLobby);
-        buttonToLobby.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v1){
-                saveDriveTrip();
-            }
-        });
     }
 
 

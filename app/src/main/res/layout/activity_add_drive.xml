@@ -120,23 +120,4 @@
 
     </LinearLayout>
 
-
-    <Button
-        android:id="@+id/buttonPoolLobby"
-        android:layout_width="274dp"
-        android:layout_height="82dp"
-        android:background="@drawable/button_background2"
-        android:text="Add Drive"
-        android:textColor="@android:color/white"
-        android:textSize="36sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.50"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addRideLL"
-        app:layout_constraintVertical_bias="0.98" />
-
-
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

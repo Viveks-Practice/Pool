@@ -1982,7 +1982,6 @@ id bottom
 id bottomNavigationView
 id buttonLogin
 id buttonPanel
-id buttonPoolLobby
 id buttonSave
 id buttonSignUp
 id cancel_action

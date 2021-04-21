@@ -40,17 +40,18 @@ import static android.widget.Toast.LENGTH_SHORT;
 import static android.widget.Toast.makeText;
 
 /***
- * 1. Make github work right now
- * 1. Move project to new macbook
+ * 1. Make github work right now - Done
+ * 1. Move project to new macbook - Done
  * 2. Keep polishing the app so it looks consistent and has basic functions
  * 3. Remove all the weird bugs from the app
  * 3.1 Adding to the database causes a crash after the entry is added to the database...why? use breakpoints. test adding on a new empty activity
- * 4. Add check mark to add drive menu?
+ * 4. Add check mark to add drive menu? - Done
  *
  *
  * Post first iteration:
  * 1. Make add ride and add drive one page with tabs to decide which one is being added, that's more intuitive
  *    (if I can make it so that the FAB is the same for both tabs on tabbed activity, that would be nice too)
+ * 2. In addRide and addDrive, make the google api entry field look consistent with the other fields
  * **/
 
 public class tabbedActivity extends AppCompatActivity {

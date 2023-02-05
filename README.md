@@ -7,7 +7,7 @@ View the demo on youtube: https://youtu.be/L1ph8ZodAbw
 
 After opening the app, enter your credentials to access your profile
 
-![alt text](https://github.com/Viveks-Practice/Pool/blob/MyProjectBranch/loginPage.png)
+![alt text](https://github.com/Viveks-Practice/Pool/blob/MyProjectBranch/loginPage.png?raw=true)
 
 ## Viewing your trips (Rider)
 
